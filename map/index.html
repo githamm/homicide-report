@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Denver Homicide Report</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel="canonical" href="https://www.denverpost.com/denver-homicides/" />
+    <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, nofollow" />
+    <meta name="title" content="Homicides in Denver" />
+    <meta name="language" content="en, sv" />
+    <meta name="Copyright" content="Copyright &copy; The Denver Post." />
+    <link rel="author" href="humans.txt" />
+    <meta name="description" content="A map, table and charts documenting homicides in Denver.">
+    <meta name="news_keywords" content="Colorado, Denver, homicides, murders, crime">
+    <meta name="twitter:card" value="summary" />
+    <meta name="twitter:url" value="https://www.denverpost.com/denver-homicides/" />
+    <meta name="twitter:title" value="Homicides in Denver" />
+    <meta name="twitter:description" value="A map, table and charts documenting homicides in Denver." />
+    <meta name="twitter:image" value="http://extras.denverpost.com/homicides/2015/img/eastside_PUL_015.jpg" />
+    <meta name="twitter:site" value="@denverpost" />
+    <meta name="twitter:domain" value="denverpost.com" />
+    <meta name="twitter:creator" content="@denverpost">
+    <meta name="twitter:app:name:iphone" value="Denver Post">
+    <meta name="twitter:app:name:ipad" value="Denver Post">
+    <meta name="twitter:app:name:googleplay" value="The Denver Post">
+    <meta name="twitter:app:id:iphone" value="id375264133">
+    <meta name="twitter:app:id:ipad" value="id409389010">
+    <meta name="twitter:app:id:googleplay" value="com.ap.denverpost" />
+    <meta property="fb:app_id" content="105517551922" />
+    <meta property="og:title" content="Homicides in Denver" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.denverpost.com/denver-homicides/" />
+    <meta property="og:image" content="http://extras.denverpost.com/homicides/2015/img/eastside_PUL_015.jpg" />
+    <meta property="og:site_name" content="The Denver Post" />
+    <meta property="og:description" content="A map, table and charts documenting homicides in Denver." />
+    <meta property="article:publisher" content="https://www.facebook.com/denverpost" />
+    <meta name="google-site-verification" content="2bKNvyyGh6DUlOvH1PYsmKN4KRlb-0ZI7TvFtuKLeAc" />
+    <!-- STYLE SHEETS -->
+    <link href="css/leaflet.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://extras.denverpost.com/transgender/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://extras.denverpost.com/transgender/css/normalize.css" />
+    <!-- SCRIPTS -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">
+    </script>
+    <script src="js/leaflet-grouped-layer-control.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="row" id="legend-container">
+            <div class="large-4 medium-4 columns legend-spacing">
+                <div id="dot-legend">
+                    <p class="legend-title">HOMICIDES</p>
+                    <div id="icon-current-year-legend"></div> Current year
+                    <br>
+                    <div id="icon-previous-year-legend"></div> Previous years</br>
+                </div>
+            </div>
+            <div class="large-4 medium-4 columns legend-spacing">
+                <div id="facilities-number">
+                    <p class="legend-title">HOMICIDES BY NEIGHBORHOOD 2015-PRESENT</p>
+                    <ul class="legend">
+                        <li><span CLASS="step-0">0</span></li>
+                        <li><span class="step-1"></span></li>
+                        <li><span class="step-2"></span></li>
+                        <li><span class="step-3"></span></li>
+                        <li><span class="step-4"></span></li>
+                        <li><span class="step-5"></span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="large-4 medium-4 columns legend-spacing">
+                <div id="median-income">
+                    <p class="legend-title">MEDIAN HOUSEHOLD
+                        <br>INCOME</p>
+                    <ul class="legend">
+                        <li><span>0</span></li>
+                        <li><span class="step-6"></span></li>
+                        <li><span class="step-7"></span></li>
+                        <li><span class="step-8"></span></li>
+                        <li><span class="step-9"></span></li>
+                        <li><span class="step-10">$158K</span></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div id="map"></div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="large-12 columns">
+                <div class="legend-container">
+                    <p style="font-style: italic; text-align: right;">Sources: City and County of Denver Dept. of Excise and License, Colorado Dept. of Education, U.S. Census</p>
+                    <p id="methodology"><strong>OUR METHODOLOGY</strong> The Denver Post analyzed marijuana-related business license information from the City and County of Denver Department of Excise and Licenses. The analysis resulted in a higher number of distinct marijuana business locations <a href="http://denvergov.org/content/denvergov/en/denver-marijuana-information/statistics/licensing-and-locations.html" target="_top">than the city shows</a>, due to how address information is handled. The city counts one structure as one location regardless of the number of license-holders operating within it (for example, multiple units in one building). We counted multiple license-holders in one building as separate entities unless we could determine they were licensed as one entity.</p>
+                    <p id="overlapping-markers"><strong>A NOTE ABOUT OVERLAPPING MAP MARKERS</strong> If multiple entities of the same facility type operate at the same address (for example, several cultivation businesses located in different units in one building), the map markers will overlap and details for only one of the businesses will show. The separate businesses are included in the neighborhood totals. If multiple entities of different facility types operate at the same address, the map markers will overlap but will display when the facility type's map layer is toggled.</p>
+                    <p><em>*U.S. Census data is from the 2013 American Community Survey; income levels are median household income.</em></p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script>
+    var neighborhoods = new L.LayerGroup();
+    // var census = new L.LayerGroup();
+    var homicides2017 = new L.LayerGroup();
+    var homicides2016 = new L.LayerGroup();
+    var homicides2015 = new L.LayerGroup();
+
+    var mapLink = '<a href="http://www.esri.com/">Esri<\/a>';
+    var wholink = 'i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
+
+    var light = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/reduced.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+        attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+        subdomains: '1234',
+        mapID: 'newest',
+        app_id: '2K8wqfYF2CuD5D67HdQx',
+        app_code: '5PforzMWCWQoYPBUP-0p_A',
+        base: 'base',
+        maxZoom: 20,
+        type: 'maptile',
+        language: 'eng',
+        format: 'png8',
+        size: '256'
+    });
+
+    /* dark = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap<\/a> &copy; <a href="http://cartodb.com/attributions">CartoDB<\/a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+    }), */
+
+    /* streets = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day.grey/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+        attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+        subdomains: '1234',
+        mapID: 'newest',
+        app_id: '2K8wqfYF2CuD5D67HdQx',
+        app_code: '5PforzMWCWQoYPBUP-0p_A',
+        base: 'base',
+        maxZoom: 20,
+        type: 'maptile',
+        language: 'eng',
+        format: 'png8',
+        size: '256'
+    }); */
+
+    // streets = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.{ext}', {
+    //         type: 'map',
+    //         ext: 'jpg',
+    //         attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest<\/a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap<\/a>',
+    //         subdomains: '1234'
+    //     }),
+
+    //     satellite = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    //         attribution: '&copy; ' + mapLink + ', ' + wholink,
+    //         maxZoom: 18
+    //     });
+
+    var baseLayers = {
+        // "Neighborhood map": light
+        // "Street map": streets,
+        // "Satellite map": satellite
+    };
+
+    // grouped layer control from http://bl.ocks.org/ismyrnow/6123517
+    var groupedOverlays = {
+        "Background": {
+            "Neighborhoods": neighborhoods
+                // "Income levels": census
+        },
+        "Homicides": {
+            "2017": homicides2017,
+            "2016": homicides2016,
+            "2015": homicides2015
+        }
+    };
+
+    // map from http://bl.ocks.org/awoodruff/3ce5d735126a56dfff94
+    // initialize the map
+    var map = L.map('map', {
+        center: [39.72, -104.94],
+        zoom: 12,
+        layers: [light, neighborhoods, homicides2017, homicides2016, homicides2015]
+    });
+
+    // below from http://maptimeboston.github.io/leaflet-intro/
+    $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
+        L.geoJson(data, {
+            style: function(feature) {
+                var fillColor,
+                    density = feature.properties.homicides;
+                if (density >= 12) fillColor = "#a63603";
+                else if (density > 9) fillColor = "#e6550d";
+                else if (density > 6) fillColor = "#fd8d3c";
+                else if (density > 3) fillColor = "#fdbe85";
+                else if (density > 0) fillColor = "#feedde";
+                else fillColor = "rgba(255,255,0,.3)"; // no data
+                return {
+                    color: "#000",
+                    weight: 1,
+                    fillColor: fillColor,
+                    fillOpacity: .6
+                };
+            },
+            onEachFeature: function(feature, layer) {
+                layer.bindPopup(
+                    '<span style="font-size: 1.3em;">' + feature.properties.nbhd_name + '</span><br/><hr style="margin-top: 3px; margin-bottom: 7px;">' + feature.properties.homicides + ' homicide(s) since 2015'
+                )
+            }
+        }).addTo(neighborhoods);
+    });
+
+    // $.getJSON("js/acs-2013-tract-geojson.js", function(data) {
+    //     L.geoJson(data, {
+    //         style: function(feature) {
+    //             var fillColor,
+    //                 density = feature.properties.med_hh_inc;
+    //             if (density > 100000) fillColor = "#54278f";
+    //             else if (density > 75000) fillColor = "#756bb1";
+    //             else if (density > 50000) fillColor = "#9e9ac8";
+    //             else if (density > 25000) fillColor = "#cbc9e2";
+    //             else if (density > 0) fillColor = "#f2f0f7";
+    //             else fillColor = "rgba(0,0,0,0)"; // no data
+    //             return {
+    //                 color: "#000",
+    //                 weight: 1,
+    //                 fillColor: fillColor,
+    //                 fillOpacity: .6
+    //             };
+    //         },
+    //         onEachFeature: function(feature, layer) {
+    //             layer.bindPopup(
+    //                 '<strong>' + 'Tract No. ' + feature.properties.geo_name + '</strong><hr class="popup">' + 'Median income: ' + '$' + feature.properties.med_hh_inc + '<br/>' + 'Population: ' + feature.properties.ttl_popula + '<br/>' + 'Pct. under 18: ' + feature.properties.ageless18_pct + '%'
+    //             )
+    //         }
+    //     }).addTo(census);
+    // });
+
+
+    $.getJSON("js/homicides_2017_geojson.js", function(data) {
+        var mapIcon = L.divIcon({
+            //iconUrl: 'images/circle-red.png',
+            className: 'icon-previous-year',
+            iconSize: [9, 9]
+                //iconAnchor: [6, 3],
+                //popupAnchor: [-1, -5]
+                // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
+        });
+        L.geoJson(data, {
+            pointToLayer: function(feature, latlng) {
+                var marker = L.marker(latlng, {
+                    icon: mapIcon
+                });
+
+                marker.bindPopup(
+                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                return marker;
+            }
+        }).addTo(homicides2017);
+    });
+
+    $.getJSON("js/homicides_2016_geojson.js", function(data) {
+        var mapIcon = L.divIcon({
+            //iconUrl: 'images/circle-red.png',
+            className: 'icon-previous-year',
+            iconSize: [9, 9]
+                //iconAnchor: [6, 3],
+                //popupAnchor: [-1, -5]
+                // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
+        });
+        L.geoJson(data, {
+            pointToLayer: function(feature, latlng) {
+                var marker = L.marker(latlng, {
+                    icon: mapIcon
+                });
+                marker.bindPopup(
+                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                return marker;
+            }
+        }).addTo(homicides2016);
+    });
+
+    $.getJSON("js/homicides_2015_geojson.js", function(data) {
+        var mapIcon = L.divIcon({
+            //iconUrl: 'images/circle-red.png',
+            className: 'icon-previous-year',
+            iconSize: [9, 9]
+                //iconAnchor: [6, 3],
+                //popupAnchor: [-1, -5]
+                // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
+        });
+        L.geoJson(data, {
+            pointToLayer: function(feature, latlng) {
+                var marker = L.marker(latlng, {
+                    icon: mapIcon
+                });
+                marker.bindPopup(
+                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                return marker;
+            }
+        }).addTo(homicides2015);
+    });
+    // 
+    L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
+    </script>
+    <script src="http://extras.denverpost.com/foundation/js/foundation.min.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+</body>
+
+</html>
