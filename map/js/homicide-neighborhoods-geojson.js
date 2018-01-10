@@ -1933,7 +1933,7 @@
                         [-105.025239, 39.769289]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 63, "nbhd_id": 75, "notes": null, "typology": null, "nbhd_name": "West Highland", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 63, "nbhd_id": 75, "notes": null, "typology": null, "nbhd_name": "West Highland", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959447, 39.684729],
@@ -3199,7 +3199,7 @@
                         [-105.025192, 39.784385]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 65, "nbhd_id": 8, "notes": null, "typology": null, "nbhd_name": "Berkeley", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 65, "nbhd_id": 8, "notes": null, "typology": null, "nbhd_name": "Berkeley", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903428, 39.751017],

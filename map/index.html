@@ -215,7 +215,7 @@
             },
             onEachFeature: function(feature, layer) {
                 layer.bindPopup(
-                    '<span style="font-size: 1.3em;">' + feature.properties.nbhd_name + '</span><br/><hr style="margin-top: 3px; margin-bottom: 7px;">' + feature.properties.homicides + ' homicide(s) since 2015'
+                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.nbhd_name + '</span><br/><hr style="margin-top: 3px; margin-bottom: 7px;">' + '<span style="font-size: 1.3em; color: orange;">' + feature.properties.homicides + '</span> homicide(s) since 2015'
                 )
             }
         }).addTo(neighborhoods);

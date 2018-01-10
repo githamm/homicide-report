@@ -16,7 +16,7 @@
         "victim_age": "22",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
-        "block_address": "Bruce Randolph Avenue and St. Paul Street",
+        "block_address": "intersection of Bruce Randolph Avenue and St. Paul Street",
         "neighborhood": "Clayton",
         "article_link": "http://www.denverpost.com/news/ci_27257643/drive-by-shooting-kills-man-denver-sunday-evening"
       }
@@ -52,7 +52,7 @@
       },
       "properties": {
         "homicide_date": "1/7/2015",
-        "victim_name": "James Brown III",
+        "victim_name": "John Shoeboot, 53, and James Brown III",
         "victim_age": "42",
         "victim_gender": "Male",
         "manner_of_death": "Stabbing",
@@ -212,7 +212,7 @@
       },
       "properties": {
         "homicide_date": "3/15/2015",
-        "victim_name": "Deanthony Williams",
+        "victim_name": "Tyrael Adams, 28, and Deanthony Williams",
         "victim_age": "30",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
@@ -316,7 +316,7 @@
         "victim_age": "22",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
-        "block_address": "Martin Luther King Jr. Boulevard and Gilpin Street",
+        "block_address": "intersection of Martin Luther King Jr. Boulevard and Gilpin Street",
         "neighborhood": "Cole",
         "article_link": "http://www.denverpost.com/crime/ci_27988573/denver-police-investigate-shooting-gilpin-street"
       }
@@ -356,7 +356,7 @@
         "victim_age": "34",
         "victim_gender": "Male",
         "manner_of_death": "Blunt force",
-        "block_address": "West Kentucky Avenue and South Perry Street",
+        "block_address": "intersection of West Kentucky Avenue and South Perry Street",
         "neighborhood": "Westwood",
         "article_link": "http://www.denverpost.com/news/ci_28045066/denver-medical-examiner-identifies-man-killed-hit-and"
       }
@@ -416,7 +416,7 @@
         "victim_age": "25",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
-        "block_address": "South Tejon Street and West Asbury Avenue",
+        "block_address": "intersection of South Tejon Street and West Asbury Avenue",
         "neighborhood": "College View-South Platte",
         "article_link": "http://www.denverpost.com/news/ci_28424023/man-shot-denver-wednesday-died-thursday"
       }
@@ -596,7 +596,7 @@
         "victim_age": "61",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
-        "block_address": "West Vassar Avenue and South Federal Boulevard",
+        "block_address": "intersection of West Vassar Avenue and South Federal Boulevard",
         "neighborhood": "College View-South Platte",
         "article_link": "http://www.denverpost.com/news/ci_28646599/denver-police-investigate-shooting-near-south-federal-blvd"
       }
@@ -716,7 +716,7 @@
         "victim_age": "26",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
-        "block_address": "Sheridan Boulevard and Dartmouth Avenue",
+        "block_address": "intersection of Sheridan Boulevard and Dartmouth Avenue",
         "neighborhood": "Harvey Park South",
         "article_link": "http://www.denverpost.com/news/ci_28831460/man-shot-killed-denver-wednesday-identified"
       }
@@ -772,7 +772,7 @@
       },
       "properties": {
         "homicide_date": "9/22/2015",
-        "victim_name": "Travis Kimbrough-Sanders",
+        "victim_name": "Sergio Evelyn-Moe, 28, and Travis Kimbrough-Sanders",
         "victim_age": "34",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
@@ -852,7 +852,7 @@
       },
       "properties": {
         "homicide_date": "11/3/2015",
-        "victim_name": "Eric Hines Jr.",
+        "victim_name": "Jeremy Garcia, 29, and Eric Hines Jr.",
         "victim_age": "27",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
@@ -896,7 +896,7 @@
         "victim_age": "21",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
-        "block_address": "Bayaud Avenue and Bannock Street",
+        "block_address": "intersection of Bayaud Avenue and Bannock Street",
         "neighborhood": "Baker",
         "article_link": "http://www.denverpost.com/news/ci_29085984/one-dead-three-wounded-after-denver-shooting"
       }

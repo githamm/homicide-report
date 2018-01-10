@@ -552,7 +552,7 @@
       },
       "properties": {
         "homicide_date": "6/30/2017",
-        "victim_name": "Troy Funchess",
+        "victim_name": "Don Sperow, 25, and Troy Funchess",
         "victim_age": "40",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",

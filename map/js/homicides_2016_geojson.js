@@ -332,7 +332,7 @@
       },
       "properties": {
         "homicide_date": "6/3/2016",
-        "victim_name": "Sean Pointe",
+        "victim_name": "Derrius Woods, 27; Devonne Burton, 28; and Sean Pointe",
         "victim_age": "27",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
@@ -366,8 +366,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.981106,
-          39.740022
+          -104.98097,
+          39.74018
         ]
       },
       "properties": {
@@ -472,7 +472,7 @@
       },
       "properties": {
         "homicide_date": "7/22/2016",
-        "victim_name": "Raquel Cuesta-Cordero",
+        "victim_name": "Maira Cuesta-Cordero, 26, and Raquel Cuesta-Cordero",
         "victim_age": "45",
         "victim_gender": "Female",
         "manner_of_death": "Sharp force",
@@ -496,7 +496,7 @@
         "victim_age": "39",
         "victim_gender": "Male",
         "manner_of_death": "Blunt force",
-        "block_address": "Andrews Drive and Elgin Place",
+        "block_address": "intersection of Andrews Drive and Elgin Place",
         "neighborhood": "Montbello",
         "article_link": "http://www.denverpost.com/2016/08/09/burning-body-denver-montbello-neighborhood-id/"
       }
@@ -686,8 +686,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.981106,
-          39.740022
+          -104.979911,
+          39.740038 
         ]
       },
       "properties": {
@@ -816,7 +816,7 @@
         "victim_age": "23",
         "victim_gender": "Male",
         "manner_of_death": "Stabbing",
-        "block_address": "West Mexico Avenue and South Raleigh Street",
+        "block_address": "intersection of West Mexico Avenue and South Raleigh Street",
         "neighborhood": "Mar Lee",
         "article_link": "http://www.denverpost.com/2016/10/18/denver-stabbing-report/"
       }
@@ -892,7 +892,7 @@
       },
       "properties": {
         "homicide_date": "10/29/2016",
-        "victim_name": "Orlando Jackson",
+        "victim_name": "Terrance Ashley, 34, and Orlando Jackson",
         "victim_age": "27",
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
