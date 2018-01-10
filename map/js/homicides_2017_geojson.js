@@ -277,7 +277,7 @@
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
         "block_address": "2800 block of Arapahoe Street",
-        "neighborhood": "Curtis Park",
+        "neighborhood": "Five Points",
         "article_link": "http://www.denverpost.com/2017/04/05/curtis-park-shooting-victim-jamarcust-mister/"
       }
     },
