@@ -111,6 +111,7 @@
     <script>
     var neighborhoods = new L.LayerGroup();
     // var census = new L.LayerGroup();
+    var homicides2018 = new L.LayerGroup();
     var homicides2017 = new L.LayerGroup();
     var homicides2016 = new L.LayerGroup();
     var homicides2015 = new L.LayerGroup();
@@ -177,6 +178,7 @@
                 // "Income levels": census
         },
         "Homicides": {
+            "2018": homicides2018,
             "2017": homicides2017,
             "2016": homicides2016,
             "2015": homicides2015
@@ -188,7 +190,7 @@
     var map = L.map('map', {
         center: [39.72, -104.94],
         zoom: 12,
-        layers: [light, neighborhoods, homicides2017, homicides2016, homicides2015]
+        layers: [light, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
     });
 
     // below from http://maptimeboston.github.io/leaflet-intro/
@@ -244,6 +246,28 @@
     //     }).addTo(census);
     // });
 
+
+    $.getJSON("js/homicides_2018_geojson.js", function(data) {
+        var mapIcon = L.divIcon({
+            //iconUrl: 'images/circle-red.png',
+            className: 'icon-current-year',
+            iconSize: [9, 9]
+                //iconAnchor: [6, 3],
+                //popupAnchor: [-1, -5]
+                // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
+        });
+        L.geoJson(data, {
+            pointToLayer: function(feature, latlng) {
+                var marker = L.marker(latlng, {
+                    icon: mapIcon
+                });
+
+                marker.bindPopup(
+                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                return marker;
+            }
+        }).addTo(homicides2018);
+    });
 
     $.getJSON("js/homicides_2017_geojson.js", function(data) {
         var mapIcon = L.divIcon({
