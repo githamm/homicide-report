@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 #container {
     margin: 10px;
 }
@@ -32,10 +36,9 @@
 }
 
 .legend-title {
-    font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 10px;
     line-height: 15px;
 }
@@ -47,7 +50,6 @@ ul.legend {
 
 .legend li {
     float: left;
-    font-family: Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
     width: 16%;
@@ -61,6 +63,41 @@ ul.legend {
     text-align: center;
     padding-top: 2px;
     color: lightgray;
+}
+
+h4.name-header, h4.neighborhood-header {
+    color: orange;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+h4.name-header {
+    margin-bottom: -30px;
+}
+
+h4.neighborhood-header {
+    margin-bottom: -9px;
+}
+
+.neighborhood-total {
+    color: orange;
+    font-size: 20px;
+}
+
+.highlight {
+    color: orange;
+}
+
+p.article-link {
+    text-align: right;
+}
+
+hr.popup {
+    margin-bottom: 8px;
+}
+
+div.spacer {
+    margin-top: 6px;
 }
 
 .legend .step-10 {
@@ -107,10 +144,6 @@ ul.legend {
     background-color: rgba(255, 255, 0, .1);
 }
 
-hr.popup {
-    margin: 5px 0px 5px 0px;
-}
-
 hr.not-popup {
     margin-bottom: 18px;
 }
@@ -155,13 +188,12 @@ hr.not-popup {
 }
 
 .leaflet-popup-content {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 1.1em;
     line-height: 1.4;
     width: 250px;
 }
 
-.leaflet-popup-content-wrapper {
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
     background: rgba(0,0,0,.8);
 }
 
@@ -180,7 +212,7 @@ img.nav-logo {
     }
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -192,4 +224,4 @@ img.nav-logo {
     font-style: normal;
     font-weight: 700;
     src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-}
+}*/

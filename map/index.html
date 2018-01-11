@@ -56,7 +56,7 @@
 <body>
     <div id="container">
         <div class="row" id="legend-container">
-            <div class="large-4 medium-4 columns legend-spacing">
+            <div class="large-3 medium-3 columns legend-spacing">
                 <div id="dot-legend">
                     <p class="legend-title">HOMICIDES</p>
                     <div id="icon-current-year-legend"></div> Current year
@@ -64,7 +64,7 @@
                     <div id="icon-previous-year-legend"></div> Previous years</br>
                 </div>
             </div>
-            <div class="large-4 medium-4 columns legend-spacing">
+            <div class="large-7 medium-8 columns legend-spacing">
                 <div id="facilities-number">
                     <p class="legend-title">HOMICIDES BY NEIGHBORHOOD 2015-PRESENT</p>
                     <ul class="legend">
@@ -73,7 +73,7 @@
                         <li><span class="step-2"></span></li>
                         <li><span class="step-3"></span></li>
                         <li><span class="step-4"></span></li>
-                        <li><span class="step-5"></span></li>
+                        <li><span class="step-5">13</span></li>
                     </ul>
                 </div>
             </div>
@@ -191,6 +191,7 @@
         center: [39.72, -104.94],
         zoom: 12,
         scrollWheelZoom: false,
+        touchZoom: true,
         layers: [light, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
     });
 
@@ -200,7 +201,7 @@
             style: function(feature) {
                 var fillColor,
                     density = feature.properties.homicides;
-                if (density >= 12) fillColor = "#a63603";
+                if (density > 12) fillColor = "#a63603";
                 else if (density > 9) fillColor = "#e6550d";
                 else if (density > 6) fillColor = "#fd8d3c";
                 else if (density > 3) fillColor = "#fdbe85";
@@ -215,7 +216,7 @@
             },
             onEachFeature: function(feature, layer) {
                 layer.bindPopup(
-                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.nbhd_name + '</span><br/><hr style="margin-top: 3px; margin-bottom: 7px;">' + '<span style="font-size: 1.3em; color: orange;">' + feature.properties.homicides + '</span> homicide(s) since 2015'
+                    '<h4 class="neighborhood-header">' + feature.properties.nbhd_name + '</h4><hr class="popup">' + '<span class="neighborhood-total">' + feature.properties.homicides + '</span> homicide(s) since 2015'
                 )
             }
         }).addTo(neighborhoods);
@@ -264,7 +265,7 @@
                 });
 
                 marker.bindPopup(
-                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                    '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
                 return marker;
             }
         }).addTo(homicides2018);
@@ -286,7 +287,7 @@
                 });
 
                 marker.bindPopup(
-                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                    '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
                 return marker;
             }
         }).addTo(homicides2017);
@@ -307,7 +308,7 @@
                     icon: mapIcon
                 });
                 marker.bindPopup(
-                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                    '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
                 return marker;
             }
         }).addTo(homicides2016);
@@ -328,7 +329,7 @@
                     icon: mapIcon
                 });
                 marker.bindPopup(
-                    '<span style="font-size: 1.6em; color: orange;">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</span><br>' + '<hr style="margin-top: 3px; margin-bottom: 7px;">' + 'Died on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div style="margin-top:4px;">Cause of death: ' + feature.properties.manner_of_death + '</div> <a href="' + feature.properties.article_link + '" target="blank"><p style="text-align: right; color: orange;">Read the story</p></a>');
+                    '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
                 return marker;
             }
         }).addTo(homicides2015);

@@ -851,7 +851,7 @@
         ]
       },
       "properties": {
-        "homicide_date": "11/3/2015",
+        "homicide_date": "9/13/2015 (Garcia) and 11/3/2015 (Hines)",
         "victim_name": "Jeremy Garcia, 29, and Eric Hines Jr.",
         "victim_age": "27",
         "victim_gender": "Male",
