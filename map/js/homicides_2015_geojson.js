@@ -817,7 +817,7 @@
         "victim_gender": "Male",
         "manner_of_death": "Gunshot",
         "block_address": "7100 block of East Mississippi Avenue",
-        "neighborhood": "Virginia Vale",
+        "neighborhood": "Washington Virginia Vale",
         "article_link": "http://www.denverpost.com/news/ci_28978947/denver-police-continue-search-suspected-shooter"
       }
     },

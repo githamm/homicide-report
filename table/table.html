@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denver Homicide Report | The Denver Post</title>
+    <link rel="canonical" href="https://www.denverpost.com/denver-homicides/" />
+    <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, nofollow" />
+    <meta name="title" content="Denver Homicide Report" />
+    <meta name="language" content="en, sv" />
+    <meta name="Copyright" content="Copyright &copy; The Denver Post." />
+    <link rel="author" href="humans.txt" />
+    <meta name="description" content="The Denver Homicide Report tracks Denver homicides from 2015 to the present.">
+    <meta name="news_keywords" content="homicide, murder, shootings, crime, Denver, Colorado">
+    <meta name="google-site-verification" content="2bKNvyyGh6DUlOvH1PYsmKN4KRlb-0ZI7TvFtuKLeAc" />
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="//extras.denverpost.com/libraries/foundation/foundation-min.css" />
+    <link rel="stylesheet" type="text/css" href="//extras.denverpost.com/libraries/datatables/DataTables-1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" type="text/css" href="//extras.denverpost.com/libraries/datatables/Responsive-2.2.1/css/responsive.foundation.min.css" />
+    <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/jQuery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/DataTables-1.10.16/js/dataTables.foundation.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/Responsive-2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="//extras.denverpost.com/foundation/js/foundation.min.js"></script>
+    <!-- <script src="ColumnFilterWidgets.js"></script> -->
+    <style>
+    body {
+        background: #fafafa;
+    }
+
+    .column-filter-widget {
+        float: left;
+        padding: 5px;
+    }
+
+    .column-filter-widget select {
+        display: block;
+    }
+
+    .column-filter-widgets a.filter-term {
+        display: block;
+        text-decoration: none;
+        padding-left: 10px;
+        font-size: 90%;
+    }
+
+    .column-filter-widgets a.filter-term:hover {
+        text-decoration: line-through !important;
+    }
+
+    .column-filter-widget-selected-terms {
+        clear: left;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter input {
+        margin-bottom: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="row">
+            <div class="large-6 medium-6 small-6 columns">
+                <label><strong>Neighborhood</strong></label>
+                <!-- <input type='text' value='' class='filter' data-column-index='1'> -->
+                <select id="neighborhood-filter" class="filter" data-column-index='9'>
+                    <option value=" ">All</option>
+                    <option value="Athmar Park">Athmar Park</option>
+                    <option value="Auraria">Auraria</option>
+                    <option value="Baker">Baker</option>
+                    <option value="Barnum">Barnum</option>
+                    <option value="Barnum West">Barnum West</option>
+                    <option value="Bear Valley">Bear Valley</option>
+                    <option value="Belcaro">Belcaro</option>
+                    <option value="Berkeley">Berkeley</option>
+                    <option value="Capitol Hill">Capitol Hill</option>
+                    <option value="Central Business District">Central Business District</option>
+                    <option value="Chaffee Park">Chaffee Park</option>
+                    <option value="Cheesman Park">Cheesman Park</option>
+                    <option value="Cherry Creek">Cherry Creek</option>
+                    <option value="City Park">City Park</option>
+                    <option value="City Park West">City Park West</option>
+                    <option value="Civic Center">Civic Center</option>
+                    <option value="Clayton">Clayton</option>
+                    <option value="Cole">Cole</option>
+                    <option value="College View-South Platte">College View-South Platte</option>
+                    <option value="Congress Park">Congress Park</option>
+                    <option value="Cory-Merrill">Cory-Merrill</option>
+                    <option value="Country Club">Country Club</option>
+                    <option value="DIA">DIA</option>
+                    <option value="East Colfax">East Colfax</option>
+                    <option value="Elyria-Swansea">Elyria-Swansea</option>
+                    <option value="Five Points">Five Points</option>
+                    <option value="Fort Logan">Fort Logan</option>
+                    <option value="Gateway-Green Valley Ranch">Gateway-Green Valley Ranch</option>
+                    <option value="Globeville">Globeville</option>
+                    <option value="Goldsmith">Goldsmith</option>
+                    <option value="Hale">Hale</option>
+                    <option value="Hampden">Hampden</option>
+                    <option value="Hampden South">Hampden South</option>
+                    <option value="Harvey Park">Harvey Park</option>
+                    <option value="Harvey Park South">Harvey Park South</option>
+                    <option value="Highland">Highland</option>
+                    <option value="Hilltop">Hilltop</option>
+                    <option value="Indian Creek">Indian Creek</option>
+                    <option value="Jefferson Park">Jefferson Park</option>
+                    <option value="Kennedy">Kennedy</option>
+                    <option value="Lincoln Park">Lincoln Park</option>
+                    <option value="Lowry">Lowry</option>
+                    <option value="Mar Lee">Mar Lee</option>
+                    <option value="Marston">Marston</option>
+                    <option value="Montbello">Montbello</option>
+                    <option value="Montclair">Montclair</option>
+                    <option value="North Capitol Hill">North Capitol Hill</option>
+                    <option value="North Park Hill">North Park Hill</option>
+                    <option value="Northeast Park Hill">Northeast Park Hill</option>
+                    <option value="Overland">Overland</option>
+                    <option value="Park Hill">Park Hill</option>
+                    <option value="Platt Park">Platt Park</option>
+                    <option value="Regis">Regis</option>
+                    <option value="Rosedale">Rosedale</option>
+                    <option value="Ruby Hill">Ruby Hill</option>
+                    <option value="Skyland">Skyland</option>
+                    <option value="Sloan Lake">Sloan Lake</option>
+                    <option value="South Park Hill">South Park Hill</option>
+                    <option value="Southmoor Park">Southmoor Park</option>
+                    <option value="Speer">Speer</option>
+                    <option value="Stapleton">Stapleton</option>
+                    <option value="Sun Valley">Sun Valley</option>
+                    <option value="Sunnyside">Sunnyside</option>
+                    <option value="Union Station">Union Station</option>
+                    <option value="University">University</option>
+                    <option value="University Hills">University Hills</option>
+                    <option value="University Park">University Park</option>
+                    <option value="Valverde">Valverde</option>
+                    <option value="Villa Park">Villa Park</option>
+                    <option value="Virginia Village">Virginia Village</option>
+                    <option value="Washington Park">Washington Park</option>
+                    <option value="Washington Park West">Washington Park West</option>
+                    <option value="Washington Virginia Vale">Washington Virginia Vale</option>
+                    <option value="Wellshire">Wellshire</option>
+                    <option value="West Colfax">West Colfax</option>
+                    <option value="West Highland">West Highland</option>
+                    <option value="Westwood">Westwood</option>
+                    <option value="Whittier">Whittier</option>
+                    <option value="Windsor">Windsor</option>
+                </select>
+            </div>
+            <div class="large-6 medium-6 small-6 columns">
+                <label><strong>Year</strong></label>
+                <!-- <input type='text' value='' class='filter' data-column-index='6'> -->
+                <select id="year-filter" class="filter" data-column-index='3'>
+                    <option value=" ">All</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+            </div>
+        </div>
+        <div class="row button-show">
+            <div class="large-12 columns">
+                <a href="#" class="button expand filter-button">Search</a>
+            </div>
+        </div>
+    </form>
+    <!-- TABLE -->
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="homicide-table" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="never">Index</th>
+                        <th data-priority="2">Date</th>
+                        <th class="never">Year</th>
+                        <th data-priority="1">Name</th>
+                        <th data-priority="4">Age</th>
+                        <th data-priority="5">Sex</th>
+                        <th data-priority="6">Cause</th>
+                        <th data-priority="7">Address</th>
+                        <th data-priority="3">Neighborhood</th>
+                        <th data-priority="8">Link</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+    // show table on "search" button click
+    // document.querySelector("div.button-show").addEventListener("click", function() {
+    //     document.querySelector("div#show-table").style.display = "block";
+    // });
+
+    $(document).ready(function() {
+        var homicideTable = $('#homicide-table').DataTable({
+            ajax: 'homicides-all.txt',
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [1, 'desc']
+            ],
+            columns: [
+                { data: 'button' },
+                { data: 'index' },
+                {
+                    orderable: false,
+                    data: 'homicideDate'
+                },
+                { data: 'homicideYear' },
+                {
+                    orderable: false,
+                    data: 'victimName'
+                },
+                { data: 'victimAge' },
+                { data: 'victimSex' },
+                { data: 'mannerOfDeath' },
+                {
+                    orderable: false,
+                    data: 'blockAddress'
+                },
+                { data: 'neighborhood' },
+                {
+                    orderable: false,
+                    data: 'articleLink',
+                    render: function(data, type, row) {
+                        return '<a href="' + data + '" target="_blank">Read story</a>';
+                    }
+                }
+            ]
+        });
+
+        $('.filter-button').on('click', function() {
+            //clear global search values
+            homicideTable.search('');
+            $('.filter').each(function() {
+                if (this.value.length) {
+                    homicideTable.column($(this).data('columnIndex')).search(this.value);
+                }
+            });
+            homicideTable.draw();
+        });
+
+        $(".dataTables_filter input").on('keyup change', function() {
+            //clear column search values
+            homicideTable.columns().search('');
+            //clear input values
+            $('.filter').val('');
+        });
+        homicideTable.draw();
+
+        // This would be a single dynamic filter
+        // $('#neighborhood-filter').on('change', function(){
+        //     homicideTable.search(this.value).draw();
+        // });
+
+    });
+    </script>
+</body>
+
+</html>
