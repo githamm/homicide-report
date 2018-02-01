@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Denver Homicide Report | The Denver Post</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" rel="stylesheet">
+    <link rel="stylesheet" href="//extras.denverpost.com/libraries/foundation/foundation-min.css" />
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js " charset="utf-8 "></script>
+    <script src="//extras.denverpost.com/foundation/js/foundation.min.js"></script>
+    <style>
+    body {
+        background-color: #fafafa;
+    }
+
+    .c3-ygrid-line line {
+        stroke: gray;
+        width: 3px;
+    }
+
+    .c3-line {
+        stroke-width: 1px;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: Georgia, serif;
+        font-size: 32px;
+        margin-top: 95px;
+    }
+
+    .c3-legend-item {
+        margin-top: 10px;
+    }
+
+    #homicides-total {
+        color: red;
+        font-size: 10rem;
+        font-family: Georgia, serif;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <div id="homicide-chart"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>2017</h3>
+            <hr>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-cause-chart-2017"></div>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-sex-chart-2017"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>2016</h3>
+            <hr>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-cause-chart-2016"></div>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-sex-chart-2016"></div>
+        </div>
+        <div class="large-12 columns">
+            <div id="homicide-neighborhood-chart-2016"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>2015</h3>
+            <hr>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-cause-chart-2015"></div>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-sex-chart-2015"></div>
+        </div>
+        <!-- <div class="large-12 columns">
+            <div id="homicide-neighborhood-chart-2016"></div>
+        </div> -->
+    </div>
+    <script>
+    </script>
+    <script>
+    /* ----- LINE CHART TEST -----*/
+
+    // d3.json("homicides-2017.json", function(data) {
+    d3.json("homicides-all.json", function(data) {
+        var monthCount = [];
+        var monthTotal = 0;
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // console.log(item);
+            // console.log(monthTotal);
+            // var homicideCount = data.length;
+            // document.getElementById('homicides-total').innerHTML = homicideCount;
+            // if (item.homicideYear == 2017) {
+
+            if (!monthCount[item.homicideMonth + item.homicideYear]) {
+                monthCount[item.homicideMonth + item.homicideYear] = [];
+            }
+            monthCount[item.homicideMonth + item.homicideYear].push({ Month: item.homicideMonth + item.homicideYear });
+            if (monthTotal < item.homicideMonth) {
+                monthTotal = item.homicideMonth;
+            }
+            //}
+        }
+        // console.log(monthCount);
+
+        var jan2015 = monthCount.Jan2015.length;
+        var feb2015 = jan2015 + monthCount.Feb2015.length;
+        var mar2015 = feb2015 + monthCount.Mar2015.length;
+        var apr2015 = mar2015 + monthCount.Apr2015.length;
+        var may2015 = apr2015 + monthCount.May2015.length;
+        var jun2015 = may2015 + monthCount.Jun2015.length;
+        var jul2015 = jun2015 + monthCount.Jul2015.length;
+        var aug2015 = jul2015 + monthCount.Aug2015.length;
+        var sep2015 = aug2015 + monthCount.Sep2015.length;
+        var oct2015 = sep2015 + monthCount.Oct2015.length;
+        var nov2015 = oct2015 + monthCount.Nov2015.length;
+        var dec2015 = nov2015 + monthCount.Dec2015.length;
+        var jan2016 = monthCount.Jan2016.length;
+        var feb2016 = jan2016 + monthCount.Feb2016.length;
+        var mar2016 = feb2016 + monthCount.Mar2016.length;
+        var apr2016 = mar2016 + monthCount.Apr2016.length;
+        var may2016 = apr2016 + monthCount.May2016.length;
+        var jun2016 = may2016 + monthCount.Jun2016.length;
+        var jul2016 = jun2016 + monthCount.Jul2016.length;
+        var aug2016 = jul2016 + monthCount.Aug2016.length;
+        var sep2016 = aug2016 + monthCount.Sep2016.length;
+        var oct2016 = sep2016 + monthCount.Oct2016.length;
+        var nov2016 = oct2016 + monthCount.Nov2016.length;
+        var dec2016 = nov2016 + monthCount.Dec2016.length;
+        var jan2017 = monthCount.Jan2017.length;
+        var feb2017 = jan2017 + monthCount.Feb2017.length;
+        var mar2017 = feb2017 + monthCount.Mar2017.length;
+        var apr2017 = mar2017 + monthCount.Apr2017.length;
+        var may2017 = apr2017 + monthCount.May2017.length;
+        var jun2017 = may2017 + monthCount.Jun2017.length;
+        var jul2017 = jun2017 + monthCount.Jul2017.length;
+        var aug2017 = jul2017 + monthCount.Aug2017.length;
+        var sep2017 = aug2017 + monthCount.Sep2017.length;
+        var oct2017 = sep2017 + monthCount.Oct2017.length;
+        var nov2017 = oct2017 + monthCount.Nov2017.length;
+        var dec2017 = nov2017 + monthCount.Dec2017.length;
+        var jan2018 = monthCount.Jan2018.length;
+        // var feb2018 = jan2018 + monthCount.Feb2018.length;
+        // var mar2018 = feb2018 + monthCount.Mar2018.length;
+        // var apr2018 = mar2018 + monthCount.Apr2018.length;
+        // var may2018 = apr2018 + monthCount.May2018.length;
+        // var jun2018 = may2018 + monthCount.Jun2018.length;
+        // var jul2018 = jun2018 + monthCount.Jul2018.length;
+        // var aug2018 = jul2018 + monthCount.Aug2018.length;
+        // var sep2018 = aug2018 + monthCount.Sep2018.length;
+        // var oct2018 = sep2018 + monthCount.Oct2018.length;
+        // var nov2018 = oct2018 + monthCount.Nov2018.length;
+        // var dec2018 = nov2018 + monthCount.Dec2018.length;
+
+
+        var homicideChart = c3.generate({
+            bindto: '#homicide-chart',
+            size: {
+                height: 600
+            },
+            data: {
+                x: 'x',
+                //        xFormat: '%Y%m%d', // 'xFormat' can be used as custom format of 'x'
+                columns: [
+                    ['x', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    ['2010', 2, 2, 3, 3, 5, 6, 9, 9, 13, 18, 22, 27],
+                    ['2011', 3, 5, 7, 11, 16, 19, 20, 27, 32, 33, 36, 38],
+                    ['2012', 1, 4, 8, 11, 13, 16, 17, 19, 20, 25, 28, 28],
+                    ['2013', 4, 6, 9, 14, 16, 17, 21, 25, 28, 32, 34, 36],
+                    ['2014', 2, 3, 7, 8, 10, 12, 15, 20, 21, 24, 27, 28],
+                    // ['2015', 4, 7, 12, 17, 19, 20, 27, 32, 39, 42, 49, 50],
+                    // ['2016', 4, 7, 9, 14, 15, 20, 28, 30, 33, 45, 55, 56],
+                    // ['2017', 4, 8, 9, 16, 21, 24, 32, 33]
+                    ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
+                    ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
+                    ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
+                    ['2018', jan2018 /* feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */]
+                ],
+                colors: {
+                    '2010': '#bbb', //'#d3d3d3',
+                    '2011': '#bbb', //'#deebf7',
+                    '2012': '#bbb', //'#c6dbef',
+                    '2013': '#bbb', //'#9ecae1',
+                    '2014': '#bbb', //'#6baed6',
+                    '2015': '#bbb', //'#4292c6',
+                    '2016': '#bbb',
+                    '2017': 'rgba(142,16,36,.5)',
+                    '2018': 'rgba(142,16,36,1)'
+                }
+            },
+            grid: {
+                x: {
+                    show: true
+                },
+                y: {
+                    show: true
+                    // lines: [{
+                    //     value: 6,
+                    //     text: '6 innings',
+                    //     axis: 'y'
+                    // }]
+                },
+            },
+            legend: {
+                position: 'bottom'
+            },
+            axis: {
+                x: {
+                    type: 'category', // this needed to load string x value
+                    tick: {
+                        rotate: 45
+                    }
+                },
+                y: {
+                    label: {
+                        text: 'Number of homicides (cumulative)',
+                        position: 'outer-middle'
+                    }
+                    // min: 0,
+                    // // max: 9,
+                    // padding: {
+                    //     top: 5,
+                    //     bottom: 0
+                    // }
+                },
+            },
+        });
+    })
+    // assaultChart.data.colors({
+    //     'Rate': '#8E1024',
+    //     'Pct. change': '#737CA1'
+    // });
+
+    /* ----- 2017 CHARTS ----- */
+
+    d3.json("homicides-all.json", function(data) {
+        var genderCount = [];
+        var causeCount = [];
+        var categoryTotal = 0;
+
+        /* ----- SEX CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // var homicideCount = data.length;
+            // document.getElementById('homicides-total').innerHTML = homicideCount;
+            if (!genderCount[item.victimGender + item.homicideYear]) {
+                genderCount[item.victimGender + item.homicideYear] = [];
+            }
+            genderCount[item.victimGender + item.homicideYear].push({ Gender: item.victimGender + item.homicideYear });
+            if (categoryTotal < item.victimGender) {
+                categoryTotal = item.victimGender;
+            }
+        }
+        console.log(genderCount);
+        var sexChart = c3.generate({
+            bindto: '#homicide-sex-chart-2017',
+            size: {
+                height: 275
+            },
+            data: {
+                x: 'x',
+                columns: [
+                    // ['x', '2018', '2017', '2016', '2015'],
+                    // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
+                    // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
+                    ['x', 'Male', 'Female'],
+                    ['2018', genderCount.Male2018.length, 0],
+                    ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
+                    ['2016', genderCount.Male2016.length, genderCount.Female2016.length],
+                    ['2015', genderCount.Male2015.length, genderCount.Female2015.length]
+
+                ],
+                type: 'bar',
+                colors: {
+                    '2015': '#ccc',
+                    '2016': '#bbb',
+                    '2017': '#aaa',
+                    '2018': 'rgba(142,16,36,1)'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            axis: {
+                x: {
+                    type: 'category'
+                }
+            }
+            // donut: {
+            //     title: 'Sex 2017',
+            //     label: {
+            //         format: function(value) { return value; }
+
+            //     }
+            // }
+        });
+
+        /* ----- NEIGHBORHOOD CHART ----- */
+
+        d3.json("homicides-all.json", function(data) {
+            var neighborhoodCount = [];
+            var categoryTotal = 0;
+
+            for (var i = 0; i < data.length; i++) {
+                var item = data[i];
+                // var homicideCount = data.length;
+                // document.getElementById('homicides-total').innerHTML = homicideCount;
+                if (!neighborhoodCount[item.neighborhood]) {
+                    neighborhoodCount[item.neighborhood] = [];
+                }
+                neighborhoodCount[item.neighborhood].push({ Neighborhood: item.neighborhood });
+                if (categoryTotal < item.neighborhood) {
+                    categoryTotal = item.neighborhood;
+                }
+            }
+            var fivePoints = neighborhoodCount['Five Points'].length;
+            var montbello = neighborhoodCount.Montbello.length;
+            var eastColfax = neighborhoodCount['East Colfax'].length;
+            var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
+            var cole = neighborhoodCount.Cole.length;
+            var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
+            var westwood = neighborhoodCount.Westwood.length;
+            var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + cole + elyriaSwansea + westwood);
+            console.log(data.length);
+            console.log(others);
+
+            var neighborhoodChart = c3.generate({
+                bindto: '#homicide-cause-chart-2017',
+                size: {
+                    height: 275
+                },
+                data: {
+                    // x: 'x',
+                    columns: [
+                        // ['x', '2018', '2017', '2016', '2015'],
+                        // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
+                        // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
+                        // ['x', '2015', '2016', '2017', '2018'],
+                        ['Five Points', fivePoints],
+                        ['Montbello', montbello],
+                        ['East Colfax', eastColfax],
+                        ['Northeast Park Hill', northeastParkHill],
+                        ['Cole', cole],
+                        ['Elyria Swansea', elyriaSwansea],
+                        ['Westwood', westwood],
+                        ['Others', others]
+
+                    ],
+                    type: 'donut',
+                    // groups: [
+                    //     ['Montbello', 'Five Points']
+                    // ],
+                    colors: {
+                        '2015': '#ccc',
+                        '2016': '#bbb',
+                        '2017': '#aaa',
+                        '2018': 'rgba(142,16,36,1)'
+                    },
+                    onclick: function(d, i) { console.log("onclick", d, i); },
+                    onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                    onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+                },
+                donut: {
+                    label: {
+                        format: function (value) { return value; }
+                    }
+                },
+                axis: {
+                    x: {
+                        type: 'category'
+                    }
+                }
+            })
+        })
+    });
+
+    //         for (var i = 0; i < data.length; i++) {
+    //             var item = data[i];
+    //             // var homicideCount = data.length;
+    //             // document.getElementById('homicides-total').innerHTML = homicideCount;
+    //             if (!neighborhoodCount[item.neighborhood + item.homicideYear]) {
+    //                 neighborhoodCount[item.neighborhood + item.homicideYear] = [];
+    //             }
+    //             neighborhoodCount[item.neighborhood + item.homicideYear].push({ Neighborhood: item.neighborhood + item.homicideYear });
+    //             if (categoryTotal < item.neighborhood) {
+    //                 categoryTotal = item.neighborhood;
+    //             }
+    //         }
+    //         console.log(neighborhoodCount);
+    //         var neighborhoodChart = c3.generate({
+    //             bindto: '#homicide-cause-chart-2017',
+    //             size: {
+    //                 height: 275
+    //             },
+    //             data: {
+    //                 x: 'x',
+    //                 columns: [
+    //                     // ['x', '2018', '2017', '2016', '2015'],
+    //                     // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
+    //                     // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
+    //                     ['x', '2015', '2016', '2017', '2018'],
+    //                     ['Montbello', neighborhoodCount.Montbello2015.length, neighborhoodCount.Montbello2016.length, neighborhoodCount.Montbello2017.length, 0],
+    //                     ['Five Points', neighborhoodCount.Montbello2015.length, neighborhoodCount.Montbello2016.length, neighborhoodCount.Montbello2017.length, 0]
+    //                 ],
+    //                 type: 'bar',
+    //                 groups: [
+    //                     ['Montbello', 'Five Points']
+    //                 ],
+    //                 colors: {
+    //                     '2015': '#ccc',
+    //                     '2016': '#bbb',
+    //                     '2017': '#aaa',
+    //                     '2018': 'rgba(142,16,36,1)'
+    //                 },
+    //                 onclick: function(d, i) { console.log("onclick", d, i); },
+    //                 onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+    //                 onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+    //             },
+    //             axis: {
+    //                 x: {
+    //                     type: 'category'
+    //                 }
+    //             }
+    //         })
+    //     })
+    // });
+    </script>
+</body>
+
+</html>

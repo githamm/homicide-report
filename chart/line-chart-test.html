@@ -302,7 +302,61 @@
             //     }
             // }
         });
-        // console.log(genderCount.Female.length);
+
+        /* ----- NEIGHBORHOOD CHART ----- */
+
+        d3.json("homicides-all.json", function(data) {
+        var neighborhoodCount = [];
+        var categoryTotal = 0;
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // var homicideCount = data.length;
+            // document.getElementById('homicides-total').innerHTML = homicideCount;
+            if (!neighborhoodCount[item.neighborhood+item.homicideYear]) {
+                neighborhoodCount[item.neighborhood+item.homicideYear] = [];
+            }
+            neighborhoodCount[item.neighborhood+item.homicideYear].push({ Neighborhood: item.neighborhood+item.homicideYear });
+            if (categoryTotal < item.neighborhood) {
+                categoryTotal = item.neighborhood;
+            }
+        }
+        console.log(neighborhoodCount);
+        var neighborhoodChart = c3.generate({
+            bindto: '#homicide-cause-chart-2017',
+            size: {
+                height: 275
+            },
+            data: {
+                x: 'x',
+                columns: [
+                    // ['x', '2018', '2017', '2016', '2015'],
+                    // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
+                    // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
+                    ['x', 'Male', 'Female'],
+                    ['2018', genderCount.Male2018.length, 0],
+                    ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
+                    ['2016', genderCount.Male2016.length, genderCount.Female2016.length],
+                    ['2015', genderCount.Male2015.length, genderCount.Female2015.length]
+
+                ],
+                type: 'bar',
+                colors: {
+                    '2015': '#ccc',
+                    '2016': '#bbb',
+                    '2017': '#aaa',
+                    '2018': 'rgba(142,16,36,1)'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            axis: {
+                x: {
+                    type: 'category'
+                }
+            }
+        });
 
         /* ----- CAUSE CHART ----- */
 
@@ -325,18 +379,42 @@
             },
             data: {
                 columns: [
-                    ['Gunshot', causeCount['Gunshot'].length],
-                    ['Sharp force', causeCount['Sharp force'].length],
-                    ['Blunt force', causeCount['Blunt force'].length],
-                    ['Stabbing', causeCount['Stabbing'].length]
+                    ['Male', genderCount.Male.length],
+                    ['Female', genderCount.Female.length],
                 ],
                 type: 'donut',
                 colors: {
-                    'Gunshot': '#08306b',
-                    'Sharp force': '#08519c',
-                    'Blunt force': '#2171b5',
-                    'Stabbing': '#4292c6'
+                    'Male': '#08306b',
+                    'Female': '#2171b5'
                 },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Sex',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+
+
+
+            // data: {
+            //     columns: [
+            //         ['Gunshot', causeCount['Gunshot'].length],
+            //         ['Sharp force', causeCount['Sharp force'].length],
+            //         ['Blunt force', causeCount['Blunt force'].length],
+            //         ['Stabbing', causeCount['Stabbing'].length]
+            //     ],
+            //     type: 'donut',
+            //     colors: {
+            //         'Gunshot': '#08306b',
+            //         'Sharp force': '#08519c',
+            //         'Blunt force': '#2171b5',
+            //         'Stabbing': '#4292c6'
+            //     },
                 onclick: function(d, i) { console.log("onclick", d, i); },
                 onmouseover: function(d, i) { console.log("onmouseover", d, i); },
                 onmouseout: function(d, i) { console.log("onmouseout", d, i); }
