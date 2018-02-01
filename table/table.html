@@ -70,7 +70,7 @@
             <div class="large-6 medium-6 small-6 columns">
                 <label><strong>Neighborhood</strong></label>
                 <!-- <input type='text' value='' class='filter' data-column-index='1'> -->
-                <select id="neighborhood-filter" class="filter" data-column-index='9'>
+                <select id="neighborhood-filter" class="filter" data-column-index='11'>
                     <option value=" ">All</option>
                     <option value="Athmar Park">Athmar Park</option>
                     <option value="Auraria">Auraria</option>
@@ -156,7 +156,7 @@
             <div class="large-6 medium-6 small-6 columns">
                 <label><strong>Year</strong></label>
                 <!-- <input type='text' value='' class='filter' data-column-index='6'> -->
-                <select id="year-filter" class="filter" data-column-index='3'>
+                <select id="year-filter" class="filter" data-column-index='4'>
                     <option value=" ">All</option>
                     <option value="2018">2018</option>
                     <option value="2017">2017</option>
@@ -180,13 +180,17 @@
                         <th></th>
                         <th class="never">Index</th>
                         <th data-priority="2">Date</th>
+                        <th class="never">Month</th>
                         <th class="never">Year</th>
                         <th data-priority="1">Name</th>
                         <th data-priority="4">Age</th>
                         <th data-priority="5">Sex</th>
+                        <th class="never">Race</th>
                         <th data-priority="6">Cause</th>
                         <th data-priority="7">Address</th>
                         <th data-priority="3">Neighborhood</th>
+                        <th class="never">Latitude</th>
+                        <th class="never">Longitude</th>
                         <th data-priority="8">Link</th>
                     </tr>
                 </thead>
@@ -206,7 +210,10 @@
     $(document).ready(function() {
         var homicideTable = $('#homicide-table').DataTable({
             // ajax: 'homicides-all.txt',
-            ajax: 'homicides-all.json',
+            ajax: {
+                'url': 'homicides-all.json',
+                'dataSrc': ''
+            },
             pageLength: 15,
             responsive: {
                 details: {
@@ -228,19 +235,23 @@
                     orderable: false,
                     data: 'homicideDate'
                 },
+                { data: 'homicideMonth'},
                 { data: 'homicideYear' },
                 {
                     orderable: false,
                     data: 'victimName'
                 },
                 { data: 'victimAge' },
-                { data: 'victimSex' },
+                { data: 'victimGender' },
+                { data: 'victimRace' },
                 { data: 'mannerOfDeath' },
                 {
                     orderable: false,
                     data: 'blockAddress'
                 },
                 { data: 'neighborhood' },
+                { data: 'latitude' },
+                { data: 'longitude' },
                 {
                     orderable: false,
                     data: 'articleLink',

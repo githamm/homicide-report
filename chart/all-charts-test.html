@@ -54,35 +54,30 @@
     <div class="row">
         <div class="large-8 medium-8 columns">
             <h3 class="chart-title">Homicides by month</h3>
-            <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;<br>hover over year at bottom to highlight</p>
+            <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;
+                <br>hover over year at bottom to highlight</p>
             <div id="homicide-chart"></div>
         </div>
         <div class="large-4 medium-4 columns">
             <h3 class="chart-title">Homicides by neighborhood</h3>
-            <div id="homicide-cause-chart-2017"></div>
+            <div id="homicide-neighborhoods"></div>
             <p class="chart-chatter">The five neighborhoods with the most homicides from 2015 to 2018 are broken out.</p>
             <hr>
         </div>
         <div class="large-4 medium-4 columns">
             <h3 class="chart-title">Homicides by sex</h3>
-            <div id="homicide-sex-chart-2017"></div>
+            <div id="homicide-sex"></div>
         </div>
     </div>
     <script>
-    /* ----- LINE CHART TEST -----*/
+    /* ----- HOMICIDES BY MONTH -----*/
 
-    // d3.json("homicides-2017.json", function(data) {
     d3.json("homicides-all.json", function(data) {
         var monthCount = [];
         var monthTotal = 0;
 
         for (var i = 0; i < data.length; i++) {
             var item = data[i];
-            // console.log(item);
-            // console.log(monthTotal);
-            // var homicideCount = data.length;
-            // document.getElementById('homicides-total').innerHTML = homicideCount;
-            // if (item.homicideYear == 2017) {
 
             if (!monthCount[item.homicideMonth + item.homicideYear]) {
                 monthCount[item.homicideMonth + item.homicideYear] = [];
@@ -91,9 +86,7 @@
             if (monthTotal < item.homicideMonth) {
                 monthTotal = item.homicideMonth;
             }
-            //}
         }
-        // console.log(monthCount);
 
         var jan2015 = monthCount.Jan2015.length;
         var feb2015 = jan2015 + monthCount.Feb2015.length;
@@ -208,29 +201,19 @@
                         text: 'Number of homicides (cumulative)',
                         position: 'outer-middle'
                     }
-                    // min: 0,
-                    // // max: 9,
-                    // padding: {
-                    //     top: 5,
-                    //     bottom: 0
-                    // }
                 },
             },
         });
     })
-    // assaultChart.data.colors({
-    //     'Rate': '#8E1024',
-    //     'Pct. change': '#737CA1'
-    // });
 
-    /* ----- 2017 CHARTS ----- */
+    /* ----- SMALL CHARTS ----- */
 
     d3.json("homicides-all.json", function(data) {
         var genderCount = [];
         var causeCount = [];
         var categoryTotal = 0;
 
-        /* ----- SEX CHART ----- */
+        /* ----- HOMICIDES BY SEX ----- */
 
         for (var i = 0; i < data.length; i++) {
             var item = data[i];
@@ -246,16 +229,13 @@
         }
         console.log(genderCount);
         var sexChart = c3.generate({
-            bindto: '#homicide-sex-chart-2017',
+            bindto: '#homicide-sex',
             size: {
                 height: 275
             },
             data: {
                 x: 'x',
                 columns: [
-                    // ['x', '2018', '2017', '2016', '2015'],
-                    // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
-                    // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
                     ['x', 'Male', 'Female'],
                     ['2018', genderCount.Male2018.length, 0],
                     ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
@@ -279,16 +259,9 @@
                     type: 'category'
                 }
             }
-            // donut: {
-            //     title: 'Sex 2017',
-            //     label: {
-            //         format: function(value) { return value; }
-
-            //     }
-            // }
         });
 
-        /* ----- NEIGHBORHOOD CHART ----- */
+        /* ----- HOMICIDES BY NEIGHBORHOOD ----- */
 
         d3.json("homicides-all.json", function(data) {
             var neighborhoodCount = [];
@@ -296,8 +269,6 @@
 
             for (var i = 0; i < data.length; i++) {
                 var item = data[i];
-                // var homicideCount = data.length;
-                // document.getElementById('homicides-total').innerHTML = homicideCount;
                 if (!neighborhoodCount[item.neighborhood]) {
                     neighborhoodCount[item.neighborhood] = [];
                 }
@@ -314,21 +285,14 @@
             var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
             var westwood = neighborhoodCount.Westwood.length;
             var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + cole + elyriaSwansea + westwood);
-            console.log(data.length);
-            console.log(others);
 
             var neighborhoodChart = c3.generate({
-                bindto: '#homicide-cause-chart-2017',
+                bindto: '#homicide-neighborhoods',
                 size: {
                     height: 275
                 },
                 data: {
-                    // x: 'x',
                     columns: [
-                        // ['x', '2018', '2017', '2016', '2015'],
-                        // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
-                        // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
-                        // ['x', '2015', '2016', '2017', '2018'],
                         ['Five Points', fivePoints],
                         ['Montbello', montbello],
                         ['East Colfax', eastColfax],
@@ -340,18 +304,6 @@
 
                     ],
                     type: 'donut',
-                    // groups: [
-                    //     ['Montbello', 'Five Points']
-                    // ],
-                    colors: {
-                        '2015': '#ccc',
-                        '2016': '#bbb',
-                        '2017': '#aaa',
-                        '2018': 'rgba(142,16,36,1)'
-                    },
-                    onclick: function(d, i) { console.log("onclick", d, i); },
-                    onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-                    onmouseout: function(d, i) { console.log("onmouseout", d, i); }
                 },
                 donut: {
                     label: {
@@ -366,57 +318,6 @@
             })
         })
     });
-
-    //         for (var i = 0; i < data.length; i++) {
-    //             var item = data[i];
-    //             // var homicideCount = data.length;
-    //             // document.getElementById('homicides-total').innerHTML = homicideCount;
-    //             if (!neighborhoodCount[item.neighborhood + item.homicideYear]) {
-    //                 neighborhoodCount[item.neighborhood + item.homicideYear] = [];
-    //             }
-    //             neighborhoodCount[item.neighborhood + item.homicideYear].push({ Neighborhood: item.neighborhood + item.homicideYear });
-    //             if (categoryTotal < item.neighborhood) {
-    //                 categoryTotal = item.neighborhood;
-    //             }
-    //         }
-    //         console.log(neighborhoodCount);
-    //         var neighborhoodChart = c3.generate({
-    //             bindto: '#homicide-cause-chart-2017',
-    //             size: {
-    //                 height: 275
-    //             },
-    //             data: {
-    //                 x: 'x',
-    //                 columns: [
-    //                     // ['x', '2018', '2017', '2016', '2015'],
-    //                     // ['Male', genderCount.Male2018.length, genderCount.Male2017.length, genderCount.Male2016.length, genderCount.Male2015.length],
-    //                     // ['Female', 0, genderCount.Female2017.length, genderCount.Female2016.length, genderCount.Female2015.length],
-    //                     ['x', '2015', '2016', '2017', '2018'],
-    //                     ['Montbello', neighborhoodCount.Montbello2015.length, neighborhoodCount.Montbello2016.length, neighborhoodCount.Montbello2017.length, 0],
-    //                     ['Five Points', neighborhoodCount.Montbello2015.length, neighborhoodCount.Montbello2016.length, neighborhoodCount.Montbello2017.length, 0]
-    //                 ],
-    //                 type: 'bar',
-    //                 groups: [
-    //                     ['Montbello', 'Five Points']
-    //                 ],
-    //                 colors: {
-    //                     '2015': '#ccc',
-    //                     '2016': '#bbb',
-    //                     '2017': '#aaa',
-    //                     '2018': 'rgba(142,16,36,1)'
-    //                 },
-    //                 onclick: function(d, i) { console.log("onclick", d, i); },
-    //                 onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-    //                 onmouseout: function(d, i) { console.log("onmouseout", d, i); }
-    //             },
-    //             axis: {
-    //                 x: {
-    //                     type: 'category'
-    //                 }
-    //             }
-    //         })
-    //     })
-    // });
     </script>
 </body>
 
