@@ -14,6 +14,7 @@
     <style>
     body {
         background-color: #fafafa;
+        font-family: Helvetica, Arial, sans-serif;
     }
 
     .c3-ygrid-line line {
@@ -25,11 +26,16 @@
         stroke-width: 1px;
     }
 
-    h3 {
+    .chart-title {
         text-align: center;
-        font-family: Georgia, serif;
-        font-size: 32px;
-        margin-top: 95px;
+        font-weight: 600;
+        line-height: 1.1;
+    }
+
+    .chart-chatter {
+        font-style: italic;
+        line-height: 1.2;
+        font-size: 14px;
     }
 
     .c3-legend-item {
@@ -46,54 +52,22 @@
 
 <body>
     <div class="row">
-        <div class="large-12 columns">
+        <div class="large-8 medium-8 columns">
+            <h3 class="chart-title">Homicides by month</h3>
+            <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;<br>hover over year at bottom to highlight</p>
             <div id="homicide-chart"></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <h3>2017</h3>
+        <div class="large-4 medium-4 columns">
+            <h3 class="chart-title">Homicides by neighborhood</h3>
+            <div id="homicide-cause-chart-2017"></div>
+            <p class="chart-chatter">The five neighborhoods with the most homicides from 2015 to 2018 are broken out.</p>
             <hr>
         </div>
-        <div class="large-6 medium-6 small-12 columns">
-            <div id="homicide-cause-chart-2017"></div>
-        </div>
-        <div class="large-6 medium-6 small-12 columns">
+        <div class="large-4 medium-4 columns">
+            <h3 class="chart-title">Homicides by sex</h3>
             <div id="homicide-sex-chart-2017"></div>
         </div>
     </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <h3>2016</h3>
-            <hr>
-        </div>
-        <div class="large-6 medium-6 small-12 columns">
-            <div id="homicide-cause-chart-2016"></div>
-        </div>
-        <div class="large-6 medium-6 small-12 columns">
-            <div id="homicide-sex-chart-2016"></div>
-        </div>
-        <div class="large-12 columns">
-            <div id="homicide-neighborhood-chart-2016"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <h3>2015</h3>
-            <hr>
-        </div>
-        <div class="large-6 medium-6 small-12 columns">
-            <div id="homicide-cause-chart-2015"></div>
-        </div>
-        <div class="large-6 medium-6 small-12 columns">
-            <div id="homicide-sex-chart-2015"></div>
-        </div>
-        <!-- <div class="large-12 columns">
-            <div id="homicide-neighborhood-chart-2016"></div>
-        </div> -->
-    </div>
-    <script>
-    </script>
     <script>
     /* ----- LINE CHART TEST -----*/
 
@@ -192,7 +166,7 @@
                     ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
                     ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                     ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
-                    ['2018', jan2018 /* feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */]
+                    ['2018', jan2018 /* feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */ ]
                 ],
                 colors: {
                     '2010': '#bbb', //'#d3d3d3',
@@ -381,7 +355,7 @@
                 },
                 donut: {
                     label: {
-                        format: function (value) { return value; }
+                        format: function(value) { return value; }
                     }
                 },
                 axis: {
