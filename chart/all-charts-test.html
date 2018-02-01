@@ -61,7 +61,7 @@
         <div class="large-4 medium-4 columns">
             <h3 class="chart-title">Homicides by neighborhood</h3>
             <div id="homicide-neighborhoods"></div>
-            <p class="chart-chatter">The five neighborhoods with the most homicides from 2015 to 2018 are broken out.</p>
+            <p class="chart-chatter">The neighborhoods with the five-highest homicide totals from 2015 to 2018 are broken out.</p>
             <hr>
         </div>
         <div class="large-4 medium-4 columns">
@@ -284,7 +284,8 @@
             var cole = neighborhoodCount.Cole.length;
             var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
             var westwood = neighborhoodCount.Westwood.length;
-            var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + cole + elyriaSwansea + westwood);
+            var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
+            var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + cole + elyriaSwansea + westwood + gatewayGreenValleyRanch);
 
             var neighborhoodChart = c3.generate({
                 bindto: '#homicide-neighborhoods',
@@ -300,6 +301,7 @@
                         ['Cole', cole],
                         ['Elyria Swansea', elyriaSwansea],
                         ['Westwood', westwood],
+                        ['Gateway-Green Valley Ranch', gatewayGreenValleyRanch],
                         ['Others', others]
 
                     ],
