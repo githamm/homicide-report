@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="http://d3js.org/d3.v3.min.js " charset="utf-8 "></script>
+</head>
+
+<body>
+    <script>
+    // Object to store separated collections
+var whales = {};
+
+// Load url and execute handler function
+$.d3.json('homicides-all.js', function (data) {
+
+  // // Iterate the features of the collection
+  // data.features.forEach(function (feature) {
+
+  //   // Check there is a whale already with that name
+  //   // if (!whales.hasOwnProperty(feature.properties.name)) {
+
+  //     // No there isn't create empty collection
+  //     whales[feature.properties.index] = {
+  //       "type": "FeatureCollection",
+  //       "features": []
+  //     };
+  //   //}
+
+  //   // Add the feature to the collection
+  //   whales[feature.properties.index].features.push(feature);
+  //     console.log(whales);
+
+  // });
+  console.log(data);
+});
+    </script>
+</body>
+
+</html>

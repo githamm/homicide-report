@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Denver Homicide Report | The Denver Post</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" rel="stylesheet">
+    <link rel="stylesheet" href="//extras.denverpost.com/libraries/foundation/foundation-min.css" />
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js " charset="utf-8 "></script>
+    <script src="//extras.denverpost.com/foundation/js/foundation.min.js"></script>
+    <style>
+    body {
+        background-color: #fafafa;
+    }
+
+    .c3-ygrid-line line {
+        stroke: gray;
+        width: 3px;
+    }
+
+    .c3-line {
+        stroke-width: 1px;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: Georgia, serif;
+        font-size: 32px;
+        margin-top: 95px;
+    }
+
+    .c3-legend-item {
+        margin-top: 10px;
+    }
+
+    #homicides-total {
+        color: red;
+        font-size: 10rem;
+        font-family: Georgia, serif;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <div id="homicide-chart"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>2017</h3>
+            <hr>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-cause-chart-2017"></div>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-sex-chart-2017"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>2016</h3>
+            <hr>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-cause-chart-2016"></div>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-sex-chart-2016"></div>
+        </div>
+        <div class="large-12 columns">
+            <div id="homicide-neighborhood-chart-2016"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>2015</h3>
+            <hr>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-cause-chart-2015"></div>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <div id="homicide-sex-chart-2015"></div>
+        </div>
+        <!-- <div class="large-12 columns">
+            <div id="homicide-neighborhood-chart-2016"></div>
+        </div> -->
+    </div>
+    <script>
+    var homicideChart = c3.generate({
+        bindto: '#homicide-chart',
+        size: {
+            height: 600
+        },
+        data: {
+            x: 'x',
+            //        xFormat: '%Y%m%d', // 'xFormat' can be used as custom format of 'x'
+            columns: [
+                ['x', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                ['2010', 2, 2, 3, 3, 5, 6, 9, 9, 13, 18, 22, 27],
+                ['2011', 3, 5, 7, 11, 16, 19, 20, 27, 32, 33, 36, 38],
+                ['2012', 1, 4, 8, 11, 13, 16, 17, 19, 20, 25, 28, 28],
+                ['2013', 4, 6, 9, 14, 16, 17, 21, 25, 28, 32, 34, 36],
+                ['2014', 2, 3, 7, 8, 10, 12, 15, 20, 21, 24, 27, 28],
+                ['2015', 4, 7, 12, 17, 19, 20, 27, 32, 39, 42, 49, 50],
+                ['2016', 4, 7, 9, 14, 15, 20, 28, 30, 33, 45, 55, 56],
+                ['2017', 4, 8, 9, 16, 21, 24, 32, 33]
+            ],
+            colors: {
+                '2010': '#bbb', //'#d3d3d3',
+                '2011': '#bbb', //'#deebf7',
+                '2012': '#bbb', //'#c6dbef',
+                '2013': '#bbb', //'#9ecae1',
+                '2014': '#bbb', //'#6baed6',
+                '2015': '#bbb', //'#4292c6',
+                '2016': 'rgba(142,16,36,.4)',
+                '2017': 'rgba(142,16,36,1)'
+                // '2018': '#08306b'
+            }
+        },
+        grid: {
+            x: {
+                show: true
+            },
+            y: {
+                show: true
+                // lines: [{
+                //     value: 6,
+                //     text: '6 innings',
+                //     axis: 'y'
+                // }]
+            },
+        },
+        legend: {
+            position: 'bottom'
+        },
+        axis: {
+            x: {
+                type: 'category', // this needed to load string x value
+                tick: {
+                    rotate: 45
+                }
+            },
+            y: {
+                label: {
+                    text: 'Number of homicides (cumulative)',
+                    position: 'outer-middle'
+                }
+                // min: 0,
+                // // max: 9,
+                // padding: {
+                //     top: 5,
+                //     bottom: 0
+                // }
+            },
+        },
+    });
+    // assaultChart.data.colors({
+    //     'Rate': '#8E1024',
+    //     'Pct. change': '#737CA1'
+    // });
+    </script>
+    <script>
+    /* ----- 2017 CHARTS ----- */
+
+    d3.json("homicides-2017.json", function(data) {
+        var genderCount = [];
+        var causeCount = [];
+        var categoryTotal = 0;
+
+        /* ----- SEX CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            console.log(genderCount);
+            // var homicideCount = data.length;
+            // document.getElementById('homicides-total').innerHTML = homicideCount;
+            if (!genderCount[item.gender]) {
+                genderCount[item.gender] = [];
+            }
+            genderCount[item.gender].push({ gender: item.gender });
+            if (categoryTotal < item.gender) {
+                categoryTotal = item.gender;
+            }
+        }
+        var sexChart = c3.generate({
+            bindto: '#homicide-sex-chart-2017',
+            size: {
+                height: 275
+            },
+            data: {
+                columns: [
+                    ['Male', genderCount.Male.length],
+                    ['Female', genderCount.Female.length],
+                ],
+                type: 'donut',
+                colors: {
+                    'Male': '#08306b',
+                    'Female': '#2171b5'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Sex',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+        });
+        // console.log(genderCount.Female.length);
+
+        /* ----- CAUSE CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // console.log(item['Date of homicide']);
+            if (!causeCount[item.cause]) {
+                causeCount[item.cause] = [];
+            }
+            causeCount[item.cause].push({ cause: item.cause });
+            if (categoryTotal < item.cause) {
+                categoryTotal = item.cause;
+            }
+        }
+        // console.log(causeCount);
+        var causeChart = c3.generate({
+            bindto: '#homicide-cause-chart-2017',
+            size: {
+                height: 275
+            },
+            data: {
+                columns: [
+                    ['Gunshot', causeCount['Gunshot'].length],
+                    ['Sharp force', causeCount['Sharp force'].length],
+                    ['Blunt force', causeCount['Blunt force'].length],
+                    ['Stabbing', causeCount['Stabbing'].length]
+                ],
+                type: 'donut',
+                colors: {
+                    'Gunshot': '#08306b',
+                    'Sharp force': '#08519c',
+                    'Blunt force': '#2171b5',
+                    'Stabbing': '#4292c6'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Cause',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+        });
+    });
+
+    /* ----- 2016 CHARTS ----- */
+
+    d3.json("homicides-2016.json", function(data) {
+        var genderCount = [];
+        var causeCount = [];
+        var neighborhoodCount = [];
+        var categoryTotal = 0;
+
+        /* ----- SEX CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // var homicideCount = data.length;
+            // document.getElementById('homicides-total').innerHTML = homicideCount;
+            if (!genderCount[item.gender]) {
+                genderCount[item.gender] = [];
+            }
+            genderCount[item.gender].push({ gender: item.gender });
+            if (categoryTotal < item.gender) {
+                categoryTotal = item.gender;
+            }
+        }
+        var sexChart = c3.generate({
+            bindto: '#homicide-sex-chart-2016',
+            size: {
+                height: 275
+            },
+            data: {
+                columns: [
+                    ['Male', genderCount.Male.length],
+                    ['Female', genderCount.Female.length],
+                ],
+                type: 'donut',
+                colors: {
+                    'Male': '#08306b',
+                    'Female': '#2171b5'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Sex',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+        });
+        // console.log(genderCount.Female.length);
+
+        /* ----- CAUSE CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // console.log(item['Date of homicide']);
+            if (!causeCount[item.cause]) {
+                causeCount[item.cause] = [];
+            }
+            causeCount[item.cause].push({ cause: item.cause });
+            if (categoryTotal < item.cause) {
+                categoryTotal = item.cause;
+            }
+        }
+
+        var causeChart = c3.generate({
+            bindto: '#homicide-cause-chart-2016',
+            size: {
+                height: 275
+            },
+            data: {
+                columns: [
+                    ['Gunshot', causeCount['Gunshot'].length],
+                    ['Sharp force', causeCount['Sharp force'].length],
+                    ['Blunt force', causeCount['Blunt force'].length],
+                    ['Stabbing', causeCount['Stabbing'].length],
+                    ['Asphyxia', causeCount['Asphyxia'].length],
+                    ['Strangulation', causeCount['Strangulation'].length],
+                ],
+                type: 'donut',
+                colors: {
+                    'Gunshot': '#08306b',
+                    'Sharp force': '#08519c',
+                    'Blunt force': '#2171b5',
+                    'Stabbing': '#4292c6',
+                    'Asphyxia': '#6baed6',
+                    'Strangulation': '#9ecae1',
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Cause',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+        });
+    });
+
+    /* ----- 2015 CHARTS ----- */
+
+    d3.json("homicides-2015.json", function(data) {
+        var genderCount = [];
+        var causeCount = [];
+        var neighborhoodCount = [];
+        var categoryTotal = 0;
+
+        /* ----- SEX CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // var homicideCount = data.length;
+            // document.getElementById('homicides-total').innerHTML = homicideCount;
+            if (!genderCount[item.gender]) {
+                genderCount[item.gender] = [];
+            }
+            genderCount[item.gender].push({ gender: item.gender });
+            if (categoryTotal < item.gender) {
+                categoryTotal = item.gender;
+            }
+        }
+        var sexChart = c3.generate({
+            bindto: '#homicide-sex-chart-2015',
+            size: {
+                height: 275
+            },
+            data: {
+                columns: [
+                    ['Male', genderCount.Male.length],
+                    ['Female', genderCount.Female.length],
+                ],
+                type: 'donut',
+                colors: {
+                    'Male': '#08306b',
+                    'Female': '#2171b5'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Sex',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+        });
+        // console.log(genderCount.Female.length);
+
+        /* ----- CAUSE CHART ----- */
+
+        for (var i = 0; i < data.length; i++) {
+            var item = data[i];
+            // console.log(item['Date of homicide']);
+            if (!causeCount[item.cause]) {
+                causeCount[item.cause] = [];
+            }
+            causeCount[item.cause].push({ cause: item.cause });
+            if (categoryTotal < item.cause) {
+                categoryTotal = item.cause;
+            }
+        }
+
+        var causeChart = c3.generate({
+            bindto: '#homicide-cause-chart-2015',
+            size: {
+                height: 275
+            },
+            data: {
+                columns: [
+                    ['Gunshot', causeCount['Gunshot'].length],
+                    ['Sharp force', causeCount['Sharp force'].length],
+                    ['Pending', causeCount['Pending'].length],
+                    ['Blunt force', causeCount['Blunt force'].length],
+                    ['Stabbing', causeCount['Stabbing'].length],
+                    ['Drowning', causeCount['Drowning'].length],
+                ],
+                type: 'donut',
+                colors: {
+                    'Gunshot': '#08306b',
+                    'Sharp force': '#08519c',
+                    'Pending': '#2171b5',
+                    'Blunt force': '#4292c6',
+                    'Stabbing': '#6baed6',
+                    'Drowning': '#9ecae1',
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            donut: {
+                title: 'Cause',
+                label: {
+                    format: function(value) { return value; }
+
+                }
+            }
+        });
+    });
+
+    /* ----- NEIGHBORHOOD CHART ----- */
+
+    // for (var i = 0; i < data.length; i++) {
+    //     var item = data[i];
+    //     // console.log(item['Date of homicide']);
+    //     if (!neighborhoodCount[item.neighborhood]) {
+    //         neighborhoodCount[item.neighborhood] = [];
+    //     }
+    //     neighborhoodCount[item.neighborhood].push({ neighborhood: item.neighborhood });
+    //     if (categoryTotal < item.neighborhood) {
+    //         categoryTotal = item.neighborhood;
+    //     }
+    // }
+
+    // var causeChart = c3.generate({
+    //     bindto: '#homicide-neighborhood-chart-2016',
+    //     size: {
+    //         height: 275
+    //     },
+    //     data: {
+    //         columns: [
+    //             ['Montbello', neighborhoodCount['Montbello'].length],
+    //             ['Elyria-Swansea', neighborhoodCount['Elyria-Swansea'].length],
+    //             ['Five Points', neighborhoodCount['Five Points'].length],
+    //             ['Northeast Park Hill', neighborhoodCount['Northeast Park Hill'].length],
+    //             ['Westwood', neighborhoodCount['Westwood'].length],
+    //             ['Barnum', neighborhoodCount['Barnum'].length],
+    //         ],
+    //         types: 'area-step',
+    //         // groups: [
+    //         //     ['Athmar Park', 'Baker', 'Barnum', 'Bear Valley', 'Capitol Hill', 'Central Business District']
+    //         // ],
+    //         colors: {
+    //             'Gunshot': '#08306b',
+    //             'Sharp force': '#08519c',
+    //             'Blunt force': '#2171b5',
+    //             'Stabbing': '#4292c6',
+    //             'Asphyxia': '#6baed6',
+    //             'Strangulation': '#9ecae1',
+    //         },
+    //         onclick: function(d, i) { console.log("onclick", d, i); },
+    //         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+    //         onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+    //     },
+    //     donut: {
+    //         title: 'Cause',
+    //         label: {
+    //             format: function(value) { return value; }
+
+    //         }
+    //     }
+    // });
+
+    // });
+    </script>
+</body>
