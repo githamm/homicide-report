@@ -9,21 +9,12 @@
     <link rel="stylesheet" href="//extras.denverpost.com/libraries/foundation/foundation-min.css" />
     <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js " charset="utf-8 "></script>
+    <script src="//d3js.org/d3.v3.min.js " charset="utf-8 "></script>
     <script src="//extras.denverpost.com/foundation/js/foundation.min.js"></script>
     <style>
     body {
         background-color: #fafafa;
         font-family: Helvetica, Arial, sans-serif;
-    }
-
-    .c3-ygrid-line line {
-        stroke: gray;
-        width: 3px;
-    }
-
-    .c3-line {
-        stroke-width: 1px;
     }
 
     .chart-title {
@@ -32,20 +23,17 @@
         line-height: 1.1;
     }
 
-    .chart-chatter {
+    .chart-chatter,
+    .chart-chatter-year {
         font-style: italic;
         line-height: 1.2;
         font-size: 14px;
     }
 
-    .c3-legend-item {
-        margin-top: 10px;
-    }
-
-    #homicides-total {
-        color: red;
-        font-size: 10rem;
-        font-family: Georgia, serif;
+    .chart-chatter-year {
+        text-align: center;
+        margin-top: -3px;
+        margin-bottom: 7px;
     }
     </style>
 </head>
@@ -54,18 +42,21 @@
     <div class="row">
         <div class="large-8 medium-8 columns">
             <h3 class="chart-title">Homicides by month</h3>
+            <p class="chart-chatter-year">2010-2018</p>
             <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;
                 <br>hover over year at bottom to highlight</p>
             <div id="homicide-chart"></div>
         </div>
         <div class="large-4 medium-4 columns">
             <h3 class="chart-title">Homicides by neighborhood</h3>
+            <p class="chart-chatter-year">2015-2018</p>
             <div id="homicide-neighborhoods"></div>
-            <p class="chart-chatter">The neighborhoods with the five-highest homicide totals from 2015 to 2018 are broken out.</p>
+            <p class="chart-chatter">The neighborhoods with the five-highest homicide totals are broken out.</p>
             <hr>
         </div>
         <div class="large-4 medium-4 columns">
             <h3 class="chart-title">Homicides by sex</h3>
+            <p class="chart-chatter-year">2015-2018</p>
             <div id="homicide-sex"></div>
         </div>
     </div>
@@ -162,12 +153,12 @@
                     ['2018', jan2018 /* feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */ ]
                 ],
                 colors: {
-                    '2010': '#bbb', //'#d3d3d3',
-                    '2011': '#bbb', //'#deebf7',
-                    '2012': '#bbb', //'#c6dbef',
-                    '2013': '#bbb', //'#9ecae1',
-                    '2014': '#bbb', //'#6baed6',
-                    '2015': '#bbb', //'#4292c6',
+                    '2010': '#bbb',
+                    '2011': '#bbb',
+                    '2012': '#bbb',
+                    '2013': '#bbb',
+                    '2014': '#bbb',
+                    '2015': '#bbb',
                     '2016': '#bbb',
                     '2017': 'rgba(142,16,36,.5)',
                     '2018': 'rgba(142,16,36,1)'
@@ -316,6 +307,9 @@
                     x: {
                         type: 'category'
                     }
+                },
+                color: {
+                    pattern: ['#08306b', '#08519c', '#2171b5', '#4292c6', '#6baed6', '#9ecae1', '#c6dbef', '#deebf7', '#ccc']
                 }
             })
         })
