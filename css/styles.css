@@ -1,0 +1,268 @@
+    /* ----- GENERAL STYLES ----- */
+
+    body {
+        background-color: #fafafa;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    /* ----- CHART STYLES ----- */
+
+    .chart-title {
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.1;
+    }
+
+    .chart-chatter,
+    .chart-chatter-year {
+        font-style: italic;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+
+    .chart-chatter-year {
+        text-align: center;
+        margin-top: -3px;
+        margin-bottom: 7px;
+    }
+    /* ----- DATATABLES STYLES ----- */
+
+    .column-filter-widget {
+        float: left;
+        padding: 5px;
+    }
+
+    .column-filter-widget select {
+        display: block;
+    }
+
+    .column-filter-widgets a.filter-term {
+        display: block;
+        text-decoration: none;
+        padding-left: 10px;
+        font-size: 90%;
+    }
+
+    .column-filter-widgets a.filter-term:hover {
+        text-decoration: line-through !important;
+    }
+
+    .column-filter-widget-selected-terms {
+        clear: left;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter input {
+        margin-bottom: 15px;
+    }
+    /* ----- MAP STYLES ----- */
+
+    #container {
+        margin: 10px;
+    }
+
+    #map {
+        height: 750px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .leaflet-control-layers-group-name {
+        font-weight: bold;
+        margin-bottom: .2em;
+        display: block;
+    }
+
+    .leaflet-control-layers-group {
+        margin-bottom: .5em;
+    }
+
+    .leaflet-control-layers-group label {
+        padding-left: .5em;
+    }
+
+    #legend-container {
+        border: 1px solid lightgray;
+        padding: 10px;
+    }
+
+    .legend-spacing {
+        margin-bottom: 15px;
+    }
+
+    .legend-title {
+        font-size: 14px;
+        font-weight: bold;
+        /*text-align: center;*/
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+
+    ul.legend {
+        list-style: none;
+        margin-left: 0px;
+    }
+
+    .legend li {
+        float: left;
+        font-size: 12px;
+        font-weight: bold;
+        width: 16%;
+    }
+
+    .legend span {
+        border: 1px solid #ccc;
+        float: left;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        padding-top: 2px;
+        color: lightgray;
+    }
+
+    h4.name-header,
+    h4.neighborhood-header {
+        color: orange;
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    h4.name-header {
+        margin-bottom: -30px;
+    }
+
+    h4.neighborhood-header {
+        margin-bottom: -9px;
+    }
+
+    .neighborhood-total {
+        color: orange;
+        font-size: 20px;
+    }
+
+    .highlight {
+        color: orange;
+    }
+
+    p.article-link {
+        text-align: right;
+    }
+
+    hr.popup {
+        margin-bottom: 8px;
+    }
+
+    div.spacer {
+        margin-top: 6px;
+    }
+
+    .legend .step-10 {
+        background-color: #54278f;
+    }
+
+    .legend .step-9 {
+        background-color: #756bb1;
+    }
+
+    .legend .step-8 {
+        background-color: #9e9ac8;
+    }
+
+    .legend .step-7 {
+        background-color: #cbc9e2;
+    }
+
+    .legend .step-6 {
+        background-color: #f2f0f7;
+    }
+
+    .legend .step-5 {
+        background-color: #a63603;
+    }
+
+    .legend .step-4 {
+        background-color: #e6550d;
+    }
+
+    .legend .step-3 {
+        background-color: #fd8d3c;
+    }
+
+    .legend .step-2 {
+        background-color: #fdbe85;
+    }
+
+    .legend .step-1 {
+        background-color: #feedde;
+    }
+
+    .legend .step-0 {
+        background-color: rgba(255, 255, 0, .1);
+    }
+
+    hr.not-popup {
+        margin-bottom: 18px;
+    }
+
+    .icon-current-year {
+        /* width and height handled with map js */
+        border-radius: 50%;
+        background-color: rgba(227, 26, 28, 1.0);
+    }
+
+    #icon-current-year-legend {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(227, 26, 28, 1.0);
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        display: inline-block;
+    }
+
+    .icon-previous-year {
+        /* width and height handled with map js */
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 1.0);
+    }
+
+    .icon-multiple {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+
+    #icon-previous-year-legend {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(0, 0, 0, 1.0);
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        display: inline-block;
+    }
+
+    .leaflet-popup-content {
+        font-size: 1.1em;
+        line-height: 1.4;
+        width: 250px;
+    }
+
+    .leaflet-popup-content-wrapper,
+    .leaflet-popup-tip {
+        background: rgba(0, 0, 0, .8);
+    }
+
+    img.nav-logo {
+        height: 35px;
+        padding: 10px 25px 0px 10px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    @media (max-width: 500px) {
+        #map {
+            height: 500px;
+        }
+    }

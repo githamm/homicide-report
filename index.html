@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Denver Homicide Report | The Denver Post</title>
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://extras.denverpost.com/transgender/css/normalize.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" rel="stylesheet">
+    <link rel="stylesheet" href="//extras.denverpost.com/libraries/foundation/foundation-min.css" />
+    <link rel="stylesheet" type="text/css" href="//extras.denverpost.com/libraries/datatables/DataTables-1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" type="text/css" href="//extras.denverpost.com/libraries/datatables/Responsive-2.2.1/css/responsive.foundation.min.css" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/jQuery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">
+    </script>
+    <script src="js/leaflet-grouped-layer-control.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/DataTables-1.10.16/js/dataTables.foundation.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="//extras.denverpost.com/libraries/datatables/Responsive-2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
+    <script src="//d3js.org/d3.v3.min.js " charset="utf-8 "></script>
+    <script src="//extras.denverpost.com/foundation/js/foundation.min.js"></script>
+</head>
+
+<body>
+    <!-- ///// CHARTS ///// -->
+    <div class="row">
+        <div class="large-8 medium-8 columns">
+            <h3 class="chart-title">Homicides by month</h3>
+            <p class="chart-chatter-year">2010-2018</p>
+            <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;
+                <br>hover over year at bottom to highlight</p>
+            <div id="homicide-chart"></div>
+        </div>
+        <div class="large-4 medium-4 columns">
+            <hr>
+            <h3 class="chart-title">Homicides by neighborhood</h3>
+            <p class="chart-chatter-year">2015-2018</p>
+            <div id="homicide-neighborhoods"></div>
+            <p class="chart-chatter">The neighborhoods with the five highest homicide totals are broken out.</p>
+            <hr>
+        </div>
+        <div class="large-4 medium-4 columns">
+            <h3 class="chart-title">Homicides by sex</h3>
+            <p class="chart-chatter-year">2015-2018</p>
+            <div id="homicide-sex"></div>
+        </div>
+    </div>
+    <!-- ///// MAP ///// -->
+    <div id="container">
+        <div class="row" id="legend-container">
+            <div class="large-3 medium-3 columns legend-spacing">
+                <div id="dot-legend">
+                    <p class="legend-title">HOMICIDES</p>
+                    <div id="icon-current-year-legend"></div> Current year
+                    <br>
+                    <div id="icon-previous-year-legend"></div> Previous years</br>
+                </div>
+            </div>
+            <div class="large-7 medium-8 columns legend-spacing">
+                <div id="facilities-number">
+                    <p class="legend-title">HOMICIDES BY NEIGHBORHOOD 2015-PRESENT</p>
+                    <ul class="legend">
+                        <li><span CLASS="step-0">0</span></li>
+                        <li><span class="step-1"></span></li>
+                        <li><span class="step-2"></span></li>
+                        <li><span class="step-3"></span></li>
+                        <li><span class="step-4"></span></li>
+                        <li><span class="step-5">13</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="large-4 medium-4 columns legend-spacing">
+                <div id="median-income">
+                    <p class="legend-title">MEDIAN HOUSEHOLD
+                        <br>INCOME</p>
+                    <ul class="legend">
+                        <li><span>0</span></li>
+                        <li><span class="step-6"></span></li>
+                        <li><span class="step-7"></span></li>
+                        <li><span class="step-8"></span></li>
+                        <li><span class="step-9"></span></li>
+                        <li><span class="step-10">$158K</span></li>
+                    </ul>
+                </div>
+            </div> -->
+        <div class="row">
+            <div class="large-12 columns">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ///// TABLE ///// -->
+    <form>
+        <div class="row">
+            <hr>
+            <div class="large-6 medium-6 small-6 columns">
+                <label><strong>Neighborhood</strong></label>
+                <!-- <input type='text' value='' class='filter' data-column-index='1'> -->
+                <select id="neighborhood-filter" class="filter" data-column-index='11'>
+                    <option value=" ">All</option>
+                    <option value="Athmar Park">Athmar Park</option>
+                    <option value="Auraria">Auraria</option>
+                    <option value="Baker">Baker</option>
+                    <option value="Barnum">Barnum</option>
+                    <option value="Barnum West">Barnum West</option>
+                    <option value="Bear Valley">Bear Valley</option>
+                    <option value="Belcaro">Belcaro</option>
+                    <option value="Berkeley">Berkeley</option>
+                    <option value="Capitol Hill">Capitol Hill</option>
+                    <option value="Central Business District">Central Business District</option>
+                    <option value="Chaffee Park">Chaffee Park</option>
+                    <option value="Cheesman Park">Cheesman Park</option>
+                    <option value="Cherry Creek">Cherry Creek</option>
+                    <option value="City Park">City Park</option>
+                    <option value="City Park West">City Park West</option>
+                    <option value="Civic Center">Civic Center</option>
+                    <option value="Clayton">Clayton</option>
+                    <option value="Cole">Cole</option>
+                    <option value="College View-South Platte">College View-South Platte</option>
+                    <option value="Congress Park">Congress Park</option>
+                    <option value="Cory-Merrill">Cory-Merrill</option>
+                    <option value="Country Club">Country Club</option>
+                    <option value="DIA">DIA</option>
+                    <option value="East Colfax">East Colfax</option>
+                    <option value="Elyria Swansea">Elyria Swansea</option>
+                    <option value="Five Points">Five Points</option>
+                    <option value="Fort Logan">Fort Logan</option>
+                    <option value="Gateway-Green Valley Ranch">Gateway-Green Valley Ranch</option>
+                    <option value="Globeville">Globeville</option>
+                    <option value="Goldsmith">Goldsmith</option>
+                    <option value="Hale">Hale</option>
+                    <option value="Hampden">Hampden</option>
+                    <option value="Hampden South">Hampden South</option>
+                    <option value="Harvey Park">Harvey Park</option>
+                    <option value="Harvey Park South">Harvey Park South</option>
+                    <option value="Highland">Highland</option>
+                    <option value="Hilltop">Hilltop</option>
+                    <option value="Indian Creek">Indian Creek</option>
+                    <option value="Jefferson Park">Jefferson Park</option>
+                    <option value="Kennedy">Kennedy</option>
+                    <option value="Lincoln Park">Lincoln Park</option>
+                    <option value="Lowry">Lowry</option>
+                    <option value="Mar Lee">Mar Lee</option>
+                    <option value="Marston">Marston</option>
+                    <option value="Montbello">Montbello</option>
+                    <option value="Montclair">Montclair</option>
+                    <option value="North Capitol Hill">North Capitol Hill</option>
+                    <option value="North Park Hill">North Park Hill</option>
+                    <option value="Northeast Park Hill">Northeast Park Hill</option>
+                    <option value="Overland">Overland</option>
+                    <option value="Park Hill">Park Hill</option>
+                    <option value="Platt Park">Platt Park</option>
+                    <option value="Regis">Regis</option>
+                    <option value="Rosedale">Rosedale</option>
+                    <option value="Ruby Hill">Ruby Hill</option>
+                    <option value="Skyland">Skyland</option>
+                    <option value="Sloan Lake">Sloan Lake</option>
+                    <option value="South Park Hill">South Park Hill</option>
+                    <option value="Southmoor Park">Southmoor Park</option>
+                    <option value="Speer">Speer</option>
+                    <option value="Stapleton">Stapleton</option>
+                    <option value="Sun Valley">Sun Valley</option>
+                    <option value="Sunnyside">Sunnyside</option>
+                    <option value="Union Station">Union Station</option>
+                    <option value="University">University</option>
+                    <option value="University Hills">University Hills</option>
+                    <option value="University Park">University Park</option>
+                    <option value="Valverde">Valverde</option>
+                    <option value="Villa Park">Villa Park</option>
+                    <option value="Virginia Village">Virginia Village</option>
+                    <option value="Washington Park">Washington Park</option>
+                    <option value="Washington Park West">Washington Park West</option>
+                    <option value="Washington Virginia Vale">Washington Virginia Vale</option>
+                    <option value="Wellshire">Wellshire</option>
+                    <option value="West Colfax">West Colfax</option>
+                    <option value="West Highland">West Highland</option>
+                    <option value="Westwood">Westwood</option>
+                    <option value="Whittier">Whittier</option>
+                    <option value="Windsor">Windsor</option>
+                </select>
+            </div>
+            <div class="large-6 medium-6 small-6 columns">
+                <label><strong>Year</strong></label>
+                <select id="year-filter" class="filter" data-column-index='4'>
+                    <option value=" ">All</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+            </div>
+        </div>
+        <div class="row button-show">
+            <div class="large-12 columns">
+                <a href="#" class="button expand filter-button">Search</a>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="homicide-table" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="never">Index</th>
+                        <th data-priority="2">Date</th>
+                        <th class="never">Month</th>
+                        <th class="never">Year</th>
+                        <th data-priority="1">Name</th>
+                        <th data-priority="4">Age</th>
+                        <th data-priority="5">Sex</th>
+                        <th class="never">Race</th>
+                        <th data-priority="6">Cause</th>
+                        <th data-priority="7">Address</th>
+                        <th data-priority="3">Neighborhood</th>
+                        <th class="never">Latitude</th>
+                        <th class="never">Longitude</th>
+                        <th data-priority="8">Link</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
