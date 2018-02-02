@@ -1,7 +1,7 @@
     /* ----- GENERAL STYLES ----- */
 
     body {
-        background-color: #fafafa;
+        background: #fafafa;
         font-family: Helvetica, Arial, sans-serif;
     }
     /* ----- CHART STYLES ----- */
@@ -154,48 +154,28 @@
         margin-top: 6px;
     }
 
-    .legend .step-10 {
-        background-color: #54278f;
-    }
-
-    .legend .step-9 {
-        background-color: #756bb1;
-    }
-
-    .legend .step-8 {
-        background-color: #9e9ac8;
-    }
-
-    .legend .step-7 {
-        background-color: #cbc9e2;
-    }
-
-    .legend .step-6 {
-        background-color: #f2f0f7;
-    }
-
     .legend .step-5 {
-        background-color: #a63603;
+        background: #08306b;
     }
 
     .legend .step-4 {
-        background-color: #e6550d;
+        background: #08519c;
     }
 
     .legend .step-3 {
-        background-color: #fd8d3c;
+        background: #2171b5;
     }
 
     .legend .step-2 {
-        background-color: #fdbe85;
+        background: #4292c6;
     }
 
     .legend .step-1 {
-        background-color: #feedde;
+        background: #6baed6;
     }
 
     .legend .step-0 {
-        background-color: rgba(255, 255, 0, .1);
+        background: rgba(255, 255, 0, .1);
     }
 
     hr.not-popup {
@@ -205,13 +185,13 @@
     .icon-current-year {
         /* width and height handled with map js */
         border-radius: 50%;
-        background-color: rgba(227, 26, 28, 1.0);
+        background: rgba(227, 26, 28, 1.0);
     }
 
     #icon-current-year-legend {
         width: 12px;
         height: 12px;
-        background-color: rgba(227, 26, 28, 1.0);
+        background: rgba(227, 26, 28, 1.0);
         -moz-border-radius: 6px;
         -webkit-border-radius: 6px;
         border-radius: 6px;
@@ -221,20 +201,20 @@
     .icon-previous-year {
         /* width and height handled with map js */
         border-radius: 50%;
-        background-color: rgba(0, 0, 0, 1.0);
+        background: rgba(0, 0, 0, 1.0);
     }
 
     .icon-multiple {
         width: 12px;
         height: 12px;
         border-radius: 50%;
-        background-color: #fff;
+        background: #fff;
     }
 
     #icon-previous-year-legend {
         width: 12px;
         height: 12px;
-        background-color: rgba(0, 0, 0, 1.0);
+        background: rgba(0, 0, 0, 1.0);
         -moz-border-radius: 6px;
         -webkit-border-radius: 6px;
         border-radius: 6px;

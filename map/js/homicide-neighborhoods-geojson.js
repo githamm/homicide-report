@@ -1827,7 +1827,7 @@
                         [-105.039698, 39.711251]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025239, 39.769289],
@@ -4183,7 +4183,7 @@
                         [-104.929311, 39.702037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959309, 39.715657],
@@ -4834,7 +4834,7 @@
                         [-104.93289, 39.69842]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973248, 39.718404],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 13 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
@@ -8710,7 +8710,7 @@
                         [-104.992384, 39.696661]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 8, "nbhd_id": 1, "notes": null, "typology": null, "nbhd_name": "Athmar Park", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 8, "nbhd_id": 1, "notes": null, "typology": null, "nbhd_name": "Athmar Park", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.9874, 39.747358],
