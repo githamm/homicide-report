@@ -32,6 +32,10 @@
     <!-- ///// CHARTS ///// -->
     <div class="row">
         <div class="large-8 medium-8 columns">
+            <h1 class="page-title">Denver Homicide Report</h1>
+            <p class="update">Last updated Feb. 2, 2018</p>
+            <p class="intro">The charts, map and table track homicides in the City and County of Denver. Information is collected from news reports, the coroner at Denver’s Office of the Medical Examiner and the Denver Police Department. Initial information may be incomplete and will be updated as it becomes available.</p>
+            <hr style="border-width: 2px;">
             <h3 class="chart-title">Homicides by month</h3>
             <p class="chart-chatter-year">2010-2018</p>
             <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;
@@ -51,23 +55,40 @@
             <p class="chart-chatter-year">2015-2018</p>
             <div id="homicide-sex"></div>
         </div>
+        <div class="large-4 medium-4 columns">
+            <div id="coverage-box-container">
+                <div id="more-coverage-box">
+                    <span class="label related">MORE COVERAGE</span>
+                    <ul class="more-coverage">
+                        <li><span class="list-year">2016</span> <a href="https://www.denverpost.com/2017/02/15/denver-homicides-2016/" target="_blank">Denver’s homicides hit a 10-year high in 2016 after domestic violence killings spiked</a></li>
+                        <li><span class="list-year">2015</span> <a href="http://extras.denverpost.com/homicides/2015/" target="_blank">Homicides in Denver hit 9-year high with 50 people killed in 2015</a></li>
+                        <li><span class="list-year">Stats</span> <a href="https://crime.denverpost.com/" target="_blank">Denver crime statistics</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- ///// MAP ///// -->
     <div id="container">
+        <div class="row">
+            <div class="large-12 columns">
+                <p class="graphic-divider"><span class="graphic-divider">MAP</span></p>
+                <p class="intro">The map shows the approximate location of all homicides in Denver from 2015 to the present. Darkly shaded neighborhoods inidicate a higher number of homicides. Click a map marker or neighborhood for details. Click the red square in the top right corner of the map to filter markers by year. Some map markers overlap.</p>
+            </div>
+        </div>
         <div class="row" id="legend-container">
-            <div class="large-3 medium-3 columns legend-spacing">
+            <div class="large-4 medium-5 columns legend-spacing">
                 <div id="dot-legend">
                     <p class="legend-title">HOMICIDES</p>
-                    <div id="icon-current-year-legend"></div> Current year
-                    <br>
-                    <div id="icon-previous-year-legend"></div> Previous years</br>
+                    <div id="icon-current-year-legend"></div><span class="legend-text">Current year</span>
+                    <div id="icon-previous-year-legend"></div><span class="legend-text">Previous years</span>
                 </div>
             </div>
-            <div class="large-7 medium-8 columns legend-spacing">
+            <div class="large-7 medium-7 columns legend-spacing">
                 <div id="facilities-number">
                     <p class="legend-title">HOMICIDES BY NEIGHBORHOOD 2015-2018</p>
                     <ul class="legend">
-                        <li><span CLASS="step-0">0</span></li>
+                        <li><span class="step-0">0</span></li>
                         <li><span class="step-1"></span></li>
                         <li><span class="step-2"></span></li>
                         <li><span class="step-3"></span></li>
@@ -77,134 +98,122 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="large-4 medium-4 columns legend-spacing">
-                <div id="median-income">
-                    <p class="legend-title">MEDIAN HOUSEHOLD
-                        <br>INCOME</p>
-                    <ul class="legend">
-                        <li><span>0</span></li>
-                        <li><span class="step-6"></span></li>
-                        <li><span class="step-7"></span></li>
-                        <li><span class="step-8"></span></li>
-                        <li><span class="step-9"></span></li>
-                        <li><span class="step-10">$158K</span></li>
-                    </ul>
-                </div>
-            </div> -->
         <div class="row">
             <div class="large-12 columns">
-                <p style="font-size: 13px; font-style: italic; text-align: right; margin-top: 5px; margin-bottom: -17px;">Locations are approximate; some map markers may overlap</p>
                 <div id="map"></div>
             </div>
         </div>
     </div>
     <!-- ///// TABLE ///// -->
-    <form>
-        <div class="row">
-            <hr>
-            <div class="large-6 medium-6 small-6 columns">
-                <label><strong>Neighborhood</strong></label>
-                <!-- <input type='text' value='' class='filter' data-column-index='1'> -->
-                <select id="neighborhood-filter" class="filter" data-column-index='11'>
-                    <option value=" ">All</option>
-                    <option value="Athmar Park">Athmar Park</option>
-                    <option value="Auraria">Auraria</option>
-                    <option value="Baker">Baker</option>
-                    <option value="Barnum">Barnum</option>
-                    <option value="Barnum West">Barnum West</option>
-                    <option value="Bear Valley">Bear Valley</option>
-                    <option value="Belcaro">Belcaro</option>
-                    <option value="Berkeley">Berkeley</option>
-                    <option value="Capitol Hill">Capitol Hill</option>
-                    <option value="Central Business District">Central Business District</option>
-                    <option value="Chaffee Park">Chaffee Park</option>
-                    <option value="Cheesman Park">Cheesman Park</option>
-                    <option value="Cherry Creek">Cherry Creek</option>
-                    <option value="City Park">City Park</option>
-                    <option value="City Park West">City Park West</option>
-                    <option value="Civic Center">Civic Center</option>
-                    <option value="Clayton">Clayton</option>
-                    <option value="Cole">Cole</option>
-                    <option value="College View-South Platte">College View-South Platte</option>
-                    <option value="Congress Park">Congress Park</option>
-                    <option value="Cory-Merrill">Cory-Merrill</option>
-                    <option value="Country Club">Country Club</option>
-                    <option value="DIA">DIA</option>
-                    <option value="East Colfax">East Colfax</option>
-                    <option value="Elyria Swansea">Elyria Swansea</option>
-                    <option value="Five Points">Five Points</option>
-                    <option value="Fort Logan">Fort Logan</option>
-                    <option value="Gateway-Green Valley Ranch">Gateway-Green Valley Ranch</option>
-                    <option value="Globeville">Globeville</option>
-                    <option value="Goldsmith">Goldsmith</option>
-                    <option value="Hale">Hale</option>
-                    <option value="Hampden">Hampden</option>
-                    <option value="Hampden South">Hampden South</option>
-                    <option value="Harvey Park">Harvey Park</option>
-                    <option value="Harvey Park South">Harvey Park South</option>
-                    <option value="Highland">Highland</option>
-                    <option value="Hilltop">Hilltop</option>
-                    <option value="Indian Creek">Indian Creek</option>
-                    <option value="Jefferson Park">Jefferson Park</option>
-                    <option value="Kennedy">Kennedy</option>
-                    <option value="Lincoln Park">Lincoln Park</option>
-                    <option value="Lowry">Lowry</option>
-                    <option value="Mar Lee">Mar Lee</option>
-                    <option value="Marston">Marston</option>
-                    <option value="Montbello">Montbello</option>
-                    <option value="Montclair">Montclair</option>
-                    <option value="North Capitol Hill">North Capitol Hill</option>
-                    <option value="North Park Hill">North Park Hill</option>
-                    <option value="Northeast Park Hill">Northeast Park Hill</option>
-                    <option value="Overland">Overland</option>
-                    <option value="Park Hill">Park Hill</option>
-                    <option value="Platt Park">Platt Park</option>
-                    <option value="Regis">Regis</option>
-                    <option value="Rosedale">Rosedale</option>
-                    <option value="Ruby Hill">Ruby Hill</option>
-                    <option value="Skyland">Skyland</option>
-                    <option value="Sloan Lake">Sloan Lake</option>
-                    <option value="South Park Hill">South Park Hill</option>
-                    <option value="Southmoor Park">Southmoor Park</option>
-                    <option value="Speer">Speer</option>
-                    <option value="Stapleton">Stapleton</option>
-                    <option value="Sun Valley">Sun Valley</option>
-                    <option value="Sunnyside">Sunnyside</option>
-                    <option value="Union Station">Union Station</option>
-                    <option value="University">University</option>
-                    <option value="University Hills">University Hills</option>
-                    <option value="University Park">University Park</option>
-                    <option value="Valverde">Valverde</option>
-                    <option value="Villa Park">Villa Park</option>
-                    <option value="Virginia Village">Virginia Village</option>
-                    <option value="Washington Park">Washington Park</option>
-                    <option value="Washington Park West">Washington Park West</option>
-                    <option value="Washington Virginia Vale">Washington Virginia Vale</option>
-                    <option value="Wellshire">Wellshire</option>
-                    <option value="West Colfax">West Colfax</option>
-                    <option value="West Highland">West Highland</option>
-                    <option value="Westwood">Westwood</option>
-                    <option value="Whittier">Whittier</option>
-                    <option value="Windsor">Windsor</option>
-                </select>
-            </div>
-            <div class="large-6 medium-6 small-6 columns">
-                <label><strong>Year</strong></label>
-                <select id="year-filter" class="filter" data-column-index='4'>
-                    <option value=" ">All</option>
-                    <option value="2018">2018</option>
-                    <option value="2017">2017</option>
-                    <option value="2016">2016</option>
-                    <option value="2015">2015</option>
-                </select>
-            </div>
+    <!-- <form> -->
+    <div class="row">
+        <div class="large-12 columns">
+            <p class="graphic-divider"><span class="graphic-divider">LIST</span></p>
+            <p class="intro">The table shows details for all homicides from 2015 to the present. Use the dropdown filters to isolate homicides by neighborhood and/or year. Use the search box to for keyword searches.</p>
         </div>
-        <div class="row button-show">
-            <div class="large-12 columns">
-                <a href="#" class="button expand filter-button">Search</a>
-            </div>
+        <div class="large-6 medium-6 small-6 columns">
+            <label><strong>Neighborhood</strong></label>
+            <!-- <input type='text' value='' class='filter' data-column-index='1'> -->
+            <select id="neighborhood-filter" class="filter" data-column-index='11'>
+                <option value=" ">All</option>
+                <option value="Athmar Park">Athmar Park</option>
+                <option value="Auraria">Auraria</option>
+                <option value="Baker">Baker</option>
+                <option value="Barnum">Barnum</option>
+                <option value="Barnum West">Barnum West</option>
+                <option value="Bear Valley">Bear Valley</option>
+                <option value="Belcaro">Belcaro</option>
+                <option value="Berkeley">Berkeley</option>
+                <option value="Capitol Hill">Capitol Hill</option>
+                <option value="Central Business District">Central Business District</option>
+                <option value="Chaffee Park">Chaffee Park</option>
+                <option value="Cheesman Park">Cheesman Park</option>
+                <option value="Cherry Creek">Cherry Creek</option>
+                <option value="City Park">City Park</option>
+                <option value="City Park West">City Park West</option>
+                <option value="Civic Center">Civic Center</option>
+                <option value="Clayton">Clayton</option>
+                <option value="Cole">Cole</option>
+                <option value="College View-South Platte">College View-South Platte</option>
+                <option value="Congress Park">Congress Park</option>
+                <option value="Cory-Merrill">Cory-Merrill</option>
+                <option value="Country Club">Country Club</option>
+                <option value="DIA">DIA</option>
+                <option value="East Colfax">East Colfax</option>
+                <option value="Elyria Swansea">Elyria Swansea</option>
+                <option value="Five Points">Five Points</option>
+                <option value="Fort Logan">Fort Logan</option>
+                <option value="Gateway-Green Valley Ranch">Gateway-Green Valley Ranch</option>
+                <option value="Globeville">Globeville</option>
+                <option value="Goldsmith">Goldsmith</option>
+                <option value="Hale">Hale</option>
+                <option value="Hampden">Hampden</option>
+                <option value="Hampden South">Hampden South</option>
+                <option value="Harvey Park">Harvey Park</option>
+                <option value="Harvey Park South">Harvey Park South</option>
+                <option value="Highland">Highland</option>
+                <option value="Hilltop">Hilltop</option>
+                <option value="Indian Creek">Indian Creek</option>
+                <option value="Jefferson Park">Jefferson Park</option>
+                <option value="Kennedy">Kennedy</option>
+                <option value="Lincoln Park">Lincoln Park</option>
+                <option value="Lowry">Lowry</option>
+                <option value="Mar Lee">Mar Lee</option>
+                <option value="Marston">Marston</option>
+                <option value="Montbello">Montbello</option>
+                <option value="Montclair">Montclair</option>
+                <option value="North Capitol Hill">North Capitol Hill</option>
+                <option value="North Park Hill">North Park Hill</option>
+                <option value="Northeast Park Hill">Northeast Park Hill</option>
+                <option value="Overland">Overland</option>
+                <option value="Park Hill">Park Hill</option>
+                <option value="Platt Park">Platt Park</option>
+                <option value="Regis">Regis</option>
+                <option value="Rosedale">Rosedale</option>
+                <option value="Ruby Hill">Ruby Hill</option>
+                <option value="Skyland">Skyland</option>
+                <option value="Sloan Lake">Sloan Lake</option>
+                <option value="South Park Hill">South Park Hill</option>
+                <option value="Southmoor Park">Southmoor Park</option>
+                <option value="Speer">Speer</option>
+                <option value="Stapleton">Stapleton</option>
+                <option value="Sun Valley">Sun Valley</option>
+                <option value="Sunnyside">Sunnyside</option>
+                <option value="Union Station">Union Station</option>
+                <option value="University">University</option>
+                <option value="University Hills">University Hills</option>
+                <option value="University Park">University Park</option>
+                <option value="Valverde">Valverde</option>
+                <option value="Villa Park">Villa Park</option>
+                <option value="Virginia Village">Virginia Village</option>
+                <option value="Washington Park">Washington Park</option>
+                <option value="Washington Park West">Washington Park West</option>
+                <option value="Washington Virginia Vale">Washington Virginia Vale</option>
+                <option value="Wellshire">Wellshire</option>
+                <option value="West Colfax">West Colfax</option>
+                <option value="West Highland">West Highland</option>
+                <option value="Westwood">Westwood</option>
+                <option value="Whittier">Whittier</option>
+                <option value="Windsor">Windsor</option>
+            </select>
         </div>
-    </form>
+        <div class="large-6 medium-6 small-6 columns">
+            <label><strong>Year</strong></label>
+            <select id="year-filter" class="filter" data-column-index='4'>
+                <option value=" ">All</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+            </select>
+        </div>
+    </div>
+    <div class="row button-show">
+        <div class="large-12 columns">
+            <a href="#" class="button expand filter-button">Search</a>
+        </div>
+    </div>
+    <!-- </form> -->
     <div class="row">
         <div class="large-12 columns">
             <table id="homicide-table" cellspacing="0" width="100%">

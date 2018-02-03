@@ -5,6 +5,8 @@
 d3.json("js/homicides-020218.json", function(data) {
     var monthCount = [];
     var monthTotal = 0;
+    var yearCount = [];
+    var yearTotal = 0;
 
     for (var i = 0; i < data.length; i++) {
         var item = data[i];
@@ -15,6 +17,17 @@ d3.json("js/homicides-020218.json", function(data) {
         monthCount[item.homicideMonth + item.homicideYear].push({ Month: item.homicideMonth + item.homicideYear });
         if (monthTotal < item.homicideMonth) {
             monthTotal = item.homicideMonth;
+        }
+    }
+    for (var i = 0; i < data.length; i++) {
+        var item = data[i];
+
+        if (!yearCount[item.homicideYear]) {
+            yearCount[item.homicideYear] = [];
+        }
+        yearCount[item.homicideYear].push({ Year: item.homicideYear });
+        if (yearTotal < item.homicideYear) {
+            yearTotal = item.homicideYear;
         }
     }
 
@@ -66,6 +79,10 @@ d3.json("js/homicides-020218.json", function(data) {
     // var oct2018 = sep2018 + monthCount.Oct2018.length;
     // var nov2018 = oct2018 + monthCount.Nov2018.length;
     // var dec2018 = nov2018 + monthCount.Dec2018.length;
+
+    /* -- For count displayed on index.html NOT BEING USED -- */
+    var homePageTotal = yearCount[2018].length;
+    $('#display-totals').html(homePageTotal);
 
 
     var homicideChart = c3.generate({

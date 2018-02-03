@@ -4,12 +4,80 @@
         background: #fafafa;
         font-family: Helvetica, Arial, sans-serif;
     }
+
+    .page-title {
+        font-size: 36px;
+        font-weight: 900;
+        letter-spacing: -2px;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .update {
+        color: rgba(142, 16, 36, 1);
+        font-style: italic;
+        text-align: center;
+    }
+
+    .intro {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    p.graphic-divider {
+        border-bottom: 1px solid rgba(142, 16, 36, 1);
+    }
+
+    span.graphic-divider {
+        background: rgba(142, 16, 36, 1);
+        color: white;
+        padding: 6px;
+        font-size: 24px;
+    }
+
+    span.label.related {
+        padding-top: 8px;
+        padding-bottom: 7px;
+        background-color: rgba(142, 16, 36, 1);
+        margin-bottom: 7px;
+    }
+
+    .box-title {
+        font-size: 15x;
+        font-weight: 600;
+    }
+
+    #coverage-box-container {
+        padding: 15px;
+    }
+
+    #more-coverage-box {
+        border-left: 1px solid rgba(142, 16, 36, .9);
+        margin-top: 10px;
+    }
+
+    .list-year {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgba(142, 16, 36, .9);
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 3px !important;
+    }
     /* ----- CHART STYLES ----- */
 
     .chart-title {
         text-align: center;
         font-weight: 600;
         line-height: 1.1;
+        letter-spacing: -.5;
     }
 
     .chart-chatter,
@@ -67,7 +135,7 @@
 
     .leaflet-control-layers-group-name {
         font-weight: bold;
-        margin-bottom: .2em;
+        margin-bottom: .1em;
         display: block;
     }
 
@@ -77,6 +145,13 @@
 
     .leaflet-control-layers-group label {
         padding-left: .5em;
+        padding-bottom: 0;
+    }
+
+    .leaflet-control-layers-group-label span {}
+
+    input.leaflet-control-layers-selector {
+        margin: 0 !important;
     }
 
     #legend-container {
@@ -94,6 +169,10 @@
         /*text-align: center;*/
         margin-bottom: 10px;
         line-height: 15px;
+    }
+
+    .legend-text {
+        font-size: 15px;
     }
 
     ul.legend {
@@ -121,8 +200,8 @@
     h4.name-header,
     h4.neighborhood-header {
         color: orange;
-        font-size: 22px;
-        line-height: 25px;
+        font-size: 18px;
+        line-height: 20px;
     }
 
     h4.name-header {
@@ -135,7 +214,7 @@
 
     .neighborhood-total {
         color: orange;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .highlight {
@@ -189,13 +268,14 @@
     }
 
     #icon-current-year-legend {
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
         background: rgba(227, 26, 28, 1.0);
-        -moz-border-radius: 6px;
-        -webkit-border-radius: 6px;
-        border-radius: 6px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
         display: inline-block;
+        margin-right: 2px;
     }
 
     .icon-previous-year {
@@ -212,19 +292,25 @@
     }
 
     #icon-previous-year-legend {
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
         background: rgba(0, 0, 0, 1.0);
-        -moz-border-radius: 6px;
-        -webkit-border-radius: 6px;
-        border-radius: 6px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
         display: inline-block;
+        margin-right: 2px;
+        margin-left: 4px;
     }
 
     .leaflet-popup-content {
-        font-size: 1.1em;
+        font-size: 1em;
         line-height: 1.4;
-        width: 250px;
+        width: 185px;
+    }
+
+    .leaflet-container a {
+        font-size: .9em;
     }
 
     .leaflet-popup-content-wrapper,
