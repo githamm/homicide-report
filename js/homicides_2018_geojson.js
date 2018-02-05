@@ -203,18 +203,69 @@
         ]
       },
       "properties": {
+        "button": "",
         "index": "171",
         "homicideDate": "1/30/2018",
         "homicideMonth": "Jan",
         "homicideYear": "2018",
-        "victimName": "Not released",
-        "victimAge": "",
+        "victimName": "Donnie Howard",
+        "victimAge": "53",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
         "blockAddress": "2100 block of Arapahoe Street",
         "neighborhood": "Five Points",
         "articleLink": "https://www.denverpost.com/2018/01/31/denver-homicide-near-coors-field/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83586,
+          39.78508
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "172",
+        "homicideDate": "2/3/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Names not released",
+        "victimAge": "",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "13100 block of East Elgin Place",
+        "neighborhood": "Montbello",
+        "articleLink": "https://www.denverpost.com/2018/02/03/denver-shootings-saturday-february-3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83586,
+          39.78508
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "173",
+        "homicideDate": "2/3/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Names not released",
+        "victimAge": "",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "13100 block of East Elgin Place",
+        "neighborhood": "Montbello",
+        "articleLink": "https://www.denverpost.com/2018/02/03/denver-shootings-saturday-february-3/"
       }
     }
   ]

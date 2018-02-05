@@ -2,7 +2,7 @@
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
-d3.json("js/homicides-020218.json", function(data) {
+d3.json("js/homicides-020518.json", function(data) {
     var monthCount = [];
     var monthTotal = 0;
     var yearCount = [];
@@ -68,7 +68,7 @@ d3.json("js/homicides-020218.json", function(data) {
     var nov2017 = oct2017 + monthCount.Nov2017.length;
     var dec2017 = nov2017 + monthCount.Dec2017.length;
     var jan2018 = monthCount.Jan2018.length;
-    // var feb2018 = jan2018 + monthCount.Feb2018.length;
+    var feb2018 = jan2018 + monthCount.Feb2018.length;
     // var mar2018 = feb2018 + monthCount.Mar2018.length;
     // var apr2018 = mar2018 + monthCount.Apr2018.length;
     // var may2018 = apr2018 + monthCount.May2018.length;
@@ -105,7 +105,7 @@ d3.json("js/homicides-020218.json", function(data) {
                 ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
-                ['2018', jan2018 /* feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */ ]
+                ['2018', jan2018, feb2018 /*, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */ ]
             ],
             colors: {
                 '2010': '#bbb',
@@ -154,7 +154,7 @@ d3.json("js/homicides-020218.json", function(data) {
 
 /* ----- SIDEBAR CHARTS ----- */
 
-d3.json("js/homicides-020218.json", function(data) {
+d3.json("js/homicides-020518.json", function(data) {
     var genderCount = [];
     var causeCount = [];
     var categoryTotal = 0;
@@ -224,7 +224,6 @@ d3.json("js/homicides-020218.json", function(data) {
     for (var i = 0; i < data.length; i++) {
         var item = data[i];
         // var homicideCount = data.length;
-        // document.getElementById('homicides-total').innerHTML = homicideCount;
         if (!genderCount[item.victimGender + item.homicideYear]) {
             genderCount[item.victimGender + item.homicideYear] = [];
         }
@@ -233,7 +232,6 @@ d3.json("js/homicides-020218.json", function(data) {
             categoryTotal = item.victimGender;
         }
     }
-
     var sexChart = c3.generate({
         bindto: '#homicide-sex',
         size: {
@@ -503,7 +501,7 @@ L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 $(document).ready(function() {
     var homicideTable = $('#homicide-table').DataTable({
         ajax: {
-            'url': 'js/homicides-020218.json',
+            'url': 'js/homicides-020518.json',
             'dataSrc': ''
         },
         pageLength: 15,
