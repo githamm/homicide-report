@@ -1,7 +1,7 @@
     /* ----- GENERAL STYLES ----- */
 
     body {
-        background: #fafafa;
+        background: #fafafa !important;
         font-family: Helvetica, Arial, sans-serif;
     }
 
@@ -92,6 +92,18 @@
         margin-top: -3px;
         margin-bottom: 7px;
     }
+
+    #homicide-chart {
+        height: 600px;
+    }
+
+    @media (max-width: 500px) {
+        #homicide-chart {
+            height: 500px;
+        }
+    }
+
+
     /* ----- DATATABLES STYLES ----- */
 
     .column-filter-widget {
@@ -116,6 +128,10 @@
 
     .column-filter-widget-selected-terms {
         clear: left;
+    }
+
+    #homicide-table_filter.dataTables_filter label,  #homicide-table_length.dataTables_length label {
+        margin-bottom: 10px !important;
     }
 
     div.dataTables_wrapper div.dataTables_filter input {

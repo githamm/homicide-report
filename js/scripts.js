@@ -87,9 +87,9 @@ d3.json("js/homicides-020518.json", function(data) {
 
     var homicideChart = c3.generate({
         bindto: '#homicide-chart',
-        size: {
-            height: 600
-        },
+        // size: {
+        //     height: 500
+        // },
         data: {
             x: 'x',
             columns: [
@@ -235,7 +235,7 @@ d3.json("js/homicides-020518.json", function(data) {
     var sexChart = c3.generate({
         bindto: '#homicide-sex',
         size: {
-            height: 275
+            height: 225
         },
         data: {
             x: 'x',
@@ -510,6 +510,7 @@ $(document).ready(function() {
                 type: 'column'
             }
         },
+        dom: '<if<t>lp>',
         columnDefs: [{
             className: 'control',
             orderable: false,
