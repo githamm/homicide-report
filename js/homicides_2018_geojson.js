@@ -233,14 +233,14 @@
         "homicideDate": "2/3/2018",
         "homicideMonth": "Feb",
         "homicideYear": "2018",
-        "victimName": "Names not released",
-        "victimAge": "",
+        "victimName": "Byron Ware",
+        "victimAge": "17",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
         "blockAddress": "13100 block of East Elgin Place",
         "neighborhood": "Montbello",
-        "articleLink": "https://www.denverpost.com/2018/02/03/denver-shootings-saturday-february-3/"
+        "articleLink": "https://www.denverpost.com/2018/02/05/montbello-saturday-shooting-victims-identified/"
       }
     },
     {
@@ -258,14 +258,14 @@
         "homicideDate": "2/3/2018",
         "homicideMonth": "Feb",
         "homicideYear": "2018",
-        "victimName": "Names not released",
-        "victimAge": "",
+        "victimName": "Byron Ware, 17, and Abisai Ponce Gutierrez",
+        "victimAge": "18",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
         "blockAddress": "13100 block of East Elgin Place",
         "neighborhood": "Montbello",
-        "articleLink": "https://www.denverpost.com/2018/02/03/denver-shootings-saturday-february-3/"
+        "articleLink": "https://www.denverpost.com/2018/02/05/montbello-saturday-shooting-victims-identified/"
       }
     }
   ]

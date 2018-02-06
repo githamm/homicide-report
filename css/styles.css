@@ -5,6 +5,11 @@
         font-family: Helvetica, Arial, sans-serif;
     }
 
+    #content-wrapper {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;}
+
     .page-title {
         font-size: 36px;
         font-weight: 900;
