@@ -275,15 +275,12 @@ var homicides2017 = new L.LayerGroup();
 var homicides2016 = new L.LayerGroup();
 var homicides2015 = new L.LayerGroup();
 
-var mapLink = '<a href="http://www.esri.com/">Esri<\/a>';
-var wholink = 'i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
-
-var light = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/reduced.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+var streetMap = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
     attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
     subdomains: '1234',
     mapID: 'newest',
-    app_id: '2K8wqfYF2CuD5D67HdQx',
-    app_code: '5PforzMWCWQoYPBUP-0p_A',
+    app_id: '<your app_id>',
+    app_code: '<your app_code>',
     base: 'base',
     maxZoom: 20,
     type: 'maptile',
@@ -292,41 +289,17 @@ var light = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{ty
     size: '256'
 });
 
-/* dark = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap<\/a> &copy; <a href="http://cartodb.com/attributions">CartoDB<\/a>',
-        subdomains: 'abcd',
-        maxZoom: 19
-}), */
-
-/* streets = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day.grey/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
-    attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
-    subdomains: '1234',
-    mapID: 'newest',
-    app_id: '2K8wqfYF2CuD5D67HdQx',
-    app_code: '5PforzMWCWQoYPBUP-0p_A',
-    base: 'base',
+var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    subdomains: 'abcd',
+    minZoom: 0,
     maxZoom: 20,
-    type: 'maptile',
-    language: 'eng',
-    format: 'png8',
-    size: '256'
-}); */
-
-// streets = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.{ext}', {
-//         type: 'map',
-//         ext: 'jpg',
-//         attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest<\/a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap<\/a>',
-//         subdomains: '1234'
-//     }),
-
-//     satellite = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-//         attribution: '&copy; ' + mapLink + ', ' + wholink,
-//         maxZoom: 18
-//     });
+    ext: 'png'
+});
 
 var baseLayers = {
-    // "Neighborhood map": light
-    // "Street map": streets,
+    "Neighborhood map": streetMap,
+    "Monochrome map": stamen
     // "Satellite map": satellite
 };
 
@@ -351,7 +324,7 @@ var map = L.map('map', {
     zoom: 12,
     scrollWheelZoom: false,
     touchZoom: true,
-    layers: [light, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
+    layers: [streetMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
 });
 
 // below from http://maptimeboston.github.io/leaflet-intro/
@@ -368,7 +341,7 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
             else fillColor = "rgba(255,255,0,.3)"; // no data
             return {
                 color: "#000",
-                weight: 1,
+                weight: 3,
                 fillColor: fillColor,
                 fillOpacity: .6
             };
@@ -424,7 +397,7 @@ $.getJSON("js/homicides_2018_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highlight">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2018);
@@ -434,7 +407,7 @@ $.getJSON("js/homicides_2017_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [9, 9]
+        iconSize: [7, 7]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -446,7 +419,7 @@ $.getJSON("js/homicides_2017_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2017);
@@ -456,7 +429,7 @@ $.getJSON("js/homicides_2016_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [9, 9]
+        iconSize: [7, 7]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -467,7 +440,7 @@ $.getJSON("js/homicides_2016_geojson.js", function(data) {
                 icon: mapIcon
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2016);
@@ -477,7 +450,7 @@ $.getJSON("js/homicides_2015_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [9, 9]
+        iconSize: [7, 7]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -488,7 +461,7 @@ $.getJSON("js/homicides_2015_geojson.js", function(data) {
                 icon: mapIcon
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highlight">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highlight">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highlight">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highlight">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2015);

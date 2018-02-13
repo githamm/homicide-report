@@ -8,7 +8,8 @@
     #content-wrapper {
         width: 1px;
         min-width: 100%;
-        *width: 100%;}
+        *width: 100%;
+    }
 
     .page-title {
         font-size: 36px;
@@ -107,8 +108,6 @@
             height: 500px;
         }
     }
-
-
     /* ----- DATATABLES STYLES ----- */
 
     .column-filter-widget {
@@ -135,7 +134,8 @@
         clear: left;
     }
 
-    #homicide-table_filter.dataTables_filter label,  #homicide-table_length.dataTables_length label {
+    #homicide-table_filter.dataTables_filter label,
+    #homicide-table_length.dataTables_length label {
         margin-bottom: 10px !important;
     }
 
