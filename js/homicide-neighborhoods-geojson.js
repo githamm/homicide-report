@@ -6881,7 +6881,7 @@
                         [-105.009489, 39.753927]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 5, "nbhd_id": 39, "notes": null, "typology": null, "nbhd_name": "Jefferson Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 5, "nbhd_id": 39, "notes": null, "typology": null, "nbhd_name": "Jefferson Park", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025108, 39.667716],
