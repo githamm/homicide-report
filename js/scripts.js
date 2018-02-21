@@ -275,22 +275,13 @@ var homicides2017 = new L.LayerGroup();
 var homicides2016 = new L.LayerGroup();
 var homicides2015 = new L.LayerGroup();
 
-var streetMap = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
-    attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
-    subdomains: '1234',
-    mapID: 'newest',
-    app_id: '<your app_id>',
-    app_code: '<your app_code>',
-    base: 'base',
-    maxZoom: 20,
-    type: 'maptile',
-    language: 'eng',
-    format: 'png8',
-    size: '256'
+var streetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+    maxZoom: 16
 });
 
-var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
-    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+var stamenMap = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
+    attribution: 'Map tiles by <a href="http://stamen.com">stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: 'abcd',
     minZoom: 0,
     maxZoom: 20,
@@ -298,8 +289,8 @@ var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{
 });
 
 var baseLayers = {
-    "Neighborhood map": streetMap,
-    "Monochrome map": stamen
+    "Monochrome map": stamenMap,
+    "Street map": streetMap
     // "Satellite map": satellite
 };
 
@@ -324,7 +315,7 @@ var map = L.map('map', {
     zoom: 12,
     scrollWheelZoom: false,
     touchZoom: true,
-    layers: [streetMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
+    layers: [stamenMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
 });
 
 // below from http://maptimeboston.github.io/leaflet-intro/
@@ -385,7 +376,7 @@ $.getJSON("js/homicides_2018_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-current-year',
-        iconSize: [9, 9]
+        iconSize: [10, 10]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -407,7 +398,7 @@ $.getJSON("js/homicides_2017_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [7, 7]
+        iconSize: [8, 8]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -429,7 +420,7 @@ $.getJSON("js/homicides_2016_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [7, 7]
+        iconSize: [8, 8]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -450,7 +441,7 @@ $.getJSON("js/homicides_2015_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [7, 7]
+        iconSize: [8, 8]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
