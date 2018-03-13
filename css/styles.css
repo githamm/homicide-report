@@ -6,9 +6,9 @@
     }
 
     #content-wrapper {
-        width: 1px;
-        min-width: 100%;
-        *width: 100%;
+        width: 1px !important;
+        min-width: 100% !important;
+        *width: 100% !important;
     }
 
     .page-title {
@@ -97,10 +97,6 @@
         text-align: center;
         margin-top: -3px;
         margin-bottom: 7px;
-    }
-
-    #homicide-chart {
-        height: 600px;
     }
 
     @media (max-width: 500px) {
@@ -337,15 +333,6 @@
     .leaflet-popup-content-wrapper,
     .leaflet-popup-tip {
         background: rgba(0, 0, 0, .8);
-    }
-
-    img.nav-logo {
-        height: 35px;
-        padding: 10px 25px 0px 10px;
-    }
-
-    .hide {
-        display: none;
     }
 
     @media (max-width: 500px) {

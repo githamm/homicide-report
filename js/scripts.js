@@ -29,7 +29,7 @@ d3.json("js/homicides-020518.json", function(data) {
         if (yearTotal < item.homicideYear) {
             yearTotal = item.homicideYear;
         }
-    }
+    };
 
     var jan2015 = monthCount.Jan2015.length;
     var feb2015 = jan2015 + monthCount.Feb2015.length;
@@ -121,7 +121,7 @@ d3.json("js/homicides-020518.json", function(data) {
         },
         grid: {
             x: {
-                show: true
+                show: false
             },
             y: {
                 show: true
@@ -150,7 +150,7 @@ d3.json("js/homicides-020518.json", function(data) {
             },
         },
     });
-})
+});
 
 /* ----- SIDEBAR CHARTS ----- */
 
@@ -187,7 +187,7 @@ d3.json("js/homicides-020518.json", function(data) {
     var neighborhoodChart = c3.generate({
         bindto: '#homicide-neighborhoods',
         size: {
-            height: 275
+            height: 325
         },
         data: {
             columns: [
@@ -217,7 +217,7 @@ d3.json("js/homicides-020518.json", function(data) {
         color: {
             pattern: ['#08306b', '#08519c', '#2171b5', '#4292c6', '#6baed6', '#9ecae1', '#c6dbef', /*'#deebf7',*/ '#ccc']
         }
-    })
+    });
 
     /* ----- HOMICIDES BY SEX CHART----- */
 
@@ -235,7 +235,7 @@ d3.json("js/homicides-020518.json", function(data) {
     var sexChart = c3.generate({
         bindto: '#homicide-sex',
         size: {
-            height: 225
+            height: 275
         },
         data: {
             x: 'x',
@@ -261,6 +261,11 @@ d3.json("js/homicides-020518.json", function(data) {
         axis: {
             x: {
                 type: 'category'
+            }
+        },
+        grid: {
+            y: {
+                show: true
             }
         }
     });
