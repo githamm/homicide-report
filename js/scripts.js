@@ -315,6 +315,7 @@ var map = L.map('map', {
     zoom: 12,
     scrollWheelZoom: false,
     touchZoom: true,
+    keyboard: false,
     layers: [stamenMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
 });
 
