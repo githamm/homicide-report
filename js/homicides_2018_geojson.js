@@ -409,7 +409,7 @@
         "mannerOfDeath": "Gunshot",
         "blockAddress": "1500 block of North Lowell Boulevard",
         "neighborhood": "West Colfax",
-        "articleLink": ""
+        "articleLink": "https://www.denverpost.com/2018/03/18/west-colfax-denver-shooting-saturday/"
       }
     },
     {
