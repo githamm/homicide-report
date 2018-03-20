@@ -319,7 +319,7 @@ var map = L.map('map', {
     center: [39.72, -104.94],
     zoom: 12,
     scrollWheelZoom: false,
-    touchZoom: true,
+    // touchZoom: true,
     keyboard: false,
     layers: [stamenMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
 });

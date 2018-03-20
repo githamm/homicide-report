@@ -3024,5 +3024,39 @@
     "latitude": 39.745418,
     "longitude": -104.990661,
     "articleLink": "https://www.denverpost.com/2018/03/16/denver-police-investigate-persons-death-friday/"
+  },
+  {
+    "button": "",
+    "index": 179,
+    "homicideDate": "3/17/2018",
+    "homicideMonth": "Mar",
+    "homicideYear": 2018,
+    "victimName": "Ty Martinez",
+    "victimAge": 17,
+    "victimGender": "Male",
+    "victimRace": "",
+    "mannerOfDeath": "Gunshot",
+    "blockAddress": "1500 block of North Lowell Boulevard",
+    "neighborhood": "West Colfax",
+    "latitude": 39.740358,
+    "longitude": -105.034612,
+    "articleLink": ""
+  },
+  {
+    "button": "",
+    "index": 180,
+    "homicideDate": "3/18/2018",
+    "homicideMonth": "Mar",
+    "homicideYear": 2018,
+    "victimName": "Christopher Gonzales",
+    "victimAge": 22,
+    "victimGender": "Male",
+    "victimRace": "",
+    "mannerOfDeath": "Gunshot",
+    "blockAddress": "1800 block of West Mosier Place",
+    "neighborhood": "Ruby Hill",
+    "latitude": 39.695793,
+    "longitude": -105.008739,
+    "articleLink": ""
   }
 ]

@@ -614,7 +614,7 @@
                         [-105.025214, 39.746364]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.037499, 39.734123],
@@ -6250,7 +6250,7 @@
                         [-104.992384, 39.696661]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 25, "nbhd_id": 54, "notes": null, "typology": null, "nbhd_name": "Ruby Hill", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 25, "nbhd_id": 54, "notes": null, "typology": null, "nbhd_name": "Ruby Hill", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025059, 39.696747],
