@@ -267,6 +267,126 @@
         "neighborhood": "Montbello",
         "articleLink": "https://www.denverpost.com/2018/02/05/montbello-saturday-shooting-victims-identified/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.892509,
+          39.739945
+        ]
+      },
+      "properties": {
+        "index": "174",
+        "homicideDate": "2/6/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Richard Young",
+        "victimAge": "50",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "8200 block of East Colfax Avenue",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2018/02/07/east-colfax-shooting-man-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.934984,
+          39.676495
+        ]
+      },
+      "properties": {
+        "index": "175",
+        "homicideDate": "2/14/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Quyen Le",
+        "victimAge": "86",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2200 block of South Clermont Street",
+        "neighborhood": "University Hills",
+        "articleLink": "https://www.denverpost.com/2018/02/15/father-son-denver-shooting-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.994222,
+          39.744922
+        ]
+      },
+      "properties": {
+        "index": "176",
+        "homicideDate": "2/14/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Jeanna Leslie",
+        "victimAge": "49",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "1500 block of Stout Street",
+        "neighborhood": "Central Business District",
+        "articleLink": "https://www.denverpost.com/2018/02/23/charges-stabbing-mother-downtown-loft/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.025778,
+          39.697424
+        ]
+      },
+      "properties": {
+        "index": "177",
+        "homicideDate": "2/27/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Tania Arbaiza",
+        "victimAge": "37",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1000 block of South Grove Street",
+        "neighborhood": "Westwood",
+        "articleLink": "https://www.denverpost.com/2018/03/01/denver-murder-suicide-identification/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990661,
+          39.745418
+        ]
+      },
+      "properties": {
+        "index": "178",
+        "homicideDate": "3/16/2018",
+        "homicideMonth": "Mar",
+        "homicideYear": "2018",
+        "victimName": "Derek Sorenson",
+        "victimAge": "29",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "600 block of 17th Street",
+        "neighborhood": "Central Business District",
+        "articleLink": "https://www.denverpost.com/2018/03/16/denver-police-investigate-persons-death-friday/"
+      }
     }
   ]
 }

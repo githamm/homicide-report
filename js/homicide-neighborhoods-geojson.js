@@ -1422,7 +1422,7 @@
                         [-104.93162, 39.673362]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 39, "nbhd_id": 65, "notes": null, "typology": null, "nbhd_name": "University Hills", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 39, "nbhd_id": 65, "notes": null, "typology": null, "nbhd_name": "University Hills", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959753, 39.761992],
@@ -1827,7 +1827,7 @@
                         [-105.039698, 39.711251]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 9 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025239, 39.769289],
@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 10 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 11 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -8840,7 +8840,7 @@
                         [-104.9874, 39.747358]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 73, "nbhd_id": 10, "notes": null, "typology": null, "nbhd_name": "Central Business District", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 73, "nbhd_id": 10, "notes": null, "typology": null, "nbhd_name": "Central Business District", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.053233, 39.667785],
