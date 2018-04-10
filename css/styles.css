@@ -2,7 +2,7 @@
 
     body {
         background: #fafafa !important;
-        font-family: Helvetica, Arial, sans-serif;
+        /* font-family: Helvetica, Arial, sans-serif; */
     }
 
     #content-wrapper {
@@ -58,12 +58,12 @@
     }
 
     #more-coverage-box {
-        border-left: 1px solid rgba(142, 16, 36, .9);
+        /* border-left: 1px solid rgba(142, 16, 36, .9); */
         margin-top: 10px;
     }
 
     .list-year {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: bold;
         color: rgba(142, 16, 36, .9);
     }
