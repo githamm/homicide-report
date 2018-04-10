@@ -5395,7 +5395,7 @@
                         [-105.025234, 39.758477]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 64, "nbhd_id": 56, "notes": null, "typology": null, "nbhd_name": "Sloan Lake", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 64, "nbhd_id": 56, "notes": null, "typology": null, "nbhd_name": "Sloan Lake", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.016261, 39.74339],
@@ -5766,7 +5766,7 @@
                         [-104.866035, 39.798411]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 76, "nbhd_id": 60, "notes": null, "typology": null, "nbhd_name": "Stapleton", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 76, "nbhd_id": 60, "notes": null, "typology": null, "nbhd_name": "Stapleton", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903425, 39.752213],
@@ -10761,7 +10761,7 @@
                         [-104.998567, 39.740194]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 67, "nbhd_id": 41, "notes": null, "typology": null, "nbhd_name": "Lincoln Park", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 67, "nbhd_id": 41, "notes": null, "typology": null, "nbhd_name": "Lincoln Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.762683, 39.798434],

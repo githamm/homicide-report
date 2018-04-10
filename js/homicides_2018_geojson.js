@@ -374,7 +374,7 @@
         ]
       },
       "properties": {
-        "index": "178",
+        "index": "179",
         "homicideDate": "3/16/2018",
         "homicideMonth": "Mar",
         "homicideYear": "2018",
@@ -398,7 +398,7 @@
         ]
       },
       "properties": {
-        "index": "179",
+        "index": "180",
         "homicideDate": "3/17/2018",
         "homicideMonth": "Mar",
         "homicideYear": "2018",
@@ -409,7 +409,7 @@
         "mannerOfDeath": "Gunshot",
         "blockAddress": "1500 block of North Lowell Boulevard",
         "neighborhood": "West Colfax",
-        "articleLink": "https://www.denverpost.com/2018/03/18/west-colfax-denver-shooting-saturday/"
+        "articleLink": "https://www.denverpost.com/2018/03/20/west-colfax-lowell-shooting-victim/"
       }
     },
     {
@@ -422,7 +422,7 @@
         ]
       },
       "properties": {
-        "index": "180",
+        "index": "181",
         "homicideDate": "3/18/2018",
         "homicideMonth": "Mar",
         "homicideYear": "2018",
@@ -434,6 +434,78 @@
         "blockAddress": "1800 block of West Mosier Place",
         "neighborhood": "Ruby Hill",
         "articleLink": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.026817,
+          39.752429
+        ]
+      },
+      "properties": {
+        "index": "182",
+        "homicideDate": "3/19/2018",
+        "homicideMonth": "Mar",
+        "homicideYear": "2018",
+        "victimName": "Bradley Kottke",
+        "victimAge": "48",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2500 block of North Grove Street",
+        "neighborhood": "Sloan Lake",
+        "articleLink": "https://www.denverpost.com/2018/03/22/man-fatally-shot-in-denver-on-sunday-is-identified-police-ask-for-publics-help-in-case/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.001613,
+          39.725869
+        ]
+      },
+      "properties": {
+        "index": "183",
+        "homicideDate": "3/21/2018",
+        "homicideMonth": "Mar",
+        "homicideYear": "2018",
+        "victimName": "Kevin Garcia",
+        "victimAge": "40",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "600 block of North Lipan Street",
+        "neighborhood": "Lincoln Park",
+        "articleLink": "https://www.denverpost.com/2018/03/22/lincoln-park-shooting-victim/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.880196,
+          39.788196
+        ]
+      },
+      "properties": {
+        "index": "184",
+        "homicideDate": "4/5/2018",
+        "homicideMonth": "Apr",
+        "homicideYear": "2018",
+        "victimName": "Anthony Miles-Hollis",
+        "victimAge": "28",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Stabbing",
+        "blockAddress": "5000 block of North Beeler Street",
+        "neighborhood": "Stapleton",
+        "articleLink": "https://www.denverpost.com/2018/04/06/denver-stabbing-killer-at-large/"
       }
     }
   ]
