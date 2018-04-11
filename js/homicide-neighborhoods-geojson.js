@@ -2520,7 +2520,7 @@
                         [-105.025108, 39.667716]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.884657, 39.747455],

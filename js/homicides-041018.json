@@ -3019,11 +3019,11 @@
     "victimGender": "Male",
     "victimRace": "",
     "mannerOfDeath": "Gunshot",
-    "blockAddress": "TBD",
-    "neighborhood": "",
-    "latitude": "",
-    "longitude": "",
-    "articleLink": ""
+    "blockAddress": "2600 block of South Grove Street",
+    "neighborhood": "Harvey Park",
+    "latitude": 39.671015,
+    "longitude": -105.026725,
+    "articleLink": "https://www.denverpost.com/2018/03/12/denver-police-yale-avenue-body-found/"
   },
   {
     "button": "",

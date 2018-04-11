@@ -369,6 +369,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.026725,
+          39.671015
+        ]
+      },
+      "properties": {
+        "index": "178",
+        "homicideDate": "3/12/2018",
+        "homicideMonth": "Mar",
+        "homicideYear": "2018",
+        "victimName": "Mark Garcia",
+        "victimAge": "49",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2600 block of South Grove Street",
+        "neighborhood": "Harvey Park",
+        "articleLink": "https://www.denverpost.com/2018/03/12/denver-police-yale-avenue-body-found/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -104.990661,
           39.745418
         ]
