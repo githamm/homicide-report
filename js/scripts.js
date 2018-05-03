@@ -2,7 +2,7 @@
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
-d3.json("js/homicides-041018.json", function(data) {
+d3.json("js/homicides-050318.json", function(data) {
     var monthCount = [];
     var monthTotal = 0;
     var yearCount = [];
@@ -154,7 +154,7 @@ d3.json("js/homicides-041018.json", function(data) {
 
 /* ----- SIDEBAR CHARTS ----- */
 
-d3.json("js/homicides-041018.json", function(data) {
+d3.json("js/homicides-050318.json", function(data) {
     var genderCount = [];
     var causeCount = [];
     var categoryTotal = 0;
@@ -196,8 +196,8 @@ d3.json("js/homicides-041018.json", function(data) {
                 ['East Colfax', eastColfax],
                 ['Northeast Park Hill', northeastParkHill],
                 ['Westwood', westwood],
-                ['Cole', cole],
-                ['Elyria Swansea', elyriaSwansea],
+                // ['Cole', cole],
+                // ['Elyria Swansea', elyriaSwansea],
                 // ['Gateway-Green Valley Ranch', gatewayGreenValleyRanch],
                 ['Others', others]
 
@@ -316,7 +316,7 @@ var groupedOverlays = {
 // map from http://bl.ocks.org/awoodruff/3ce5d735126a56dfff94
 // initialize the map
 var map = L.map('map', {
-    center: [39.72, -104.94],
+    center: [39.72, -104.91],
     zoom: 12,
     scrollWheelZoom: false,
     // touchZoom: true,
@@ -471,7 +471,7 @@ L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 $(document).ready(function() {
     var homicideTable = $('#homicide-table').DataTable({
         ajax: {
-            'url': 'js/homicides-041018.json',
+            'url': 'js/homicides-050318.json',
             'dataSrc': ''
         },
         pageLength: 15,

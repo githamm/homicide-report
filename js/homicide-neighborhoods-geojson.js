@@ -614,7 +614,7 @@
                         [-105.025214, 39.746364]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.037499, 39.734123],
@@ -3457,7 +3457,7 @@
                         [-104.940578, 39.761958]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 54, "nbhd_id": 17, "notes": null, "typology": null, "nbhd_name": "Clayton", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 54, "nbhd_id": 17, "notes": null, "typology": null, "nbhd_name": "Clayton", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940621, 39.751037],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 15 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
@@ -10864,7 +10864,7 @@
                         [-104.762683, 39.798434]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 38, "nbhd_id": 23, "notes": null, "typology": null, "nbhd_name": "DIA", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 38, "nbhd_id": 23, "notes": null, "typology": null, "nbhd_name": "DIA", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.8847, 39.732847],

@@ -531,6 +531,102 @@
         "neighborhood": "Stapleton",
         "articleLink": "https://www.denverpost.com/2018/04/06/denver-stabbing-killer-at-large/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.955954,
+          39.768117
+        ]
+      },
+      "properties": {
+        "index": "185",
+        "homicideDate": "4/19/2018",
+        "homicideMonth": "Apr",
+        "homicideYear": "2018",
+        "victimName": "Elijah Toledo",
+        "victimAge": "22",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3700 block of North Elizabeth Street",
+        "neighborhood": "Clayton",
+        "articleLink": "http://kdvr.com/2018/04/30/police-searching-for-2-suspects-with-possible-connections-to-denver-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.770573,
+          39.802374
+        ]
+      },
+      "properties": {
+        "index": "186",
+        "homicideDate": "4/30/2018",
+        "homicideMonth": "Apr",
+        "homicideYear": "2018",
+        "victimName": "Justin McKinney",
+        "victimAge": "22",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "5800 block of Tower Road",
+        "neighborhood": "DIA",
+        "articleLink": "http://kdvr.com/2018/05/03/man-killed-in-northeast-denver-condominium-shooting-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.051806,
+          39.73869
+        ]
+      },
+      "properties": {
+        "index": "175",
+        "homicideDate": "2/10/2018",
+        "homicideMonth": "Feb",
+        "homicideYear": "2018",
+        "victimName": "Willie Caldwell",
+        "victimAge": "Unknown",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Assault",
+        "blockAddress": "1400 block of North Zenobia Street",
+        "neighborhood": "West Colfax",
+        "articleLink": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97696,
+          39.747483
+        ]
+      },
+      "properties": {
+        "index": "189",
+        "homicideDate": "4/30/2018",
+        "homicideMonth": "Apr",
+        "homicideYear": "2018",
+        "victimName": "Not released",
+        "victimAge": "Unknown",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2000 block of Clarkson Street",
+        "neighborhood": "Five Points",
+        "articleLink": "https://www.denverpost.com/2018/05/01/20th-clarkson-shooting-monday-night/"
+      }
     }
   ]
 }
