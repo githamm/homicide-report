@@ -618,8 +618,8 @@
         "homicideDate": "4/30/2018",
         "homicideMonth": "Apr",
         "homicideYear": "2018",
-        "victimName": "Not released",
-        "victimAge": "Unknown",
+        "victimName": "Jekylis Ross-Henderson",
+        "victimAge": "26",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
@@ -627,6 +627,155 @@
         "neighborhood": "Five Points",
         "articleLink": "https://www.denverpost.com/2018/05/01/20th-clarkson-shooting-monday-night/"
       }
+    },
+    {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.997792,
+          39.744862
+        ]
+      },
+      "properties": {
+        "index": "190",
+        "homicideDate": "5/25/2018",
+        "homicideMonth": "May",
+        "homicideYear": "2018",
+        "victimName": "Scott Tice",
+        "victimAge": "39",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "1040 14th St. (DCPA parking garage)",
+        "neighborhood": "Central Business District",
+        "articleLink": "https://www.denverpost.com/2018/05/31/man-charged-murder-denver-security-guard-fatal-stabbing/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.978087,
+          39.792243
+        ]
+      },
+      "properties": {
+        "index": "191",
+        "homicideDate": "5/26/2018",
+        "homicideMonth": "May",
+        "homicideYear": "2018",
+        "victimName": "Julian Sanchez",
+        "victimAge": "77",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Stabbing",
+        "blockAddress": "5300 block of Washington Street",
+        "neighborhood": "Globeville",
+        "articleLink": "https://www.denverpost.com/2018/06/06/denver-man-murder-charge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.039131,
+          39.72603
+        ]
+      },
+      "properties": {
+        "index": "192",
+        "homicideDate": "5/30/2018",
+        "homicideMonth": "May",
+        "homicideYear": "2018",
+        "victimName": "Anthony Martinez",
+        "victimAge": "16",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "600 block of Perry Street",
+        "neighborhood": "Villa Park",
+        "articleLink": "https://www.denverpost.com/2018/06/06/villa-park-shooting-murder-charges/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.039131,
+          39.72603
+        ]
+      },
+      "properties": {
+        "index": "193",
+        "homicideDate": "5/30/2018",
+        "homicideMonth": "May",
+        "homicideYear": "2018",
+        "victimName": "Anthony Martinez, 16, and Raymond Flores",
+        "victimAge": "25",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "600 block of Perry Street",
+        "neighborhood": "Villa Park",
+        "articleLink": "https://www.denverpost.com/2018/06/06/villa-park-shooting-murder-charges/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.959486,
+          39.684924
+        ]
+      },
+      "properties": {
+        "index": "194",
+        "homicideDate": "6/1/2018",
+        "homicideMonth": "Jun",
+        "homicideYear": "2018",
+        "victimName": "Hyun Kim",
+        "victimAge": "45",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "intersection of I-25 and University Boulevard",
+        "neighborhood": "n/a",
+        "articleLink": "https://www.denverpost.com/2018/06/07/uber-driver-charged-murder/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.841465,
+          39.786975
+        ]
+      },
+      "properties": {
+        "index": "195",
+        "homicideDate": "6/8/2018",
+        "homicideMonth": "Jun",
+        "homicideYear": "2018",
+        "victimName": "Otis Philip Mills III",
+        "victimAge": "",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "5000 block of Troy Street",
+        "neighborhood": "Montbello",
+        "articleLink": ""
+      }
     }
+  ]
+}
   ]
 }

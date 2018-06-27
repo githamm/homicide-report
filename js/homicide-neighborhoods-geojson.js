@@ -1230,7 +1230,7 @@
                         [-105.037499, 39.734123]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 61, "nbhd_id": 68, "notes": null, "typology": null, "nbhd_name": "Villa Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 61, "nbhd_id": 68, "notes": null, "typology": null, "nbhd_name": "Villa Park", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973431, 39.678513],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 15 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -7642,7 +7642,7 @@
                         [-104.968754, 39.79104]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959782, 39.739989],
@@ -8840,7 +8840,7 @@
                         [-104.9874, 39.747358]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 73, "nbhd_id": 10, "notes": null, "typology": null, "nbhd_name": "Central Business District", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 73, "nbhd_id": 10, "notes": null, "typology": null, "nbhd_name": "Central Business District", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.053233, 39.667785],
