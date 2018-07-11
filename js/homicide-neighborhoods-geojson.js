@@ -1480,7 +1480,7 @@
                         [-104.959753, 39.761992]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 56, "nbhd_id": 18, "notes": null, "typology": null, "nbhd_name": "Cole", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 56, "nbhd_id": 18, "notes": null, "typology": null, "nbhd_name": "Cole", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.870665, 39.710033],
@@ -6026,7 +6026,7 @@
                         [-104.973383, 39.74378]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 71, "nbhd_id": 47, "notes": null, "typology": null, "nbhd_name": "North Capitol Hill", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 71, "nbhd_id": 47, "notes": null, "typology": null, "nbhd_name": "North Capitol Hill", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903455, 39.740146],

@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-062718.json";
+var dataFile = "js/homicides-071118.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
@@ -75,7 +75,7 @@ d3.json(dataFile, function(data) {
     var apr2018 = mar2018 + monthCount.Apr2018.length;
     var may2018 = apr2018 + monthCount.May2018.length;
     var jun2018 = may2018 + monthCount.Jun2018.length;
-    // var jul2018 = jun2018 + monthCount.Jul2018.length;
+    var jul2018 = jun2018 + monthCount.Jul2018.length;
     // var aug2018 = jul2018 + monthCount.Aug2018.length;
     // var sep2018 = aug2018 + monthCount.Sep2018.length;
     // var oct2018 = sep2018 + monthCount.Oct2018.length;
@@ -107,7 +107,7 @@ d3.json(dataFile, function(data) {
                 ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
-                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018/*, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */]
+                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018/*, aug2018, sep2018, oct2018, nov2018, dec2018 */]
             ],
             colors: {
                 '2010': '#bbb',
@@ -320,7 +320,7 @@ var groupedOverlays = {
 var map = L.map('map', {
     center: [39.72, -104.91],
     zoom: 12,
-    scrollWheelZoom: false,
+    scrollWheelZoom: true,
     // touchZoom: true,
     keyboard: false,
     layers: [stamenMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
