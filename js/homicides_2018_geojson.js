@@ -743,6 +743,27 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [-105.003511, 39.751606]
+            },
+            "properties": {
+                "index": "***",
+                "homicideDate": "6/18/2018",
+                "homicideMonth": "Jun",
+                "homicideYear": 2018,
+                "victimName": "Austin Cox",
+                "victimAge": 29,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Blunt force",
+                "blockAddress": "1800 block of Curtis Street",
+                "neighborhood": "Central Business District",
+                "articleLink": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [-104.968054,
                     39.770281
                 ]
@@ -783,6 +804,424 @@
                 "blockAddress": "1500 block of North Pearl Street",
                 "neighborhood": "North Capitol Hill",
                 "articleLink": "https://www.denverpost.com/2018/07/03/teen-high-school-student-jumped-fatally-stabbed-on-east-colfax-avenue-in-denver/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.999577, 39.725633]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "7/23/2018",
+                "homicideMonth": "Jul",
+                "homicideYear": 2018,
+                "victimName": "Joshua Callison",
+                "victimAge": 27,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "900 block of West 6th Avenue",
+                "neighborhood": "Baker",
+                "articleLink": "https://www.denverpost.com/2018/07/27/denver-doughnut-shop-murder-changed/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.916419, 39.765679]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "7/23/2018",
+                "homicideMonth": "Jul",
+                "homicideYear": 2018,
+                "victimName": "Darrien Denzmore",
+                "victimAge": 39,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "East 35th Avenue and Krameria Street",
+                "neighborhood": "Northeast Park Hill",
+                "articleLink": "https://www.denverpost.com/2018/07/24/denver-35th-kameria-shooting/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.908811, 39.654063]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "7/28/2018",
+                "homicideMonth": "Jul",
+                "homicideYear": 2018,
+                "victimName": "Blaine Roussa",
+                "victimAge": 35,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "6900 block of East Girard Avenue",
+                "neighborhood": "Hampden",
+                "articleLink": "https://www.denverpost.com/2018/07/29/denver-police-id-man-shot-dead/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.92662, 39.758241]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "7/29/2018",
+                "homicideMonth": "Jul",
+                "homicideYear": 2018,
+                "victimName": "Shawn Jones Jr.",
+                "victimAge": 26,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Sharp force",
+                "blockAddress": "5200 block of East Thrill Place",
+                "neighborhood": "Northeast Park Hill",
+                "articleLink": "https://www.denverpost.com/2018/07/30/denver-stabbing-homicide/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.987111, 39.703587]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "8/9/2018",
+                "homicideMonth": "Aug",
+                "homicideYear": 2018,
+                "victimName": "Christopher Zamudio",
+                "victimAge": 45,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "700 block of South Broadway",
+                "neighborhood": "Washington Park West",
+                "articleLink": "https://www.denverpost.com/2018/09/06/denver-triple-homicide-investigation/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.987111, 39.703587]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "8/9/2018",
+                "homicideMonth": "Aug",
+                "homicideYear": 2018,
+                "victimName": "Nicole Boston",
+                "victimAge": 28,
+                "victimGender": "Female",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "700 block of South Broadway",
+                "neighborhood": "Washington Park West",
+                "articleLink": "https://www.denverpost.com/2018/09/06/denver-triple-homicide-investigation/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.987111, 39.703587]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "8/9/2018",
+                "homicideMonth": "Aug",
+                "homicideYear": 2018,
+                "victimName": "Christopher Zamudio, 45; Nicole Boston, 28; and Jerome Coronado",
+                "victimAge": 39,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "700 block of South Broadway",
+                "neighborhood": "Washington Park West",
+                "articleLink": "https://www.denverpost.com/2018/09/06/denver-triple-homicide-investigation/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.862046, 39.658428]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "8/22/2018",
+                "homicideMonth": "Aug",
+                "homicideYear": 2018,
+                "victimName": "Seth Mosee",
+                "victimAge": 52,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Blunt/sharp force",
+                "blockAddress": "10700 block of East Dartmouth Avenue",
+                "neighborhood": "Kennedy",
+                "articleLink": "https://www.denverpost.com/2018/08/27/denver-arson-murder-arrest/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.92662, 39.758241]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "9/7/2018",
+                "homicideMonth": "Sep",
+                "homicideYear": 2018,
+                "victimName": "Khobi Eiland",
+                "victimAge": 18,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "5200 block of East 29th Avenue",
+                "neighborhood": "North Park Hill",
+                "articleLink": "https://www.denverpost.com/2018/09/10/denver-park-hill-homicide-victim/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.042645, 39.771103]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "9/7/2018",
+                "homicideMonth": "Sep",
+                "homicideYear": 2018,
+                "victimName": "Briseidy Jimenez-Ortega",
+                "victimAge": 20,
+                "victimGender": "Female",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "3900 block of Bryant Street",
+                "neighborhood": "Sunnyside",
+                "articleLink": "https://www.denverpost.com/2018/09/26/teen-arrested-in-fatal-shooting-of-denver-woman/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.884551, 39.737397]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "9/26/2018",
+                "homicideMonth": "Sep",
+                "homicideYear": 2018,
+                "victimName": "Andro Charles Lowate",
+                "victimAge": 25,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "1300 block of North Yosemite Street",
+                "neighborhood": "East Colfax",
+                "articleLink": "https://www.denverpost.com/2018/09/26/person-shot-in-denver-east-colfax-neighborhood/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.995007, 39.74413]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "9/28/2018",
+                "homicideMonth": "Sep",
+                "homicideYear": 2018,
+                "victimName": "Lucardio Kroener",
+                "victimAge": 28,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "1400 block of Market Street",
+                "neighborhood": "Union Station",
+                "articleLink": "https://www.denverpost.com/2018/09/28/man-fatally-shot-in-lodo-identified/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.053207, 39.724139]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "10/3/2018",
+                "homicideMonth": "Oct",
+                "homicideYear": 2018,
+                "victimName": "Jesse Kahookele",
+                "victimAge": 39,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "500 block of North Sheridan Boulevard",
+                "neighborhood": "Barnum West",
+                "articleLink": "https://www.denverpost.com/2018/10/03/denver-barnum-west-fatal-shooting/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.001444, 39.738604]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "10/5/2018",
+                "homicideMonth": "Oct",
+                "homicideYear": 2018,
+                "victimName": "Elijah Sandoval Baltierra",
+                "victimAge": 23,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "1400 block of North Lipan Street",
+                "neighborhood": "Lincoln Park",
+                "articleLink": "https://www.denverpost.com/2018/10/08/denver-lincoln-park-homicide/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.990724, 39.718503]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "10/20/2018",
+                "homicideMonth": "Oct",
+                "homicideYear": 2018,
+                "victimName": "Thomas Steen",
+                "victimAge": 25,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "100 block of North Bannock Street",
+                "neighborhood": "Baker",
+                "articleLink": "https://www.denverpost.com/2018/11/14/baker-shooting-arrests/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.978135, 39.754632]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "10/22/2018",
+                "homicideMonth": "Oct",
+                "homicideYear": 2018,
+                "victimName": "Octavius Brown",
+                "victimAge": 19,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "East 26th Avenue and North Washington Street",
+                "neighborhood": "Five Points",
+                "articleLink": "https://www.denverpost.com/2018/10/24/denves-five-points-shooting-victim-identified/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.953484, 39.765622]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "10/22/2018",
+                "homicideMonth": "Oct",
+                "homicideYear": 2018,
+                "victimName": "Tyree McDaniel",
+                "victimAge": 23,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "2900 block of East 35th Avenue",
+                "neighborhood": "Clayton",
+                "articleLink": "https://www.denverpost.com/2018/10/22/homicide-investigation-denver-clayton/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.972812, 39.738603]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "11/3/2018",
+                "homicideMonth": "Nov",
+                "homicideYear": 2018,
+                "victimName": "Rickie Casias",
+                "victimAge": 36,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "1400 block of North Downing Street",
+                "neighborhood": "Capitol Hill",
+                "articleLink": "https://www.denverpost.com/2018/11/05/cap-hill-shooting-victim-identity/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.031289, 39.700259]
+            },
+            "properties": {
+                "button": "",
+                "index": "",
+                "homicideDate": "10/26/2028",
+                "homicideMonth": "Oct",
+                "homicideYear": 2018,
+                "victimName": "Oscar Hernandez",
+                "victimAge": 39,
+                "victimGender": "Male",
+                "victimRace": "",
+                "mannerOfDeath": "Gunshot",
+                "blockAddress": "3400 block of West Kentucky Avenue",
+                "neighborhood": "Westwood",
+                "articleLink": "https://www.denverpost.com/2018/11/07/murder-charge-denver-police-rage/"
             }
         }
     ]

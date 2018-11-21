@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-071118.json";
+var dataFile = "js/homicides-112118.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
@@ -76,10 +76,10 @@ d3.json(dataFile, function(data) {
     var may2018 = apr2018 + monthCount.May2018.length;
     var jun2018 = may2018 + monthCount.Jun2018.length;
     var jul2018 = jun2018 + monthCount.Jul2018.length;
-    // var aug2018 = jul2018 + monthCount.Aug2018.length;
-    // var sep2018 = aug2018 + monthCount.Sep2018.length;
-    // var oct2018 = sep2018 + monthCount.Oct2018.length;
-    // var nov2018 = oct2018 + monthCount.Nov2018.length;
+    var aug2018 = jul2018 + monthCount.Aug2018.length;
+    var sep2018 = aug2018 + monthCount.Sep2018.length;
+    var oct2018 = sep2018 + monthCount.Oct2018.length;
+    var nov2018 = oct2018 + monthCount.Nov2018.length;
     // var dec2018 = nov2018 + monthCount.Dec2018.length;
 
     /* -- For count displayed on index.html NOT BEING USED -- */
@@ -107,7 +107,7 @@ d3.json(dataFile, function(data) {
                 ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
-                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018/*, aug2018, sep2018, oct2018, nov2018, dec2018 */]
+                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018 /*, dec2018 */ ]
             ],
             colors: {
                 '2010': '#bbb',
@@ -180,11 +180,11 @@ d3.json(dataFile, function(data) {
     var montbello = neighborhoodCount.Montbello.length;
     var eastColfax = neighborhoodCount['East Colfax'].length;
     var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
-    var cole = neighborhoodCount.Cole.length;
-    var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
+    //var cole = neighborhoodCount.Cole.length;
+    //var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
     var westwood = neighborhoodCount.Westwood.length;
     // var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
-    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + cole + elyriaSwansea + westwood);
+    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + westwood);
 
     var neighborhoodChart = c3.generate({
         bindto: '#homicide-neighborhoods',
