@@ -876,7 +876,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [-104.92662, 39.758241]
+                "coordinates": [-104.927374, 39.762661]
             },
             "properties": {
                 "button": "",
@@ -1008,7 +1008,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [-105.042645, 39.771103]
+                "coordinates": [-105.018142, 39.771116]
             },
             "properties": {
                 "button": "",
