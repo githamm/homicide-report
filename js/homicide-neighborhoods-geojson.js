@@ -1596,7 +1596,7 @@
                         [-104.870665, 39.710033]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 9, "nbhd_id": 78, "notes": null, "typology": null, "nbhd_name": "Windsor", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 9, "nbhd_id": 78, "notes": null, "typology": null, "nbhd_name": "Windsor", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973424, 39.689824],
@@ -3305,7 +3305,7 @@
                         [-104.903428, 39.751017]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 20, "nbhd_id": 57, "notes": null, "typology": null, "nbhd_name": "South Park Hill", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 20, "nbhd_id": 57, "notes": null, "typology": null, "nbhd_name": "South Park Hill", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973412, 39.74003],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 15 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 18 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -4834,7 +4834,7 @@
                         [-104.93289, 39.69842]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973248, 39.718404],
@@ -6026,7 +6026,7 @@
                         [-104.973383, 39.74378]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 71, "nbhd_id": 47, "notes": null, "typology": null, "nbhd_name": "North Capitol Hill", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 71, "nbhd_id": 47, "notes": null, "typology": null, "nbhd_name": "North Capitol Hill", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903455, 39.740146],
@@ -7714,7 +7714,7 @@
                         [-104.959782, 39.739989]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 68, "nbhd_id": 15, "notes": null, "typology": null, "nbhd_name": "City Park West", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 68, "nbhd_id": 15, "notes": null, "typology": null, "nbhd_name": "City Park West", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.971916, 39.770301],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 16 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 17 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
@@ -9449,7 +9449,7 @@
                         [-104.987435, 39.725638]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 28, "nbhd_id": 3, "notes": null, "typology": null, "nbhd_name": "Baker", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 28, "nbhd_id": 3, "notes": null, "typology": null, "nbhd_name": "Baker", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.000422, 39.74552],
