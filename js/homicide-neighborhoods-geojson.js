@@ -614,7 +614,7 @@
                         [-105.025214, 39.746364]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.037499, 39.734123],
@@ -5147,7 +5147,7 @@
                         [-104.991691, 39.752289]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 74, "nbhd_id": 63, "notes": null, "typology": null, "nbhd_name": "Union Station", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 74, "nbhd_id": 63, "notes": null, "typology": null, "nbhd_name": "Union Station", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.998176, 39.782565],
@@ -7381,7 +7381,7 @@
                         [-104.905638, 39.678441]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 35, "nbhd_id": 30, "notes": null, "typology": null, "nbhd_name": "Goldsmith", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 35, "nbhd_id": 30, "notes": null, "typology": null, "nbhd_name": "Goldsmith", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.968754, 39.79104],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 17 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 18 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
