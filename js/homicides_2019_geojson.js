@@ -120,6 +120,156 @@
         "neighborhood": "West Colfax",
         "articleLink": "https://www.denverpost.com/2019/02/22/denver-police-investigate-homicide-5/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.012264,
+          39.705464
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "235",
+        "homicideDate": "3/4/2019",
+        "homicideMonth": "Mar",
+        "homicideYear": "2019",
+        "victimName": "John Skopinski",
+        "victimAge": "55",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2100 block of West Center Avenue",
+        "neighborhood": "Athmar Park",
+        "articleLink": "https://www.denverpost.com/2019/03/08/denver-homicide-shooting-arrested/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.998866,
+          39.749457
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "236",
+        "homicideDate": "3/10/2019",
+        "homicideMonth": "Mar",
+        "homicideYear": "2019",
+        "victimName": "Vayron Garcia",
+        "victimAge": "25",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1500 block of Market Street",
+        "neighborhood": "Union Station",
+        "articleLink": "https://www.denverpost.com/2019/03/12/denver-market-street-shooting-name-released/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.924046,
+          39.762896
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "237",
+        "homicideDate": "3/22/2019",
+        "homicideMonth": "Mar",
+        "homicideYear": "2019",
+        "victimName": "Jamaica McClain",
+        "victimAge": "42",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3200 block of Hudson Street",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2019/03/26/jamaica-mcclain-denver-homicide-police/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.976191,
+          39.739756
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "238",
+        "homicideDate": "4/2/2019",
+        "homicideMonth": "Apr",
+        "homicideYear": "2019",
+        "victimName": "Sandy Walker II",
+        "victimAge": "46",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "900 block of East Colfax Avenue",
+        "neighborhood": "Capitol Hill",
+        "articleLink": "https://www.denverpost.com/2019/04/05/denver-east-colfax-shooting-victim-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.014527,
+          39.714781
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "239",
+        "homicideDate": "4/11/2019",
+        "homicideMonth": "Apr",
+        "homicideYear": "2019",
+        "victimName": "Bryan DeHerrera",
+        "victimAge": "16",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "100 block of South Yuma Street",
+        "neighborhood": "Valverde",
+        "articleLink": "https://www.denverpost.com/2019/04/16/denver-teen-killed-shooting-unsolved-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.841525,
+          39.703871
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "240",
+        "homicideDate": "4/19/2019",
+        "homicideMonth": "Apr",
+        "homicideYear": "2019",
+        "victimName": "Guillermo Medrano-Sandoval",
+        "victimAge": "26",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "12000 block of East Exposition Drive",
+        "neighborhood": "",
+        "articleLink": ""
+      }
     }
   ]
 }

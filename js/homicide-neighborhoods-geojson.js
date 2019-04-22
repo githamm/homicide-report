@@ -2787,7 +2787,7 @@
                         [-105.015769, 39.725503]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 7, "nbhd_id": 67, "notes": null, "typology": null, "nbhd_name": "Valverde", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 7, "nbhd_id": 67, "notes": null, "typology": null, "nbhd_name": "Valverde", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.854477, 39.660153],
@@ -3370,7 +3370,7 @@
                         [-104.973412, 39.74003]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 70, "nbhd_id": 9, "notes": null, "typology": null, "nbhd_name": "Capitol Hill", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 70, "nbhd_id": 9, "notes": null, "typology": null, "nbhd_name": "Capitol Hill", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940578, 39.761958],
@@ -5147,7 +5147,7 @@
                         [-104.991691, 39.752289]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 74, "nbhd_id": 63, "notes": null, "typology": null, "nbhd_name": "Union Station", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 74, "nbhd_id": 63, "notes": null, "typology": null, "nbhd_name": "Union Station", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.998176, 39.782565],
@@ -6455,7 +6455,7 @@
                         [-104.903511, 39.783823]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 12 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 13 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.987431, 39.696634],
@@ -8710,7 +8710,7 @@
                         [-104.992384, 39.696661]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 8, "nbhd_id": 1, "notes": null, "typology": null, "nbhd_name": "Athmar Park", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 8, "nbhd_id": 1, "notes": null, "typology": null, "nbhd_name": "Athmar Park", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.9874, 39.747358],
