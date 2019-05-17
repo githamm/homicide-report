@@ -4183,7 +4183,7 @@
                         [-104.929311, 39.702037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959309, 39.715657],
@@ -6881,7 +6881,7 @@
                         [-105.009489, 39.753927]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 5, "nbhd_id": 39, "notes": null, "typology": null, "nbhd_name": "Jefferson Park", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 5, "nbhd_id": 39, "notes": null, "typology": null, "nbhd_name": "Jefferson Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025108, 39.667716],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 18 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 19 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
@@ -8338,7 +8338,7 @@
                         [-105.001395, 39.682168]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 23, "nbhd_id": 19, "notes": null, "typology": null, "nbhd_name": "College View-South Platte", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 23, "nbhd_id": 19, "notes": null, "typology": null, "nbhd_name": "College View-South Platte", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.987389, 39.740107],

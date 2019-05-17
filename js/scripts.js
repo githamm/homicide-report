@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-042219.json";
+var dataFile = "js/homicides-051719.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
@@ -85,7 +85,7 @@ d3.json(dataFile, function(data) {
     var feb2019 = jan2019 + monthCount.Feb2019.length;
     var mar2019 = feb2019 + monthCount.Mar2019.length;
     var apr2019 = mar2019 + monthCount.Apr2019.length;
-    // var may2019 = apr2019 + monthCount.May2019.length;
+    var may2019 = apr2019 + monthCount.May2019.length;
     // var jun2019 = may2019 + monthCount.Jun2019.length;
     // var jul2019 = jun2019 + monthCount.Jul2019.length;
     // var aug2019 = jul2019 + monthCount.Aug2019.length;
@@ -119,7 +119,7 @@ d3.json(dataFile, function(data) {
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
                 ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
-                ['2019', jan2019, feb2019, mar2019, apr2019/*, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019*/]
+                ['2019', jan2019, feb2019, mar2019, apr2019, may2019/*, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019*/]
             ],
             colors: {
                 '2010': '#bbb',
@@ -256,7 +256,7 @@ d3.json(dataFile, function(data) {
             x: 'x',
             columns: [
                 ['x', 'Male', 'Female'],
-                ['2019', genderCount.Male2019.length, 0/*genderCount.Female2019.length*/],
+                ['2019', genderCount.Male2019.length, genderCount.Female2019.length],
                 ['2018', genderCount.Male2018.length, genderCount.Female2018.length],
                 ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
                 ['2016', genderCount.Male2016.length, genderCount.Female2016.length],
@@ -354,10 +354,10 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
         style: function(feature) {
             var fillColor,
                 density = feature.properties.homicides;
-            if (density >= 12) fillColor = "#08306b";
-            else if (density >= 9) fillColor = "#08519c";
-            else if (density >= 6) fillColor = "#2171b5";
-            else if (density >= 3) fillColor = "#4292c6";
+            if (density >= 16) fillColor = "#08306b";
+            else if (density >= 12) fillColor = "#08519c";
+            else if (density >= 8) fillColor = "#2171b5";
+            else if (density >= 4) fillColor = "#4292c6";
             else if (density > 0) fillColor = "#6baed6";
             else fillColor = "rgba(255,255,0,.3)"; // no data
             return {

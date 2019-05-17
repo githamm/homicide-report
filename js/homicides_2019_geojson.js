@@ -251,8 +251,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.841525,
-          39.703871
+          -104.91849,
+          39.710934
         ]
       },
       "properties": {
@@ -266,9 +266,84 @@
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
-        "blockAddress": "12000 block of East Exposition Drive",
-        "neighborhood": "",
-        "articleLink": ""
+        "blockAddress": "300 block of South Jasmine Street",
+        "neighborhood": "Washington-Virginia Vale",
+        "articleLink": "https://www.denverpost.com/2019/04/22/aurora-body-found-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.020572,
+          39.757275
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "241",
+        "homicideDate": "4/25/2019",
+        "homicideMonth": "Apr",
+        "homicideYear": "2019",
+        "victimName": "Alexus Keith",
+        "victimAge": "20",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2700 block of West 28th Avenue",
+        "neighborhood": "Jefferson Park",
+        "articleLink": "https://www.denverpost.com/2019/04/30/911-denver-police-arrest-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.006464,
+          39.677646
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "242",
+        "homicideDate": "4/28/2019",
+        "homicideMonth": "Apr",
+        "homicideYear": "2019",
+        "victimName": "Janis Wendell",
+        "victimAge": "56",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Blunt force",
+        "blockAddress": "1600 block of West Evans Avenue",
+        "neighborhood": "College View-South Platte",
+        "articleLink": "https://www.denverpost.com/2019/05/08/denver-man-bludgeoned-death-coroner/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.981657,
+          39.751503
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "243",
+        "homicideDate": "5/10/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Guan-Nyanyak Riek",
+        "victimAge": "24",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2300 block of Welton Street",
+        "neighborhood": "Five Points",
+        "articleLink": "https://www.denverpost.com/2019/05/15/denver-homicide-shooting-hospital-autopsy/"
       }
     }
   ]
