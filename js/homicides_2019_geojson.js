@@ -345,6 +345,131 @@
         "neighborhood": "Five Points",
         "articleLink": "https://www.denverpost.com/2019/05/15/denver-homicide-shooting-hospital-autopsy/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.948502,
+          39.759237
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "244",
+        "homicideDate": "5/15/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Khadijah Palmer",
+        "victimAge": "25",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3000 block of North Adams Street",
+        "neighborhood": "Skyland",
+        "articleLink": "https://www.denverpost.com/2019/05/20/denver-shooting-death-adams-street/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.925767,
+          39.767443
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "245",
+        "homicideDate": "5/19/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Corey Johnson",
+        "victimAge": "48",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Strangulation",
+        "blockAddress": "3600 block of Glencoe Street",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2019/05/24/man-strangled-park-hill-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.058389,
+          39.656446
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "247",
+        "homicideDate": "5/23/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Christine McDaniels, 11; Althea McDaniels, 37; and Joseph McDaniels",
+        "victimAge": "48",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3000 block of Golden Way",
+        "neighborhood": "Bear Valley",
+        "articleLink": "https://www.denverpost.com/2019/05/28/southwest-denver-triple-homicide-victims-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.973357,
+          39.749485
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "249",
+        "homicideDate": "5/31/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Sirena Duran-Maw",
+        "victimAge": "44",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Strangulation",
+        "blockAddress": "1200 block of East 22nd Avenue",
+        "neighborhood": "City Park West",
+        "articleLink": "https://www.denverpost.com/2019/06/04/denver-woman-strangled-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.052129,
+          39.697189
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "250",
+        "homicideDate": "6/2/2019",
+        "homicideMonth": "June",
+        "homicideYear": "2019",
+        "victimName": "Michael Magallanes",
+        "victimAge": "27",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "5100 block of Morrison Road",
+        "neighborhood": "Westwood",
+        "articleLink": "https://www.denverpost.com/2019/06/04/southwest-denver-fatal-shooting-victim/"
+      }
     }
   ]
 }

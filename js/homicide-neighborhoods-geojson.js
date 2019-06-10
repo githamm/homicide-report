@@ -1827,7 +1827,7 @@
                         [-105.039698, 39.711251]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 10 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 11 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025239, 39.769289],
@@ -5606,7 +5606,7 @@
                         [-104.940621, 39.751037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 55, "nbhd_id": 55, "notes": null, "typology": null, "nbhd_name": "Skyland", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 55, "nbhd_id": 55, "notes": null, "typology": null, "nbhd_name": "Skyland", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.866035, 39.798411],
@@ -6455,7 +6455,7 @@
                         [-104.903511, 39.783823]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 13 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.987431, 39.696634],
@@ -7714,7 +7714,7 @@
                         [-104.959782, 39.739989]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 68, "nbhd_id": 15, "notes": null, "typology": null, "nbhd_name": "City Park West", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 68, "nbhd_id": 15, "notes": null, "typology": null, "nbhd_name": "City Park West", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.971916, 39.770301],
@@ -8944,7 +8944,7 @@
                         [-105.06397, 39.653252]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 30, "nbhd_id": 6, "notes": null, "typology": null, "nbhd_name": "Bear Valley", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 30, "nbhd_id": 6, "notes": null, "typology": null, "nbhd_name": "Bear Valley", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.998122, 39.791022],
