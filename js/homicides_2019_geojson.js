@@ -470,6 +470,106 @@
         "neighborhood": "Westwood",
         "articleLink": "https://www.denverpost.com/2019/06/04/southwest-denver-fatal-shooting-victim/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.986759,
+          39.751858
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "251",
+        "homicideDate": "6/3/2019",
+        "homicideMonth": "June",
+        "homicideYear": "2019",
+        "victimName": "Marcus Nash",
+        "victimAge": "57",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2100 block of Champa Street",
+        "neighborhood": "Five Points",
+        "articleLink": "https://www.denverpost.com/2019/06/10/marcus-nash-denver-fatal-shooting/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.944389,
+          39.775289
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "252",
+        "homicideDate": "6/6/2019",
+        "homicideMonth": "June",
+        "homicideYear": "2019",
+        "victimName": "George Spencer",
+        "victimAge": "26",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "4200 block of Garfield Street",
+        "neighborhood": "Elyria Swansea",
+        "articleLink": "https://www.denverpost.com/2019/06/10/george-spencer-denver-shooting-death/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.777,
+          39.783816
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "253",
+        "homicideDate": "6/15/2019",
+        "homicideMonth": "June",
+        "homicideYear": "2019",
+        "victimName": "Daoud Francis",
+        "victimAge": "21",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "18000 block of Green Valley Ranch Boulevard",
+        "neighborhood": "Gateway-Green Valley Ranch",
+        "articleLink": "https://www.denverpost.com/2019/06/19/green-valley-ranch-car-body-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.032146,
+          39.718378
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "254",
+        "homicideDate": "6/20/2019",
+        "homicideMonth": "June",
+        "homicideYear": "2019",
+        "victimName": "Jesse Tafoya",
+        "victimAge": "33",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "100 block of Knox Court",
+        "neighborhood": "Barnum",
+        "articleLink": "https://www.denverpost.com/2019/06/21/denver-homicide-murder-arrest-crime/"
+      }
     }
   ]
 }

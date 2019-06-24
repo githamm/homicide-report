@@ -3076,7 +3076,7 @@
                         [-105.025136, 39.725543]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 59, "nbhd_id": 4, "notes": null, "typology": null, "nbhd_name": "Barnum", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 59, "nbhd_id": 4, "notes": null, "typology": null, "nbhd_name": "Barnum", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025192, 39.784385],
@@ -6750,7 +6750,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 37, "nbhd_id": 28, "notes": null, "typology": null, "nbhd_name": "Gateway-Green Valley Ranch", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 37, "nbhd_id": 28, "notes": null, "typology": null, "nbhd_name": "Gateway-Green Valley Ranch", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.009489, 39.753927],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 19 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 20 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
@@ -8144,7 +8144,7 @@
                         [-104.940088, 39.790975]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 11, "nbhd_id": 25, "notes": null, "typology": null, "nbhd_name": "Elyria Swansea", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 11, "nbhd_id": 25, "notes": null, "typology": null, "nbhd_name": "Elyria Swansea", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.001395, 39.682168],

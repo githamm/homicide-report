@@ -1,10 +1,11 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-061019.json";
+var dataFile = "js/homicides-062419.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
 d3.json(dataFile, function(data) {
+    //console.log(data);
     var monthCount = [];
     var monthTotal = 0;
     var yearCount = [];
@@ -206,10 +207,10 @@ d3.json(dataFile, function(data) {
         },
         data: {
             columns: [
-                ['Montbello', montbello],
                 ['Five Points', fivePoints],
-                ['East Colfax', eastColfax],
+                ['Montbello', montbello],
                 ['Northeast Park Hill', northeastParkHill],
+                ['East Colfax', eastColfax],
                 ['Westwood', westwood],
                 // ['Cole', cole],
                 // ['Elyria Swansea', elyriaSwansea],
