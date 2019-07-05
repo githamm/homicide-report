@@ -2520,7 +2520,7 @@
                         [-105.025108, 39.667716]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.884657, 39.747455],
@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 12 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 13 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -3457,7 +3457,7 @@
                         [-104.940578, 39.761958]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 54, "nbhd_id": 17, "notes": null, "typology": null, "nbhd_name": "Clayton", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 54, "nbhd_id": 17, "notes": null, "typology": null, "nbhd_name": "Clayton", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940621, 39.751037],

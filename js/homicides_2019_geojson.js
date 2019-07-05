@@ -570,6 +570,78 @@
         "neighborhood": "Barnum",
         "articleLink": "https://www.denverpost.com/2019/06/21/denver-homicide-murder-arrest-crime/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.946247,
+          39.76698
+        ]
+      },
+      "properties": {
+        "index": "255",
+        "homicideDate": "7/2/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Jerrick Johnson",
+        "victimAge": "58",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3600 block of Madison Street",
+        "neighborhood": "Clayton",
+        "articleLink": "https://www.denverpost.com/2019/07/03/denver-clayton-fatal-shooting-id/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.890102,
+          39.739809
+        ]
+      },
+      "properties": {
+        "index": "256",
+        "homicideDate": "7/2/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Omar King Jr.",
+        "victimAge": "42",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "8400 block of East Colfax Avenue",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2019/07/05/east-colfax-shooting-omar-king/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03864,
+          39.672307
+        ]
+      },
+      "properties": {
+        "index": "257",
+        "homicideDate": "7/5/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Not yet released",
+        "victimAge": "",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2500 block of South Patton Court",
+        "neighborhood": "Harvey Park",
+        "articleLink": "https://www.denverpost.com/2019/07/05/denver-shooting-homicide/"
+      }
     }
   ]
 }
