@@ -624,8 +624,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.03864,
-          39.672307
+          -104.980109,
+          39.781847
         ]
       },
       "properties": {
@@ -633,8 +633,32 @@
         "homicideDate": "7/5/2019",
         "homicideMonth": "Jul",
         "homicideYear": "2019",
-        "victimName": "Not yet released",
-        "victimAge": "",
+        "victimName": "Josefina Mendez-Pantoya",
+        "victimAge": "54",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Blunt force and strangulation",
+        "blockAddress": "4700 block of Pearl Street",
+        "neighborhood": "Globeville",
+        "articleLink": "https://www.denverpost.com/2019/07/03/globeville-homicide-investigation/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03864,
+          39.672307
+        ]
+      },
+      "properties": {
+        "index": "258",
+        "homicideDate": "7/5/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Matthew Arellano",
+        "victimAge": "18",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",

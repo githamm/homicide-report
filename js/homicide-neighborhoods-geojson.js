@@ -7642,7 +7642,7 @@
                         [-104.968754, 39.79104]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959782, 39.739989],
