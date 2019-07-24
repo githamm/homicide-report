@@ -6455,7 +6455,7 @@
                         [-104.903511, 39.783823]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 15 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.987431, 39.696634],

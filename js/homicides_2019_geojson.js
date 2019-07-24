@@ -666,6 +666,30 @@
         "neighborhood": "Harvey Park",
         "articleLink": "https://www.denverpost.com/2019/07/05/denver-shooting-homicide/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.933177,
+          39.76228
+        ]
+      },
+      "properties": {
+        "index": "259",
+        "homicideDate": "7/19/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Tia Bivins",
+        "victimAge": "42",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3200 block of Dexter Street",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2019/07/23/denver-woman-killed-suspect-arrested/"
+      }
     }
   ]
 }
