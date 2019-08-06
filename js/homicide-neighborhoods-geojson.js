@@ -614,7 +614,7 @@
                         [-105.025214, 39.746364]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 62, "nbhd_id": 74, "notes": null, "typology": null, "nbhd_name": "West Colfax", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.037499, 39.734123],
@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 13 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -3199,7 +3199,7 @@
                         [-105.025192, 39.784385]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 65, "nbhd_id": 8, "notes": null, "typology": null, "nbhd_name": "Berkeley", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 65, "nbhd_id": 8, "notes": null, "typology": null, "nbhd_name": "Berkeley", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903428, 39.751017],
@@ -8944,7 +8944,7 @@
                         [-105.06397, 39.653252]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 30, "nbhd_id": 6, "notes": null, "typology": null, "nbhd_name": "Bear Valley", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 30, "nbhd_id": 6, "notes": null, "typology": null, "nbhd_name": "Bear Valley", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.998122, 39.791022],

@@ -401,6 +401,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -104.885552,
+          39.73306
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "246",
+        "homicideDate": "5/21/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Messiah Dailey",
+        "victimAge": "1",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Suffocation",
+        "blockAddress": "1100 block of Xenia Street",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2019/05/24/denver-infant-death-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -105.058389,
           39.656446
         ]
@@ -411,9 +436,59 @@
         "homicideDate": "5/23/2019",
         "homicideMonth": "May",
         "homicideYear": "2019",
-        "victimName": "Christine McDaniels, 11; Althea McDaniels, 37; and Joseph McDaniels",
+        "victimName": "Christine McDaniels",
+        "victimAge": "11",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3000 block of Golden Way",
+        "neighborhood": "Bear Valley",
+        "articleLink": "https://www.denverpost.com/2019/05/28/southwest-denver-triple-homicide-victims-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.058389,
+          39.656446
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "248",
+        "homicideDate": "5/23/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Joseph McDaniels",
         "victimAge": "48",
         "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3000 block of Golden Way",
+        "neighborhood": "Bear Valley",
+        "articleLink": "https://www.denverpost.com/2019/05/28/southwest-denver-triple-homicide-victims-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.058389,
+          39.656446
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "249",
+        "homicideDate": "5/23/2019",
+        "homicideMonth": "May",
+        "homicideYear": "2019",
+        "victimName": "Althea McDaniels",
+        "victimAge": "37",
+        "victimGender": "Female",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
         "blockAddress": "3000 block of Golden Way",
@@ -432,7 +507,7 @@
       },
       "properties": {
         "button": "",
-        "index": "249",
+        "index": "250",
         "homicideDate": "5/31/2019",
         "homicideMonth": "May",
         "homicideYear": "2019",
@@ -457,9 +532,9 @@
       },
       "properties": {
         "button": "",
-        "index": "250",
+        "index": "251",
         "homicideDate": "6/2/2019",
-        "homicideMonth": "June",
+        "homicideMonth": "Jun",
         "homicideYear": "2019",
         "victimName": "Michael Magallanes",
         "victimAge": "27",
@@ -482,9 +557,9 @@
       },
       "properties": {
         "button": "",
-        "index": "251",
+        "index": "252",
         "homicideDate": "6/3/2019",
-        "homicideMonth": "June",
+        "homicideMonth": "Jun",
         "homicideYear": "2019",
         "victimName": "Marcus Nash",
         "victimAge": "57",
@@ -507,9 +582,9 @@
       },
       "properties": {
         "button": "",
-        "index": "252",
+        "index": "253",
         "homicideDate": "6/6/2019",
-        "homicideMonth": "June",
+        "homicideMonth": "Jun",
         "homicideYear": "2019",
         "victimName": "George Spencer",
         "victimAge": "26",
@@ -532,9 +607,9 @@
       },
       "properties": {
         "button": "",
-        "index": "253",
+        "index": "254",
         "homicideDate": "6/15/2019",
-        "homicideMonth": "June",
+        "homicideMonth": "Jun",
         "homicideYear": "2019",
         "victimName": "Daoud Francis",
         "victimAge": "21",
@@ -557,9 +632,9 @@
       },
       "properties": {
         "button": "",
-        "index": "254",
+        "index": "255",
         "homicideDate": "6/20/2019",
-        "homicideMonth": "June",
+        "homicideMonth": "Jun",
         "homicideYear": "2019",
         "victimName": "Jesse Tafoya",
         "victimAge": "33",
@@ -581,7 +656,8 @@
         ]
       },
       "properties": {
-        "index": "255",
+        "button": "",
+        "index": "256",
         "homicideDate": "7/2/2019",
         "homicideMonth": "Jul",
         "homicideYear": "2019",
@@ -605,7 +681,8 @@
         ]
       },
       "properties": {
-        "index": "256",
+        "button": "",
+        "index": "257",
         "homicideDate": "7/2/2019",
         "homicideMonth": "Jul",
         "homicideYear": "2019",
@@ -629,15 +706,16 @@
         ]
       },
       "properties": {
-        "index": "257",
-        "homicideDate": "7/5/2019",
+        "button": "",
+        "index": "258",
+        "homicideDate": "7/3/2019",
         "homicideMonth": "Jul",
         "homicideYear": "2019",
         "victimName": "Josefina Mendez-Pantoya",
         "victimAge": "54",
         "victimGender": "Female",
         "victimRace": "",
-        "mannerOfDeath": "Blunt force and strangulation",
+        "mannerOfDeath": "Blunt force",
         "blockAddress": "4700 block of Pearl Street",
         "neighborhood": "Globeville",
         "articleLink": "https://www.denverpost.com/2019/07/03/globeville-homicide-investigation/"
@@ -653,7 +731,8 @@
         ]
       },
       "properties": {
-        "index": "258",
+        "button": "",
+        "index": "259",
         "homicideDate": "7/5/2019",
         "homicideMonth": "Jul",
         "homicideYear": "2019",
@@ -677,7 +756,8 @@
         ]
       },
       "properties": {
-        "index": "259",
+        "button": "",
+        "index": "260",
         "homicideDate": "7/19/2019",
         "homicideMonth": "Jul",
         "homicideYear": "2019",
@@ -689,6 +769,81 @@
         "blockAddress": "3200 block of Dexter Street",
         "neighborhood": "Northeast Park Hill",
         "articleLink": "https://www.denverpost.com/2019/07/23/denver-woman-killed-suspect-arrested/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.050946,
+          39.735582
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "261",
+        "homicideDate": "7/23/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Ray Uriona",
+        "victimAge": "17",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1200 block of North Yates Street",
+        "neighborhood": "West Colfax",
+        "articleLink": "https://www.9news.com/article/news/crime/he-deserves-justice-teen-shot-to-death-in-denver-home/73-834208cf-4799-4a74-80a6-51e1ac105cd5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.059046,
+          39.654457
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "262",
+        "homicideDate": "7/26/2019",
+        "homicideMonth": "Jul",
+        "homicideYear": "2019",
+        "victimName": "Elizabeth Collier",
+        "victimAge": "56",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3400 block of South Fenton Street",
+        "neighborhood": "Bear Valley",
+        "articleLink": "https://www.denverpost.com/2019/08/05/bear-valley-apparent-murder-suicide-victims-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.041889,
+          39.769583
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "263",
+        "homicideDate": "8/3/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Erik McAllister",
+        "victimAge": "41",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "4200 block of West 38th Avenue",
+        "neighborhood": "Berkeley",
+        "articleLink": "https://www.denverpost.com/2019/08/05/fatal-shooting-west-38th-avenue-ruled-homicide/"
       }
     }
   ]
