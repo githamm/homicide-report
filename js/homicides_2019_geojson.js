@@ -845,6 +845,106 @@
         "neighborhood": "Berkeley",
         "articleLink": "https://www.denverpost.com/2019/08/05/fatal-shooting-west-38th-avenue-ruled-homicide/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.039062,
+          39.685201
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "264",
+        "homicideDate": "8/8/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Darrell Mitchell",
+        "victimAge": "19",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "South Patton Court and West Mexico Avenue",
+        "neighborhood": "Mar Lee",
+        "articleLink": "https://www.denverpost.com/2019/08/13/darrell-mitchell-teen-shot-dead-denver/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.885711,
+          39.795171
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "265",
+        "homicideDate": "8/9/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Aiden Lawrence",
+        "victimAge": "14",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "East 54th Avenue and North Xenia Street",
+        "neighborhood": "Stapleton",
+        "articleLink": "https://www.denverpost.com/2019/08/14/aurora-boy-killed-vigil-teen-violence/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.84551,
+          39.782131
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "266",
+        "homicideDate": "8/9/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Destiny McGhee",
+        "victimAge": "23",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "12400 block of East Albrook Drive",
+        "neighborhood": "Montbello",
+        "articleLink": "https://www.denverpost.com/2019/08/13/denver-homicide-arrests/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.902871,
+          39.682087
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "267",
+        "homicideDate": "8/11/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Cameron Miller",
+        "victimAge": "28",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Blunt force",
+        "blockAddress": "1900 block of South Quebec Street",
+        "neighborhood": "Indian Creek",
+        "articleLink": "https://www.denverpost.com/2019/08/13/cameron-miller-death-denver/"
+      }
     }
   ]
 }

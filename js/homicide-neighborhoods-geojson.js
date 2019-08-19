@@ -1299,7 +1299,7 @@
                         [-104.902671, 39.685712]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 34, "nbhd_id": 38, "notes": null, "typology": null, "nbhd_name": "Indian Creek", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 34, "nbhd_id": 38, "notes": null, "typology": null, "nbhd_name": "Indian Creek", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.93398, 39.678449],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 18 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 19 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -5766,7 +5766,7 @@
                         [-104.866035, 39.798411]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 76, "nbhd_id": 60, "notes": null, "typology": null, "nbhd_name": "Stapleton", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 76, "nbhd_id": 60, "notes": null, "typology": null, "nbhd_name": "Stapleton", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903425, 39.752213],
@@ -6334,7 +6334,7 @@
                         [-105.025059, 39.696747]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 41, "nbhd_id": 43, "notes": null, "typology": null, "nbhd_name": "Mar Lee", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 41, "nbhd_id": 43, "notes": null, "typology": null, "nbhd_name": "Mar Lee", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903511, 39.783823],
