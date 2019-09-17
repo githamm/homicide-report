@@ -1731,7 +1731,7 @@
                         [-104.959767, 39.750718]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 69, "nbhd_id": 77, "notes": null, "typology": null, "nbhd_name": "Whittier", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 69, "nbhd_id": 77, "notes": null, "typology": null, "nbhd_name": "Whittier", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.039698, 39.711251],
@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 14 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 16 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -3305,7 +3305,7 @@
                         [-104.903428, 39.751017]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 20, "nbhd_id": 57, "notes": null, "typology": null, "nbhd_name": "South Park Hill", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 20, "nbhd_id": 57, "notes": null, "typology": null, "nbhd_name": "South Park Hill", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973412, 39.74003],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 19 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 20 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -5147,7 +5147,7 @@
                         [-104.991691, 39.752289]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 74, "nbhd_id": 63, "notes": null, "typology": null, "nbhd_name": "Union Station", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 74, "nbhd_id": 63, "notes": null, "typology": null, "nbhd_name": "Union Station", "homicides": 9 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.998176, 39.782565],
@@ -7714,7 +7714,7 @@
                         [-104.959782, 39.739989]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 68, "nbhd_id": 15, "notes": null, "typology": null, "nbhd_name": "City Park West", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 68, "nbhd_id": 15, "notes": null, "typology": null, "nbhd_name": "City Park West", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.971916, 39.770301],
@@ -10107,7 +10107,7 @@
                         [-104.998203, 39.769297]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 3, "nbhd_id": 36, "notes": null, "typology": null, "nbhd_name": "Highland", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 3, "nbhd_id": 36, "notes": null, "typology": null, "nbhd_name": "Highland", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940705, 39.711564],

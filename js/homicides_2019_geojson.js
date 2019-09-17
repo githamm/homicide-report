@@ -945,6 +945,206 @@
         "neighborhood": "Indian Creek",
         "articleLink": "https://www.denverpost.com/2019/08/13/cameron-miller-death-denver/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.89502,
+          39.734832
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "268",
+        "homicideDate": "8/12/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Not released",
+        "victimAge": "22",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "8000 block of East 12th Avenue",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2019/08/12/denver-montclair-neighborhood-homicide-investigation/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.964732,
+          39.756991
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "269",
+        "homicideDate": "8/26/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Mark Duckworth",
+        "victimAge": "21",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2800 block of North High Street",
+        "neighborhood": "Whittier",
+        "articleLink": "https://www.denverpost.com/2019/08/28/mark-duckworth-killed-whittier/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024818,
+          39.762292
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "270",
+        "homicideDate": "9/4/19",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Ngor Monday",
+        "victimAge": "19",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3200 block of North Federal Boulevard",
+        "neighborhood": "Highland",
+        "articleLink": "https://www.denverpost.com/2019/09/05/double-shooting-federal-boulevard-denver/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.920782,
+          39.749493
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "271",
+        "homicideDate": "9/6/19",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Not released",
+        "victimAge": "TBD",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "TBD",
+        "blockAddress": "2200 block of North Ivanhoe Street",
+        "neighborhood": "South Park Hill",
+        "articleLink": "https://www.denverpost.com/2019/09/09/denver-police-man-dead-vehicle-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99318,
+          39.751354
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "272",
+        "homicideDate": "9/9/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Alexis Bush",
+        "victimAge": "22",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1200 block of 19th Street",
+        "neighborhood": "Union Station",
+        "articleLink": "https://www.denverpost.com/2019/09/11/denver-police-barricade-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.959764,
+          39.748245
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "273",
+        "homicideDate": "9/13/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Not released",
+        "victimAge": "TBD",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2100 block of York Street",
+        "neighborhood": "City Park West",
+        "articleLink": "https://www.denverpost.com/2019/09/13/denver-homicide-city-park-shooting/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.890526,
+          39.740304
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "274",
+        "homicideDate": "9/15/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Not released",
+        "victimAge": "TBD",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1500 block of North Verbena Street",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2019/09/16/east-colfax-verbena-street-shooting-death-denver/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.813219,
+          39.794006
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "275",
+        "homicideDate": "9/17/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Not released",
+        "victimAge": "TBD",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "14900 block of East Lackland Place",
+        "neighborhood": "Montbello",
+        "articleLink": "https://www.denverpost.com/2019/09/17/montbello-shooting-lackland-place-death/"
+      }
     }
   ]
 }
