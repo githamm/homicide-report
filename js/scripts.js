@@ -1,10 +1,11 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-062718.json";
+var dataFile = "js/homicides-091719.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
 d3.json(dataFile, function(data) {
+    //console.log(data);
     var monthCount = [];
     var monthTotal = 0;
     var yearCount = [];
@@ -75,17 +76,28 @@ d3.json(dataFile, function(data) {
     var apr2018 = mar2018 + monthCount.Apr2018.length;
     var may2018 = apr2018 + monthCount.May2018.length;
     var jun2018 = may2018 + monthCount.Jun2018.length;
-    // var jul2018 = jun2018 + monthCount.Jul2018.length;
-    // var aug2018 = jul2018 + monthCount.Aug2018.length;
-    // var sep2018 = aug2018 + monthCount.Sep2018.length;
-    // var oct2018 = sep2018 + monthCount.Oct2018.length;
-    // var nov2018 = oct2018 + monthCount.Nov2018.length;
-    // var dec2018 = nov2018 + monthCount.Dec2018.length;
+    var jul2018 = jun2018 + monthCount.Jul2018.length;
+    var aug2018 = jul2018 + monthCount.Aug2018.length;
+    var sep2018 = aug2018 + monthCount.Sep2018.length;
+    var oct2018 = sep2018 + monthCount.Oct2018.length;
+    var nov2018 = oct2018 + monthCount.Nov2018.length;
+    var dec2018 = nov2018 + monthCount.Dec2018.length;
+    var jan2019 = monthCount.Jan2019.length;
+    var feb2019 = jan2019 + monthCount.Feb2019.length;
+    var mar2019 = feb2019 + monthCount.Mar2019.length;
+    var apr2019 = mar2019 + monthCount.Apr2019.length;
+    var may2019 = apr2019 + monthCount.May2019.length;
+    var jun2019 = may2019 + monthCount.Jun2019.length;
+    var jul2019 = jun2019 + monthCount.Jul2019.length;
+    var aug2019 = jul2019 + monthCount.Aug2019.length;
+    var sep2019 = aug2019 + monthCount.Sep2019.length;
+    // var oct2019 = sep2019 + monthCount.Oct2019.length;
+    // var nov2019 = oct2019 + monthCount.Nov2019.length;
+    // var dec2019 = nov2019 + monthCount.Dec2019.length;
 
     /* -- For count displayed on index.html NOT BEING USED -- */
     var homePageTotal = yearCount[2018].length;
     $('#display-totals').html(homePageTotal);
-
 
     var homicideChart = c3.generate({
         bindto: '#homicide-chart',
@@ -107,7 +119,8 @@ d3.json(dataFile, function(data) {
                 ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
-                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018 /*, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */ ]
+                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
+                ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019/*, oct2019, nov2019, dec2019*/ ]
             ],
             colors: {
                 '2010': '#bbb',
@@ -117,8 +130,9 @@ d3.json(dataFile, function(data) {
                 '2014': '#bbb',
                 '2015': '#bbb',
                 '2016': '#bbb',
-                '2017': 'rgba(142,16,36,.5)',
-                '2018': 'rgba(142,16,36,1)'
+                '2017': '#bbb',
+                '2018': 'rgba(142,16,36,.5)',
+                '2019': 'rgba(142,16,36,1)'
             }
         },
         grid: {
@@ -179,12 +193,13 @@ d3.json(dataFile, function(data) {
     var fivePoints = neighborhoodCount['Five Points'].length;
     var montbello = neighborhoodCount.Montbello.length;
     var eastColfax = neighborhoodCount['East Colfax'].length;
+    console.log(eastColfax);
     var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
-    var cole = neighborhoodCount.Cole.length;
-    var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
+    //var cole = neighborhoodCount.Cole.length;
+    //var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
     var westwood = neighborhoodCount.Westwood.length;
     // var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
-    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + cole + elyriaSwansea + westwood);
+    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + westwood);
 
     var neighborhoodChart = c3.generate({
         bindto: '#homicide-neighborhoods',
@@ -195,8 +210,8 @@ d3.json(dataFile, function(data) {
             columns: [
                 ['Five Points', fivePoints],
                 ['Montbello', montbello],
-                ['East Colfax', eastColfax],
                 ['Northeast Park Hill', northeastParkHill],
+                ['East Colfax', eastColfax],
                 ['Westwood', westwood],
                 // ['Cole', cole],
                 // ['Elyria Swansea', elyriaSwansea],
@@ -243,6 +258,7 @@ d3.json(dataFile, function(data) {
             x: 'x',
             columns: [
                 ['x', 'Male', 'Female'],
+                ['2019', genderCount.Male2019.length, genderCount.Female2019.length],
                 ['2018', genderCount.Male2018.length, genderCount.Female2018.length],
                 ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
                 ['2016', genderCount.Male2016.length, genderCount.Female2016.length],
@@ -251,14 +267,20 @@ d3.json(dataFile, function(data) {
             ],
             type: 'bar',
             colors: {
-                '2015': '#ccc',
-                '2016': '#bbb',
-                '2017': '#aaa',
-                '2018': 'rgba(142,16,36,1)'
+                '2015': '#ddd',
+                '2016': '#ccc',
+                '2017': '#bbb',
+                '2018': '#aaa',
+                '2019': 'rgba(142,16,36,1)'
             },
             onclick: function(d, i) { console.log("onclick", d, i); },
             onmouseover: function(d, i) { console.log("onmouseover", d, i); },
             onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+        },
+        bar: {
+            width: {
+                ratio: 0.5
+            }
         },
         axis: {
             x: {
@@ -277,6 +299,7 @@ d3.json(dataFile, function(data) {
 
 var neighborhoods = new L.LayerGroup();
 // var census = new L.LayerGroup();
+var homicides2019 = new L.LayerGroup();
 var homicides2018 = new L.LayerGroup();
 var homicides2017 = new L.LayerGroup();
 var homicides2016 = new L.LayerGroup();
@@ -308,6 +331,7 @@ var groupedOverlays = {
         // "Income levels": census
     },
     "Homicides": {
+        "2019": homicides2019,
         "2018": homicides2018,
         "2017": homicides2017,
         "2016": homicides2016,
@@ -320,10 +344,10 @@ var groupedOverlays = {
 var map = L.map('map', {
     center: [39.72, -104.91],
     zoom: 12,
-    scrollWheelZoom: false,
+    scrollWheelZoom: true,
     // touchZoom: true,
     keyboard: false,
-    layers: [stamenMap, neighborhoods, homicides2018, homicides2017, homicides2016, homicides2015]
+    layers: [stamenMap, neighborhoods, homicides2019, homicides2018, homicides2017, homicides2016, homicides2015]
 });
 
 // below from http://maptimeboston.github.io/leaflet-intro/
@@ -332,10 +356,10 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
         style: function(feature) {
             var fillColor,
                 density = feature.properties.homicides;
-            if (density > 12) fillColor = "#08306b";
-            else if (density > 9) fillColor = "#08519c";
-            else if (density > 6) fillColor = "#2171b5";
-            else if (density > 3) fillColor = "#4292c6";
+            if (density >= 16) fillColor = "#08306b";
+            else if (density >= 12) fillColor = "#08519c";
+            else if (density >= 8) fillColor = "#2171b5";
+            else if (density >= 4) fillColor = "#4292c6";
             else if (density > 0) fillColor = "#6baed6";
             else fillColor = "rgba(255,255,0,.3)"; // no data
             return {
@@ -380,11 +404,33 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
 // });
 
 
-$.getJSON("js/homicides_2018_geojson.js", function(data) {
+$.getJSON("js/homicides_2019_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-current-year',
         iconSize: [10, 10]
+        //iconAnchor: [6, 3],
+        //popupAnchor: [-1, -5]
+        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
+    });
+    L.geoJson(data, {
+        pointToLayer: function(feature, latlng) {
+            var marker = L.marker(latlng, {
+                icon: mapIcon
+            });
+
+            marker.bindPopup(
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+            return marker;
+        }
+    }).addTo(homicides2019);
+});
+
+$.getJSON("js/homicides_2018_geojson.js", function(data) {
+    var mapIcon = L.divIcon({
+        //iconUrl: 'images/circle-red.png',
+        className: 'icon-previous-year',
+        iconSize: [8, 8]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
@@ -476,7 +522,12 @@ $(document).ready(function() {
             'url': dataFile,
             'dataSrc': ''
         },
-        pageLength: 15,
+        //pageLength: 15,
+        scrollY: "500px",
+        scrollCollapse: true,
+        paging: false,
+        //scrollX: true,
+        fixedHeader: true,
         responsive: {
             details: {
                 type: 'column'
