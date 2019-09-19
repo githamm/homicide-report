@@ -107,7 +107,7 @@ d3.json(dataFile, function(data) {
                 ['2015', jan2015, feb2015, mar2015, apr2015, may2015, jun2015, jul2015, aug2015, sep2015, oct2015, nov2015, dec2015],
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
-                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018/*, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */]
+                ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018 /*, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018 */ ]
             ],
             colors: {
                 '2010': '#bbb',
@@ -418,7 +418,7 @@ $.getJSON("js/homicides_2017_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2017);
@@ -439,7 +439,7 @@ $.getJSON("js/homicides_2016_geojson.js", function(data) {
                 icon: mapIcon
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2016);
@@ -460,7 +460,7 @@ $.getJSON("js/homicides_2015_geojson.js", function(data) {
                 icon: mapIcon
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Died on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2015);
