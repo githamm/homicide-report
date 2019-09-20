@@ -4834,7 +4834,7 @@
                         [-104.93289, 39.69842]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973248, 39.718404],
@@ -5606,7 +5606,7 @@
                         [-104.940621, 39.751037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 55, "nbhd_id": 55, "notes": null, "typology": null, "nbhd_name": "Skyland", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 55, "nbhd_id": 55, "notes": null, "typology": null, "nbhd_name": "Skyland", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.866035, 39.798411],

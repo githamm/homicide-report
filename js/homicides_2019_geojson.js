@@ -1076,18 +1076,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -104.94645,
+          39.755745
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "273",
+        "homicideDate": "9/12/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Eno Essien",
+        "victimAge": "34",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2700 block of North Madison Street",
+        "neighborhood": "Skyland",
+        "articleLink": "https://www.denverpost.com/2019/09/12/denver-death-madison-street-police/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -104.959764,
           39.748245
         ]
       },
       "properties": {
         "button": "",
-        "index": "273",
+        "index": "274",
         "homicideDate": "9/13/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
-        "victimName": "Not released",
-        "victimAge": "TBD",
+        "victimName": "David Barela",
+        "victimAge": "36",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
@@ -1107,12 +1132,12 @@
       },
       "properties": {
         "button": "",
-        "index": "274",
+        "index": "275",
         "homicideDate": "9/15/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
-        "victimName": "Not released",
-        "victimAge": "TBD",
+        "victimName": "Omar Noor",
+        "victimAge": "23",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
@@ -1132,18 +1157,43 @@
       },
       "properties": {
         "button": "",
-        "index": "275",
+        "index": "276",
         "homicideDate": "9/17/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
-        "victimName": "Not released",
-        "victimAge": "TBD",
+        "victimName": "Orlando Butler",
+        "victimAge": "33",
         "victimGender": "Male",
         "victimRace": "",
         "mannerOfDeath": "Gunshot",
         "blockAddress": "14900 block of East Lackland Place",
         "neighborhood": "Montbello",
         "articleLink": "https://www.denverpost.com/2019/09/17/montbello-shooting-lackland-place-death/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.912582,
+          39.685573
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "277",
+        "homicideDate": "9/18/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Treaujalaune Lornes",
+        "victimAge": "14",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1700 block of South Monaco Parkway",
+        "neighborhood": "Virginia Village",
+        "articleLink": "https://www.denverpost.com/2019/09/18/man-shot-cook-park-denver/"
       }
     }
   ]
