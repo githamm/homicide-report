@@ -1195,6 +1195,56 @@
         "neighborhood": "Virginia Village",
         "articleLink": "https://www.denverpost.com/2019/09/18/man-shot-cook-park-denver/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.768076,
+          39.777937
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "278",
+        "homicideDate": "9/21/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Diego Marquez",
+        "victimAge": "17",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "18800 block of East 45th Avenue",
+        "neighborhood": "Gateway-Green Valley Ranch",
+        "articleLink": "https://www.denverpost.com/2019/09/24/denver-green-valley-ranch-victim/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.981308,
+          39.716543
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "279",
+        "homicideDate": "9/27/2019",
+        "homicideMonth": "Sep",
+        "homicideYear": "2019",
+        "victimName": "Michelle Jacobson",
+        "victimAge": "43",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "TBD",
+        "blockAddress": "000 block of South Pennsylvania Street",
+        "neighborhood": "Speer",
+        "articleLink": "https://www.denverpost.com/2019/09/27/denver-homicide-investigation-2/"
+      }
     }
   ]
 }

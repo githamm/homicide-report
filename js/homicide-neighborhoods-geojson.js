@@ -4922,7 +4922,7 @@
                         [-104.973248, 39.718404]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 49, "nbhd_id": 59, "notes": null, "typology": null, "nbhd_name": "Speer", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 49, "nbhd_id": 59, "notes": null, "typology": null, "nbhd_name": "Speer", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.901864, 39.624093],
@@ -6750,7 +6750,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 37, "nbhd_id": 28, "notes": null, "typology": null, "nbhd_name": "Gateway-Green Valley Ranch", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 37, "nbhd_id": 28, "notes": null, "typology": null, "nbhd_name": "Gateway-Green Valley Ranch", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.009489, 39.753927],
