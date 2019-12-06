@@ -958,10 +958,10 @@
       "properties": {
         "button": "",
         "index": "268",
-        "homicideDate": "8/12/2019",
+        "homicideDate": "8/13/2019",
         "homicideMonth": "Aug",
         "homicideYear": "2019",
-        "victimName": "Not released",
+        "victimName": "Shaina Castillo",
         "victimAge": "22",
         "victimGender": "Female",
         "victimRace": "",
@@ -1036,11 +1036,11 @@
         "homicideDate": "9/6/19",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
-        "victimName": "Not released",
-        "victimAge": "TBD",
+        "victimName": "Noah Mantione",
+        "victimAge": "29",
         "victimGender": "Male",
         "victimRace": "",
-        "mannerOfDeath": "TBD",
+        "mannerOfDeath": "Pending",
         "blockAddress": "2200 block of North Ivanhoe Street",
         "neighborhood": "South Park Hill",
         "articleLink": "https://www.denverpost.com/2019/09/09/denver-police-man-dead-vehicle-homicide/"
@@ -1244,6 +1244,181 @@
         "blockAddress": "000 block of South Pennsylvania Street",
         "neighborhood": "Speer",
         "articleLink": "https://www.denverpost.com/2019/09/27/denver-homicide-investigation-2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.950985,
+          39.740199
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "280",
+        "homicideDate": "10/3/2019",
+        "homicideMonth": "Oct",
+        "homicideYear": "2019",
+        "victimName": "Andres Panuco-Herrera",
+        "victimAge": "25",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Asphyxia",
+        "blockAddress": "1500 block of St. Paul Street",
+        "neighborhood": "City Park",
+        "articleLink": "https://www.denverpost.com/2019/10/06/denver-andres-panuco-herrera-death/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.049143,
+          39.718423
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "281",
+        "homicideDate": "10/13/2019",
+        "homicideMonth": "Oct",
+        "homicideYear": "2019",
+        "victimName": "Mark Berman",
+        "victimAge": "59",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "100 block of North Xavier Street",
+        "neighborhood": "Barnum West",
+        "articleLink": "https://www.denverpost.com/2019/10/14/denver-shooting-suspect-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.904713,
+          39.767135
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "282",
+        "homicideDate": "10/18/2019",
+        "homicideMonth": "Oct",
+        "homicideYear": "2019",
+        "victimName": "Nathan McBride",
+        "victimAge": "42",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Blunt force",
+        "blockAddress": "7200 block of East 36th Avenue",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2019/10/24/denver-homicide-suspect-arrested-florida/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.901568,
+          39.726782
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "283",
+        "homicideDate": "10/19/2019",
+        "homicideMonth": "Oct",
+        "homicideYear": "2019",
+        "victimName": "Tyre Falls",
+        "victimAge": "27",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "700 block of North Quince Street",
+        "neighborhood": "Lowry",
+        "articleLink": "https://www.denverpost.com/2019/10/22/denver-montclair-homicide-dajanae-brice/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.002932,
+          39.728802
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "284",
+        "homicideDate": "11/2/2019",
+        "homicideMonth": "Nov",
+        "homicideYear": "2019",
+        "victimName": "Yves Gakuba",
+        "victimAge": "34",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Asphyxia",
+        "blockAddress": "Alley between Mariposa Street and Navajo Street",
+        "neighborhood": "Lincoln Park",
+        "articleLink": "https://www.denverpost.com/2019/11/02/denver-homicide-lincoln-park-alley/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.929382,
+          39.767408
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "285",
+        "homicideDate": "11/24/2019",
+        "homicideMonth": "Nov",
+        "homicideYear": "2019",
+        "victimName": "Jerrod Shoals",
+        "victimAge": "41",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3600 block of Elm Street",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2019/12/04/denver-man-found-dead-in-vehicle/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.899773,
+          39.739986
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "286",
+        "homicideDate": "11/27/2019",
+        "homicideMonth": "Nov",
+        "homicideYear": "2019",
+        "victimName": "Tamerat Abebe",
+        "victimAge": "43",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "7600 block of East Colfax Avenue",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2019/12/04/denver-7-eleven-stabbing-death-tamerat-abebe/"
       }
     }
   ]

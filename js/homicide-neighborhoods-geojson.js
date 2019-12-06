@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 16 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 17 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -3542,7 +3542,7 @@
                         [-104.940621, 39.751037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 53, "nbhd_id": 14, "notes": null, "typology": null, "nbhd_name": "City Park", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 53, "nbhd_id": 14, "notes": null, "typology": null, "nbhd_name": "City Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.960192, 39.729109],
@@ -6455,7 +6455,7 @@
                         [-104.903511, 39.783823]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 15 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 17 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.987431, 39.696634],
@@ -8561,7 +8561,7 @@
                         [-105.039454, 39.725708]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 60, "nbhd_id": 5, "notes": null, "typology": null, "nbhd_name": "Barnum West", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 60, "nbhd_id": 5, "notes": null, "typology": null, "nbhd_name": "Barnum West", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.992384, 39.696661],
@@ -10761,7 +10761,7 @@
                         [-104.998567, 39.740194]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 67, "nbhd_id": 41, "notes": null, "typology": null, "nbhd_name": "Lincoln Park", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 67, "nbhd_id": 41, "notes": null, "typology": null, "nbhd_name": "Lincoln Park", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.762683, 39.798434],
@@ -11040,7 +11040,7 @@
                         [-104.8847, 39.732847]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 78, "nbhd_id": 42, "notes": null, "typology": null, "nbhd_name": "Lowry", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 78, "nbhd_id": 42, "notes": null, "typology": null, "nbhd_name": "Lowry", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.034615, 39.653276],
