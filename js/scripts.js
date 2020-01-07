@@ -489,7 +489,7 @@ $.getJSON("js/homicides_2019_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-previous-year',
-        iconSize: [10, 10]
+        iconSize: [8, 8]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]
         // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
