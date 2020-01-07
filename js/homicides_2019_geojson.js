@@ -1420,6 +1420,81 @@
         "neighborhood": "East Colfax",
         "articleLink": "https://www.denverpost.com/2019/12/04/denver-7-eleven-stabbing-death-tamerat-abebe/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.902525,
+          39.69413
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "287",
+        "homicideDate": "12/8/2019",
+        "homicideMonth": "Dec",
+        "homicideYear": "2019",
+        "victimName": "Lydia Tesfuoo",
+        "victimAge": "25",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "1200 block of South Quebec Way",
+        "neighborhood": "Washington Virginia Vale",
+        "articleLink": "https://www.denverpost.com/2019/12/13/lydia-tesfuoo-stabbing-death-denver-colorado/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.977309,
+          39.743028
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "288",
+        "homicideDate": "12/11/2019",
+        "homicideMonth": "Dec",
+        "homicideYear": "2019",
+        "victimName": "Jessika Martinez",
+        "victimAge": "25",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Pending",
+        "blockAddress": "800 block of East 17th Avenue",
+        "neighborhood": "North Capitol Hill",
+        "articleLink": "https://www.denverpost.com/2019/12/13/jessika-martinez-death-denver-capitol-hill-neighborhood/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.977676,
+          39.783451
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "289",
+        "homicideDate": "12/15/2019",
+        "homicideMonth": "Dec",
+        "homicideYear": "2019",
+        "victimName": "Paul Dakan",
+        "victimAge": "36",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "4800 block of North Washington Street",
+        "neighborhood": "Globeville",
+        "articleLink": "https://www.denverpost.com/2019/12/17/washington-street-shooting-victim-identified/"
+      }
     }
   ]
 }

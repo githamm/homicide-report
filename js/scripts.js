@@ -1,11 +1,10 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-120619.json";
+var dataFile = "js/homicides-010720.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
 d3.json(dataFile, function(data) {
-    //console.log(data);
     var monthCount = [];
     var monthTotal = 0;
     var yearCount = [];
@@ -93,7 +92,19 @@ d3.json(dataFile, function(data) {
     var sep2019 = aug2019 + monthCount.Sep2019.length;
     var oct2019 = sep2019 + monthCount.Oct2019.length;
     var nov2019 = oct2019 + monthCount.Nov2019.length;
-    //var dec2019 = nov2019 + monthCount.Dec2019.length;
+    var dec2019 = nov2019 + monthCount.Dec2019.length;
+    var jan2020 = monthCount.Jan2020.length;
+    // var feb2020 = jan2020 + monthCount.Feb2020.length;
+    // var mar2020 = feb2020 + monthCount.Mar2020.length;
+    // var apr2020 = mar2020 + monthCount.Apr2020.length;
+    // var may2020 = apr2020 + monthCount.May2020.length;
+    // var jun2020 = may2020 + monthCount.Jun2020.length;
+    // var jul2020 = jun2020 + monthCount.Jul2020.length;
+    // var aug2020 = jul2020 + monthCount.Aug2020.length;
+    // var sep2020 = aug2020 + monthCount.Sep2020.length;
+    // var oct2020 = sep2020 + monthCount.Oct2020.length;
+    // var nov2020 = oct2020 + monthCount.Nov2020.length;
+    // var dec2020 = nov2020 + monthCount.Dec2020.length;
 
     /* -- For count displayed on index.html NOT BEING USED -- */
     var homePageTotal = yearCount[2018].length;
@@ -120,7 +131,8 @@ d3.json(dataFile, function(data) {
                 ['2016', jan2016, feb2016, mar2016, apr2016, may2016, jun2016, jul2016, aug2016, sep2016, oct2016, nov2016, dec2016],
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
                 ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
-                ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019 /*, dec2019*/ ]
+                ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019],
+                ['2020', jan2020/*, feb2020, mar2020, apr2020, may2020, jun2020, jul2020, aug2020, sep2020, oct2020, nov2020, dec2020*/]
             ],
             colors: {
                 '2010': '#bbb',
@@ -131,8 +143,9 @@ d3.json(dataFile, function(data) {
                 '2015': '#bbb',
                 '2016': '#bbb',
                 '2017': '#bbb',
-                '2018': 'rgba(142,16,36,.5)',
-                '2019': 'rgba(142,16,36,1)'
+                '2018': '#bbb',
+                '2019': 'rgba(142,16,36,.5)',
+                '2020': 'rgba(142,16,36,1)'
             }
         },
         grid: {
@@ -175,9 +188,9 @@ var homicideRateChart = c3.generate({
     data: {
         x: 'x',
         columns: [
-            ['x', "1985-01-01", "1986-01-01", "1987-01-01", "1988-01-01", "1989-01-01", "1990-01-01", "1991-01-01", "1992-01-01", "1993-01-01", "1994-01-01", "1995-01-01", "1996-01-01", "1997-01-01", "1998-01-01", "1999-01-01", "2000-01-01", "2001-01-01", "2002-01-01", "2003-01-01", "2004-01-01", "2005-01-01", "2006-01-01", "2007-01-01", "2008-01-01", "2009-01-01", "2010-01-01", "2011-01-01", "2012-01-01", "2013-01-01", "2014-01-01", "2015-01-01", "2016-01-01", "2017-01-01", "2018-01-01"],
-            ['Homicide count', 72, 91, 79, 69, 55, 67, 88, 95, 74, 81, 81, 64, 69, 51, 63, 32, 45, 51, 63, 87, 59, 51, 47, 40, 35, 27, 38, 28, 36, 28, 50, 56, 56, 67],
-            ['Homicide rate', 14.5, 18.3, 16.1, 14.4, 11.6, 14.3, 18.5, 19.5, 14.8, 16.1, 16.0, 12.3, 13.1, 9.6, 11.5, 5.7, 8.0, 9.1, 11.2, 15.5, 10.5, 9.1, 8.2, 6.9, 5.9, 4.5, 6.1, 4.4, 5.5, 4.2, 7.3, 8.0, 7.9, 9.3]
+            ['x', "1985-01-01", "1986-01-01", "1987-01-01", "1988-01-01", "1989-01-01", "1990-01-01", "1991-01-01", "1992-01-01", "1993-01-01", "1994-01-01", "1995-01-01", "1996-01-01", "1997-01-01", "1998-01-01", "1999-01-01", "2000-01-01", "2001-01-01", "2002-01-01", "2003-01-01", "2004-01-01", "2005-01-01", "2006-01-01", "2007-01-01", "2008-01-01", "2009-01-01", "2010-01-01", "2011-01-01", "2012-01-01", "2013-01-01", "2014-01-01", "2015-01-01", "2016-01-01", "2017-01-01", "2018-01-01", "2019-01-01"],
+            ['Homicide count', 72, 91, 79, 69, 55, 67, 88, 95, 74, 81, 81, 64, 69, 51, 63, 32, 45, 51, 63, 87, 59, 51, 47, 40, 35, 27, 38, 28, 36, 28, 50, 56, 56, 67, 60],
+            ['Homicide rate', 14.5, 18.3, 16.1, 14.4, 11.6, 14.3, 18.5, 19.5, 14.8, 16.1, 16.0, 12.3, 13.1, 9.6, 11.5, 5.7, 8.0, 9.1, 11.2, 15.5, 10.5, 9.1, 8.2, 6.9, 5.9, 4.5, 6.1, 4.4, 5.5, 4.2, 7.3, 8.0, 7.9, 9.3, 8.2]
         ],
         types: {
             'Homicide count': 'line',
@@ -233,7 +246,6 @@ d3.json(dataFile, function(data) {
     var fivePoints = neighborhoodCount['Five Points'].length;
     var montbello = neighborhoodCount.Montbello.length;
     var eastColfax = neighborhoodCount['East Colfax'].length;
-    console.log(eastColfax);
     var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
     //var cole = neighborhoodCount.Cole.length;
     //var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
@@ -298,6 +310,7 @@ d3.json(dataFile, function(data) {
             x: 'x',
             columns: [
                 ['x', 'Male', 'Female'],
+                ['2020', genderCount.Male2020.length, 0],
                 ['2019', genderCount.Male2019.length, genderCount.Female2019.length],
                 ['2018', genderCount.Male2018.length, genderCount.Female2018.length],
                 ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
@@ -311,7 +324,8 @@ d3.json(dataFile, function(data) {
                 '2016': '#ccc',
                 '2017': '#bbb',
                 '2018': '#aaa',
-                '2019': 'rgba(142,16,36,1)'
+                '2019': 'rgba(142,16,36,.5)',
+                '2020': 'rgba(142,16,36,1)'
             },
             onclick: function(d, i) { console.log("onclick", d, i); },
             onmouseover: function(d, i) { console.log("onmouseover", d, i); },
@@ -342,6 +356,7 @@ d3.json(dataFile, function(data) {
 
 var neighborhoods = new L.LayerGroup();
 // var census = new L.LayerGroup();
+var homicides2020 = new L.LayerGroup();
 var homicides2019 = new L.LayerGroup();
 var homicides2018 = new L.LayerGroup();
 var homicides2017 = new L.LayerGroup();
@@ -374,6 +389,7 @@ var groupedOverlays = {
         // "Income levels": census
     },
     "Homicides": {
+        "2020": homicides2020,
         "2019": homicides2019,
         "2018": homicides2018,
         "2017": homicides2017,
@@ -390,7 +406,7 @@ var map = L.map('map', {
     scrollWheelZoom: true,
     // touchZoom: true,
     keyboard: false,
-    layers: [stamenMap, neighborhoods, homicides2019, homicides2018, homicides2017, homicides2016, homicides2015]
+    layers: [stamenMap, neighborhoods, homicides2020, homicides2019, homicides2018, homicides2017, homicides2016, homicides2015]
 });
 
 // below from http://maptimeboston.github.io/leaflet-intro/
@@ -447,10 +463,32 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
 // });
 
 
-$.getJSON("js/homicides_2019_geojson.js", function(data) {
+$.getJSON("js/homicides_2020_geojson.js", function(data) {
     var mapIcon = L.divIcon({
         //iconUrl: 'images/circle-red.png',
         className: 'icon-current-year',
+        iconSize: [10, 10]
+        //iconAnchor: [6, 3],
+        //popupAnchor: [-1, -5]
+        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
+    });
+    L.geoJson(data, {
+        pointToLayer: function(feature, latlng) {
+            var marker = L.marker(latlng, {
+                icon: mapIcon
+            });
+
+            marker.bindPopup(
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+            return marker;
+        }
+    }).addTo(homicides2020);
+});
+
+$.getJSON("js/homicides_2019_geojson.js", function(data) {
+    var mapIcon = L.divIcon({
+        //iconUrl: 'images/circle-red.png',
+        className: 'icon-previous-year',
         iconSize: [10, 10]
         //iconAnchor: [6, 3],
         //popupAnchor: [-1, -5]

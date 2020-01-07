@@ -2520,7 +2520,7 @@
                         [-105.025108, 39.667716]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.884657, 39.747455],
@@ -4183,7 +4183,7 @@
                         [-104.929311, 39.702037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959309, 39.715657],
@@ -6026,7 +6026,7 @@
                         [-104.973383, 39.74378]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 71, "nbhd_id": 47, "notes": null, "typology": null, "nbhd_name": "North Capitol Hill", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 71, "nbhd_id": 47, "notes": null, "typology": null, "nbhd_name": "North Capitol Hill", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903455, 39.740146],
@@ -7642,7 +7642,7 @@
                         [-104.968754, 39.79104]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959782, 39.739989],
