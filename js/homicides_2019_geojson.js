@@ -1001,13 +1001,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -104.949642,
+          39.791102
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "270",
+        "homicideDate": "8/29/2019",
+        "homicideMonth": "Aug",
+        "homicideYear": "2019",
+        "victimName": "Gene Cisneros",
+        "victimAge": "39",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "5200 block of North Steele Street",
+        "neighborhood": "Elyria Swansea",
+        "articleLink": "https://www.denverpost.com/2019/09/11/man-arrested-texas-denver-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -105.024818,
           39.762292
         ]
       },
       "properties": {
         "button": "",
-        "index": "270",
+        "index": "271",
         "homicideDate": "9/4/19",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1032,7 +1057,7 @@
       },
       "properties": {
         "button": "",
-        "index": "271",
+        "index": "272",
         "homicideDate": "9/6/19",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1057,7 +1082,7 @@
       },
       "properties": {
         "button": "",
-        "index": "272",
+        "index": "273",
         "homicideDate": "9/9/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1082,7 +1107,7 @@
       },
       "properties": {
         "button": "",
-        "index": "273",
+        "index": "274",
         "homicideDate": "9/12/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1107,7 +1132,7 @@
       },
       "properties": {
         "button": "",
-        "index": "274",
+        "index": "275",
         "homicideDate": "9/13/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1132,7 +1157,7 @@
       },
       "properties": {
         "button": "",
-        "index": "275",
+        "index": "276",
         "homicideDate": "9/15/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1157,7 +1182,7 @@
       },
       "properties": {
         "button": "",
-        "index": "276",
+        "index": "277",
         "homicideDate": "9/17/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1182,7 +1207,7 @@
       },
       "properties": {
         "button": "",
-        "index": "277",
+        "index": "278",
         "homicideDate": "9/18/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1207,7 +1232,7 @@
       },
       "properties": {
         "button": "",
-        "index": "278",
+        "index": "279",
         "homicideDate": "9/21/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1232,7 +1257,7 @@
       },
       "properties": {
         "button": "",
-        "index": "279",
+        "index": "280",
         "homicideDate": "9/27/2019",
         "homicideMonth": "Sep",
         "homicideYear": "2019",
@@ -1257,7 +1282,7 @@
       },
       "properties": {
         "button": "",
-        "index": "280",
+        "index": "281",
         "homicideDate": "10/3/2019",
         "homicideMonth": "Oct",
         "homicideYear": "2019",
@@ -1282,7 +1307,7 @@
       },
       "properties": {
         "button": "",
-        "index": "281",
+        "index": "282",
         "homicideDate": "10/13/2019",
         "homicideMonth": "Oct",
         "homicideYear": "2019",
@@ -1307,7 +1332,7 @@
       },
       "properties": {
         "button": "",
-        "index": "282",
+        "index": "283",
         "homicideDate": "10/18/2019",
         "homicideMonth": "Oct",
         "homicideYear": "2019",
@@ -1332,7 +1357,7 @@
       },
       "properties": {
         "button": "",
-        "index": "283",
+        "index": "284",
         "homicideDate": "10/19/2019",
         "homicideMonth": "Oct",
         "homicideYear": "2019",
@@ -1357,7 +1382,7 @@
       },
       "properties": {
         "button": "",
-        "index": "284",
+        "index": "285",
         "homicideDate": "11/2/2019",
         "homicideMonth": "Nov",
         "homicideYear": "2019",
@@ -1382,7 +1407,7 @@
       },
       "properties": {
         "button": "",
-        "index": "285",
+        "index": "286",
         "homicideDate": "11/24/2019",
         "homicideMonth": "Nov",
         "homicideYear": "2019",
@@ -1407,7 +1432,7 @@
       },
       "properties": {
         "button": "",
-        "index": "286",
+        "index": "287",
         "homicideDate": "11/27/2019",
         "homicideMonth": "Nov",
         "homicideYear": "2019",
@@ -1432,7 +1457,7 @@
       },
       "properties": {
         "button": "",
-        "index": "287",
+        "index": "288",
         "homicideDate": "12/8/2019",
         "homicideMonth": "Dec",
         "homicideYear": "2019",
@@ -1457,7 +1482,7 @@
       },
       "properties": {
         "button": "",
-        "index": "288",
+        "index": "289",
         "homicideDate": "12/11/2019",
         "homicideMonth": "Dec",
         "homicideYear": "2019",
@@ -1482,7 +1507,7 @@
       },
       "properties": {
         "button": "",
-        "index": "289",
+        "index": "290",
         "homicideDate": "12/15/2019",
         "homicideMonth": "Dec",
         "homicideYear": "2019",

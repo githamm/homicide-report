@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-010720.json";
+var dataFile = "js/homicides-011420.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 

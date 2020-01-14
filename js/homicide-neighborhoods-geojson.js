@@ -8144,7 +8144,7 @@
                         [-104.940088, 39.790975]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 11, "nbhd_id": 25, "notes": null, "typology": null, "nbhd_name": "Elyria Swansea", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 11, "nbhd_id": 25, "notes": null, "typology": null, "nbhd_name": "Elyria Swansea", "homicides": 9 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.001395, 39.682168],
