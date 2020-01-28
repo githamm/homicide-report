@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 17 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 18 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 20 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 21 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -3771,7 +3771,7 @@
                         [-104.940687, 39.682962]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 21, "nbhd_id": 66, "notes": null, "typology": null, "nbhd_name": "University Park", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 21, "nbhd_id": 66, "notes": null, "typology": null, "nbhd_name": "University Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.928282, 39.706687],
@@ -4834,7 +4834,7 @@
                         [-104.93289, 39.69842]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 36, "nbhd_id": 69, "notes": null, "typology": null, "nbhd_name": "Virginia Village", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973248, 39.718404],
@@ -6250,7 +6250,7 @@
                         [-104.992384, 39.696661]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 25, "nbhd_id": 54, "notes": null, "typology": null, "nbhd_name": "Ruby Hill", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 25, "nbhd_id": 54, "notes": null, "typology": null, "nbhd_name": "Ruby Hill", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025059, 39.696747],

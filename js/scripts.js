@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides-011420.json";
+var dataFile = "js/homicides-012820.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
@@ -310,7 +310,7 @@ d3.json(dataFile, function(data) {
             x: 'x',
             columns: [
                 ['x', 'Male', 'Female'],
-                ['2020', genderCount.Male2020.length, 0],
+                ['2020', genderCount.Male2020.length, genderCount.Female2020.length],
                 ['2019', genderCount.Male2019.length, genderCount.Female2019.length],
                 ['2018', genderCount.Male2018.length, genderCount.Female2018.length],
                 ['2017', genderCount.Male2017.length, genderCount.Female2017.length],
@@ -418,7 +418,7 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
             if (density >= 16) fillColor = "#08306b";
             else if (density >= 12) fillColor = "#08519c";
             else if (density >= 8) fillColor = "#2171b5";
-            else if (density >= 4) fillColor = "#4292c6";
+            else if (density >= 3) fillColor = "#4292c6";
             else if (density > 0) fillColor = "#6baed6";
             else fillColor = "rgba(255,255,0,.3)"; // no data
             return {
