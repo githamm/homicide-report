@@ -403,6 +403,8 @@ var groupedOverlays = {
 var map = L.map('map', {
     center: [39.72, -104.91],
     zoom: 12,
+    minZoom: 11,
+    maxZoom: 16,
     scrollWheelZoom: true,
     // touchZoom: true,
     keyboard: false,
