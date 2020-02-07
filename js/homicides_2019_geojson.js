@@ -1357,7 +1357,7 @@
                 "victimGender": "Male",
                 "victimRace": "",
                 "mannerOfDeath": "Stabbing",
-                "blockAddress": "1505 S. Federal Blvd",
+                "blockAddress": "1500 block of South Federal Boulevard",
                 "neighborhood": "Mar Lee",
                 "articleLink": ""
             }
