@@ -6334,7 +6334,7 @@
                         [-105.025059, 39.696747]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 41, "nbhd_id": 43, "notes": null, "typology": null, "nbhd_name": "Mar Lee", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 41, "nbhd_id": 43, "notes": null, "typology": null, "nbhd_name": "Mar Lee", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903511, 39.783823],
@@ -7216,7 +7216,7 @@
                         [-104.866022, 39.660271]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 27, "nbhd_id": 32, "notes": null, "typology": null, "nbhd_name": "Hampden", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 27, "nbhd_id": 32, "notes": null, "typology": null, "nbhd_name": "Hampden", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.905638, 39.678441],
