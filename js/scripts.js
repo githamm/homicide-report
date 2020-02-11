@@ -623,9 +623,10 @@ $(document).ready(function() {
             targets: 0
         }],
         order: [
-            [0, 'desc']
+            [1, 'desc']
         ],
         columns: [
+            { data: 'button' },
             { data: 'index' },
             {
                 orderable: false,

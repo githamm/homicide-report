@@ -1,6 +1,7 @@
 [
 {
-    "index": 1,
+    "button": "",
+"index": 1,
     "homicideDate": "1/4/2015",
     "homicideMonth": "Jan",
     "homicideYear": 2015,
@@ -16,7 +17,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27257643/drive-by-shooting-kills-man-denver-sunday-evening"
 },
 {
-    "index": 2,
+    "button": "",
+"index": 2,
     "homicideDate": "1/7/2015",
     "homicideMonth": "Jan",
     "homicideYear": 2015,
@@ -32,7 +34,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27273525/denver-police-investigating-two-deaths"
 },
 {
-    "index": 3,
+    "button": "",
+"index": 3,
     "homicideDate": "1/7/2015",
     "homicideMonth": "Jan",
     "homicideYear": 2015,
@@ -48,7 +51,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27273525/denver-police-investigating-two-deaths"
 },
 {
-    "index": 4,
+    "button": "",
+"index": 4,
     "homicideDate": "1/16/2015",
     "homicideMonth": "Jan",
     "homicideYear": 2015,
@@ -64,7 +68,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27333002/denver-police-suspect-sought-stabbing-that-left-one"
 },
 {
-    "index": 5,
+    "button": "",
+"index": 5,
     "homicideDate": "2/4/2015",
     "homicideMonth": "Feb",
     "homicideYear": 2015,
@@ -80,7 +85,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27466092/denver-police-investigating-death-homicide-no-suspects"
 },
 {
-    "index": 6,
+    "button": "",
+"index": 6,
     "homicideDate": "2/15/2015",
     "homicideMonth": "Feb",
     "homicideYear": 2015,
@@ -96,7 +102,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27532174/denver-police-say-person-shot-killed-11th-and"
 },
 {
-    "index": 7,
+    "button": "",
+"index": 7,
     "homicideDate": "2/17/2015",
     "homicideMonth": "Feb",
     "homicideYear": 2015,
@@ -112,7 +119,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27549395/denver-police-investigating-green-valley-ranch-death"
 },
 {
-    "index": 8,
+    "button": "",
+"index": 8,
     "homicideDate": "3/15/2015",
     "homicideMonth": "Mar",
     "homicideYear": 2015,
@@ -128,7 +136,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27720426/denver-police-1-wounded-latest-4-shootings-3"
 },
 {
-    "index": 9,
+    "button": "",
+"index": 9,
     "homicideDate": "3/15/2015",
     "homicideMonth": "Mar",
     "homicideYear": 2015,
@@ -144,7 +153,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27716322/two-men-shot-death-denver-overnight"
 },
 {
-    "index": 10,
+    "button": "",
+"index": 10,
     "homicideDate": "3/15/2015",
     "homicideMonth": "Mar",
     "homicideYear": 2015,
@@ -160,7 +170,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27719221/shooting-denver-sends-man-hospital-sunday-night"
 },
 {
-    "index": 11,
+    "button": "",
+"index": 11,
     "homicideDate": "3/15/2015",
     "homicideMonth": "Mar",
     "homicideYear": 2015,
@@ -176,7 +187,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27716322/two-men-shot-death-denver-overnight"
 },
 {
-    "index": 12,
+    "button": "",
+"index": 12,
     "homicideDate": "3/24/2015",
     "homicideMonth": "Mar",
     "homicideYear": 2015,
@@ -192,7 +204,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27794812/denver-police-no-updates-shooting-death-rachel-baby-smiley-aboytes"
 },
 {
-    "index": 13,
+    "button": "",
+"index": 13,
     "homicideDate": "4/4/2015",
     "homicideMonth": "Apr",
     "homicideYear": 2015,
@@ -208,7 +221,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27853566/denver-police-investigating-fatal-shooting-saturday-night"
 },
 {
-    "index": 14,
+    "button": "",
+"index": 14,
     "homicideDate": "4/11/2015",
     "homicideMonth": "Apr",
     "homicideYear": 2015,
@@ -224,7 +238,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_27898569/man-shot-death-denver"
 },
 {
-    "index": 15,
+    "button": "",
+"index": 15,
     "homicideDate": "4/24/2015",
     "homicideMonth": "Apr",
     "homicideYear": 2015,
@@ -240,7 +255,8 @@
     "articleLink": "http://www.denverpost.com/ci_27988571/man-who-was-shot-friday-denver-dies"
 },
 {
-    "index": 16,
+    "button": "",
+"index": 16,
     "homicideDate": "4/25/2015",
     "homicideMonth": "Apr",
     "homicideYear": 2015,
@@ -256,7 +272,8 @@
     "articleLink": "http://www.denverpost.com/crime/ci_27988573/denver-police-investigate-shooting-gilpin-street"
 },
 {
-    "index": 17,
+    "button": "",
+"index": 17,
     "homicideDate": "4/28/2015",
     "homicideMonth": "Apr",
     "homicideYear": 2015,
@@ -272,7 +289,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28009220/man-shot-park-hill-neighborhood-taken-hospital?source=top_stories_bar"
 },
 {
-    "index": 18,
+    "button": "",
+"index": 18,
     "homicideDate": "5/3/2015",
     "homicideMonth": "May",
     "homicideYear": 2015,
@@ -288,7 +306,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28045066/denver-medical-examiner-identifies-man-killed-hit-and"
 },
 {
-    "index": 19,
+    "button": "",
+"index": 19,
     "homicideDate": "5/6/2015",
     "homicideMonth": "May",
     "homicideYear": 2015,
@@ -304,7 +323,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28067390/denver-police-search-white-ford-truck-linked-homicide"
 },
 {
-    "index": 20,
+    "button": "",
+"index": 20,
     "homicideDate": "6/25/2015",
     "homicideMonth": "Jun",
     "homicideYear": 2015,
@@ -320,7 +340,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28386700/denver-police-woman-shot-at-motel-east-colfax"
 },
 {
-    "index": 21,
+    "button": "",
+"index": 21,
     "homicideDate": "7/2/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -336,7 +357,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28424023/man-shot-denver-wednesday-died-thursday"
 },
 {
-    "index": 22,
+    "button": "",
+"index": 22,
     "homicideDate": "7/3/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -352,7 +374,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28439812/denver-police-id-man-killed-carjacking-ask-publics"
 },
 {
-    "index": 23,
+    "button": "",
+"index": 23,
     "homicideDate": "7/8/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -368,7 +391,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28494890/pair-charged-first-degree-murder-death-23-month"
 },
 {
-    "index": 24,
+    "button": "",
+"index": 24,
     "homicideDate": "7/19/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -384,7 +408,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28507376/early-morning-shooting-denver-wounds-three-leaves-one-dead"
 },
 {
-    "index": 25,
+    "button": "",
+"index": 25,
     "homicideDate": "7/29/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -400,7 +425,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28554559/denver-police-investigate-shooting-man-critical-condition"
 },
 {
-    "index": 26,
+    "button": "",
+"index": 26,
     "homicideDate": "7/31/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -416,7 +442,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28570015/police-respond-sw-denver-shooting-friday-night"
 },
 {
-    "index": 27,
+    "button": "",
+"index": 27,
     "homicideDate": "7/31/2015",
     "homicideMonth": "Jul",
     "homicideYear": 2015,
@@ -432,7 +459,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28571339/denver-police-arrest-woman-stabbing"
 },
 {
-    "index": 28,
+    "button": "",
+"index": 28,
     "homicideDate": "8/12/2015",
     "homicideMonth": "Aug",
     "homicideYear": 2015,
@@ -448,7 +476,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28626087/denver-police-say-man-dead-apparent-shooting-five"
 },
 {
-    "index": 29,
+    "button": "",
+"index": 29,
     "homicideDate": "8/13/2015",
     "homicideMonth": "Aug",
     "homicideYear": 2015,
@@ -464,7 +493,8 @@
     "articleLink": ""
 },
 {
-    "index": 30,
+    "button": "",
+"index": 30,
     "homicideDate": "8/15/2015",
     "homicideMonth": "Aug",
     "homicideYear": 2015,
@@ -480,7 +510,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28646599/denver-police-investigate-shooting-near-south-federal-blvd"
 },
 {
-    "index": 31,
+    "button": "",
+"index": 31,
     "homicideDate": "8/19/2015",
     "homicideMonth": "Aug",
     "homicideYear": 2015,
@@ -496,7 +527,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28667552/denver-police-working-homicide-south-part-city"
 },
 {
-    "index": 32,
+    "button": "",
+"index": 32,
     "homicideDate": "8/28/2015",
     "homicideMonth": "Aug",
     "homicideYear": 2015,
@@ -512,7 +544,8 @@
     "articleLink": ""
 },
 {
-    "index": 33,
+    "button": "",
+"index": 33,
     "homicideDate": "9/1/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -528,7 +561,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28742386/police-investigate-death-northeast-denver-tuesday-night"
 },
 {
-    "index": 34,
+    "button": "",
+"index": 34,
     "homicideDate": "9/5/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -544,7 +578,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28763926/metro-taxi-cab-driver-killed-in-saturday-morning-shooting-in-ne-denver"
 },
 {
-    "index": 35,
+    "button": "",
+"index": 35,
     "homicideDate": "9/13/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -560,7 +595,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28805484/lt-head-box-id-u60907751128dfg-gt-lt-mainhead"
 },
 {
-    "index": 36,
+    "button": "",
+"index": 36,
     "homicideDate": "9/16/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -576,7 +612,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28831460/man-shot-killed-denver-wednesday-identified"
 },
 {
-    "index": 37,
+    "button": "",
+"index": 37,
     "homicideDate": "9/16/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -592,7 +629,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28828063/police-investigate-shooting-northeast-denver-two-hospital"
 },
 {
-    "index": 38,
+    "button": "",
+"index": 38,
     "homicideDate": "9/22/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -608,7 +646,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28864133/denver-car-war-shooting-leaves-two-men-dead"
 },
 {
-    "index": 39,
+    "button": "",
+"index": 39,
     "homicideDate": "9/22/2015",
     "homicideMonth": "Sep",
     "homicideYear": 2015,
@@ -624,7 +663,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28864133/denver-car-war-shooting-leaves-two-men-dead"
 },
 {
-    "index": 40,
+    "button": "",
+"index": 40,
     "homicideDate": "10/10/2015",
     "homicideMonth": "Oct",
     "homicideYear": 2015,
@@ -640,7 +680,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28951216/male-victim-injured-saturday-afternoon-shooting-denver"
 },
 {
-    "index": 41,
+    "button": "",
+"index": 41,
     "homicideDate": "10/15/2015",
     "homicideMonth": "Oct",
     "homicideYear": 2015,
@@ -656,7 +697,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_28978947/denver-police-continue-search-suspected-shooter"
 },
 {
-    "index": 42,
+    "button": "",
+"index": 42,
     "homicideDate": "10/31/2015",
     "homicideMonth": "Oct",
     "homicideYear": 2015,
@@ -672,7 +714,8 @@
     "articleLink": ""
 },
 {
-    "index": 43,
+    "button": "",
+"index": 43,
     "homicideDate": "11/3/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -688,7 +731,8 @@
     "articleLink": "http://www.denverpost.com/breakingnews/ci_29067983/person-shot-east-colfax-avenue-denver-tuesday-night"
 },
 {
-    "index": 44,
+    "button": "",
+"index": 44,
     "homicideDate": "11/6/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -704,7 +748,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29081469/denver-police-find-suspected-prowler-killed-inside-home"
 },
 {
-    "index": 45,
+    "button": "",
+"index": 45,
     "homicideDate": "11/7/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -720,7 +765,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29085984/one-dead-three-wounded-after-denver-shooting"
 },
 {
-    "index": 46,
+    "button": "",
+"index": 46,
     "homicideDate": "11/20/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -736,7 +782,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29143710/denver-police-investigate-death"
 },
 {
-    "index": 47,
+    "button": "",
+"index": 47,
     "homicideDate": "11/21/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -752,7 +799,8 @@
     "articleLink": "http://www.denverpost.com/2015/12/04/man-faces-manslaughter-charge-in-denver-for-friends-shooting-death/"
 },
 {
-    "index": 48,
+    "button": "",
+"index": 48,
     "homicideDate": "11/23/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -768,7 +816,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29154826/man-injured-denver-shooting"
 },
 {
-    "index": 49,
+    "button": "",
+"index": 49,
     "homicideDate": "11/29/2015",
     "homicideMonth": "Nov",
     "homicideYear": 2015,
@@ -784,7 +833,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29188696/denver-coroners-office-identifies-murder-victim-from-sunday"
 },
 {
-    "index": 50,
+    "button": "",
+"index": 50,
     "homicideDate": "12/3/2015",
     "homicideMonth": "Dec",
     "homicideYear": 2015,
@@ -800,7 +850,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29199385/denver-police-investigating-death-south-federal-boulevard"
 },
 {
-    "index": 51,
+    "button": "",
+"index": 51,
     "homicideDate": "1/1/2016",
     "homicideMonth": "Jan",
     "homicideYear": 2016,
@@ -816,7 +867,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29334214/mans-body-found-obvious-signs-trauma-south-downtown"
 },
 {
-    "index": 52,
+    "button": "",
+"index": 52,
     "homicideDate": "1/23/2016",
     "homicideMonth": "Jan",
     "homicideYear": 2016,
@@ -832,7 +884,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29424086/denver-police-investigate-shooting"
 },
 {
-    "index": 53,
+    "button": "",
+"index": 53,
     "homicideDate": "1/30/2016",
     "homicideMonth": "Jan",
     "homicideYear": 2016,
@@ -848,7 +901,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29453858/shootings-stabbings-reported-denver-national-western-complex"
 },
 {
-    "index": 54,
+    "button": "",
+"index": 54,
     "homicideDate": "2/4/2016",
     "homicideMonth": "Feb",
     "homicideYear": 2016,
@@ -864,7 +918,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29491065/denver-coroner-ids-man-killed-thursday-athmar-park"
 },
 {
-    "index": 55,
+    "button": "",
+"index": 55,
     "homicideDate": "2/20/2016",
     "homicideMonth": "Feb",
     "homicideYear": 2016,
@@ -880,7 +935,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29544435/denver-police-investigating-homicide-involving-woman"
 },
 {
-    "index": 56,
+    "button": "",
+"index": 56,
     "homicideDate": "3/9/2016",
     "homicideMonth": "Mar",
     "homicideYear": 2016,
@@ -896,7 +952,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29618481/police-respond-shooting-northeast-denver"
 },
 {
-    "index": 57,
+    "button": "",
+"index": 57,
     "homicideDate": "3/12/2016",
     "homicideMonth": "Mar",
     "homicideYear": 2016,
@@ -912,7 +969,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29630558/police-investigate-possible-homicide-west-denver"
 },
 {
-    "index": 58,
+    "button": "",
+"index": 58,
     "homicideDate": "3/31/2016",
     "homicideMonth": "Mar",
     "homicideYear": 2016,
@@ -928,7 +986,8 @@
     "articleLink": ""
 },
 {
-    "index": 59,
+    "button": "",
+"index": 59,
     "homicideDate": "4/3/2016",
     "homicideMonth": "Apr",
     "homicideYear": 2016,
@@ -944,7 +1003,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29720607/denver-police-investigate-shooting-west-nevada-place"
 },
 {
-    "index": 60,
+    "button": "",
+"index": 60,
     "homicideDate": "4/12/2016",
     "homicideMonth": "Apr",
     "homicideYear": 2016,
@@ -960,7 +1020,8 @@
     "articleLink": "http://www.denverpost.com/2016/04/14/denver-police-investigating-death-of-man-found-in-trash-can/"
 },
 {
-    "index": 61,
+    "button": "",
+"index": 61,
     "homicideDate": "4/22/2016",
     "homicideMonth": "Apr",
     "homicideYear": 2016,
@@ -976,7 +1037,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29805108/man-killed-west-denver-friday-night"
 },
 {
-    "index": 62,
+    "button": "",
+"index": 62,
     "homicideDate": "4/23/2016",
     "homicideMonth": "Apr",
     "homicideYear": 2016,
@@ -992,7 +1054,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29808777/denver-police-arrest-man-fatal-shooting-early-sunday"
 },
 {
-    "index": 63,
+    "button": "",
+"index": 63,
     "homicideDate": "4/23/2016",
     "homicideMonth": "Apr",
     "homicideYear": 2016,
@@ -1008,7 +1071,8 @@
     "articleLink": ""
 },
 {
-    "index": 64,
+    "button": "",
+"index": 64,
     "homicideDate": "5/2/2016",
     "homicideMonth": "May",
     "homicideYear": 2016,
@@ -1024,7 +1088,8 @@
     "articleLink": "http://www.denverpost.com/news/ci_29874091/coroner-man-found-dead-rosenbergs-bagels-building-fire"
 },
 {
-    "index": 65,
+    "button": "",
+"index": 65,
     "homicideDate": "6/3/2016",
     "homicideMonth": "Jun",
     "homicideYear": 2016,
@@ -1040,7 +1105,8 @@
     "articleLink": "http://www.denverpost.com/2016/06/04/police-looking-for-homicide-suspects-and-maroon-chevy-tahoe/"
 },
 {
-    "index": 66,
+    "button": "",
+"index": 66,
     "homicideDate": "6/3/2016",
     "homicideMonth": "Jun",
     "homicideYear": 2016,
@@ -1056,7 +1122,8 @@
     "articleLink": "http://www.denverpost.com/2016/06/04/police-looking-for-homicide-suspects-and-maroon-chevy-tahoe/"
 },
 {
-    "index": 67,
+    "button": "",
+"index": 67,
     "homicideDate": "6/3/2016",
     "homicideMonth": "Jun",
     "homicideYear": 2016,
@@ -1072,7 +1139,8 @@
     "articleLink": "http://www.denverpost.com/2016/06/04/police-looking-for-homicide-suspects-and-maroon-chevy-tahoe/"
 },
 {
-    "index": 68,
+    "button": "",
+"index": 68,
     "homicideDate": "6/28/2016",
     "homicideMonth": "Jun",
     "homicideYear": 2016,
@@ -1088,7 +1156,8 @@
     "articleLink": "http://www.denverpost.com/2016/06/29/wynkoop-denver-shooting-victim-dies/"
 },
 {
-    "index": 69,
+    "button": "",
+"index": 69,
     "homicideDate": "6/30/2016",
     "homicideMonth": "Jun",
     "homicideYear": 2016,
@@ -1104,7 +1173,8 @@
     "articleLink": "http://www.denverpost.com/2016/07/01/denver-homicide-fatal-shooting-colfax-mcdonalds/"
 },
 {
-    "index": 70,
+    "button": "",
+"index": 70,
     "homicideDate": "7/3/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1120,7 +1190,8 @@
     "articleLink": "https://www.denverpost.com/2016/07/05/denver-coroner-ids-man-killed-in-double-shooting-in-ruby-hill/"
 },
 {
-    "index": 71,
+    "button": "",
+"index": 71,
     "homicideDate": "7/9/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1136,7 +1207,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/25/man-shot-denver-summer-dies-at-hospice/"
 },
 {
-    "index": 72,
+    "button": "",
+"index": 72,
     "homicideDate": "7/14/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1152,7 +1224,8 @@
     "articleLink": ""
 },
 {
-    "index": 73,
+    "button": "",
+"index": 73,
     "homicideDate": "7/22/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1168,7 +1241,8 @@
     "articleLink": "http://www.denverpost.com/2016/07/25/two-women-dead-montbello-neighborhood-identified/"
 },
 {
-    "index": 74,
+    "button": "",
+"index": 74,
     "homicideDate": "7/22/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1184,7 +1258,8 @@
     "articleLink": "http://www.denverpost.com/2016/07/25/two-women-dead-montbello-neighborhood-identified/"
 },
 {
-    "index": 75,
+    "button": "",
+"index": 75,
     "homicideDate": "7/24/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1200,7 +1275,8 @@
     "articleLink": "http://www.denverpost.com/2016/08/09/burning-body-denver-montbello-neighborhood-id/"
 },
 {
-    "index": 76,
+    "button": "",
+"index": 76,
     "homicideDate": "7/30/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1216,7 +1292,8 @@
     "articleLink": "http://www.denverpost.com/2016/08/02/gang-members-fire-100-rounds-lodo-shootout/"
 },
 {
-    "index": 77,
+    "button": "",
+"index": 77,
     "homicideDate": "7/30/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1232,7 +1309,8 @@
     "articleLink": "http://www.denverpost.com/2016/08/02/denver-coroner-man-woman-murder-suicide/"
 },
 {
-    "index": 78,
+    "button": "",
+"index": 78,
     "homicideDate": "7/31/2016",
     "homicideMonth": "Jul",
     "homicideYear": 2016,
@@ -1248,7 +1326,8 @@
     "articleLink": "http://www.denverpost.com/2016/08/02/southwest-denver-murder-suicide/"
 },
 {
-    "index": 79,
+    "button": "",
+"index": 79,
     "homicideDate": "8/3/2016",
     "homicideMonth": "Aug",
     "homicideYear": 2016,
@@ -1264,7 +1343,8 @@
     "articleLink": "https://www.denverpost.com/2016/08/09/95-year-old-woman-dies-after-assisted-living-facility-push/"
 },
 {
-    "index": 80,
+    "button": "",
+"index": 80,
     "homicideDate": "8/21/2016",
     "homicideMonth": "Aug",
     "homicideYear": 2016,
@@ -1280,7 +1360,8 @@
     "articleLink": "http://www.denverpost.com/2016/08/23/man-killed-outside-denver-strip-club-identified/"
 },
 {
-    "index": 81,
+    "button": "",
+"index": 81,
     "homicideDate": "8/28/2016",
     "homicideMonth": "Aug",
     "homicideYear": 2016,
@@ -1296,7 +1377,8 @@
     "articleLink": "http://www.denverpost.com/2016/08/29/frank-chavez-killed-home-invasion-denver/"
 },
 {
-    "index": 82,
+    "button": "",
+"index": 82,
     "homicideDate": "9/11/2016",
     "homicideMonth": "Sep",
     "homicideYear": 2016,
@@ -1312,7 +1394,8 @@
     "articleLink": "http://www.denverpost.com/2016/09/12/man-shot-to-death-at-29th-and-welton-in-denver-identified/"
 },
 {
-    "index": 83,
+    "button": "",
+"index": 83,
     "homicideDate": "9/12/2016",
     "homicideMonth": "Sep",
     "homicideYear": 2016,
@@ -1328,7 +1411,8 @@
     "articleLink": "http://www.denverpost.com/2016/09/15/denver-police-seek-help-xanadu-street-shooting-death/"
 },
 {
-    "index": 84,
+    "button": "",
+"index": 84,
     "homicideDate": "9/25/2016",
     "homicideMonth": "Sep",
     "homicideYear": 2016,
@@ -1344,7 +1428,8 @@
     "articleLink": "http://www.denverpost.com/2016/09/27/denver-coroner-ids-man-police-say-was-slain-by-mother-of-kids/"
 },
 {
-    "index": 85,
+    "button": "",
+"index": 85,
     "homicideDate": "10/1/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1360,7 +1445,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/03/man-killed-east-colfax-avenue-denver-identified/"
 },
 {
-    "index": 86,
+    "button": "",
+"index": 86,
     "homicideDate": "10/9/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1376,7 +1462,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/10/marijuana-grow-house-slaying-denver-man-arrested/"
 },
 {
-    "index": 87,
+    "button": "",
+"index": 87,
     "homicideDate": "10/10/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1392,7 +1479,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/10/denver-police-investigate-homicide/"
 },
 {
-    "index": 88,
+    "button": "",
+"index": 88,
     "homicideDate": "10/12/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1408,7 +1496,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/13/denver-police-investigating-fatal-shooting-homicide/"
 },
 {
-    "index": 89,
+    "button": "",
+"index": 89,
     "homicideDate": "10/12/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1424,7 +1513,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/13/man-critically-wounded-in-virginia-village-shooting-has-died-denver-police-say/"
 },
 {
-    "index": 90,
+    "button": "",
+"index": 90,
     "homicideDate": "10/15/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1440,7 +1530,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/16/denver-police-brent-kelley-motel-shooting-airway-motel/"
 },
 {
-    "index": 91,
+    "button": "",
+"index": 91,
     "homicideDate": "10/17/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1456,7 +1547,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/18/denver-stabbing-report/"
 },
 {
-    "index": 92,
+    "button": "",
+"index": 92,
     "homicideDate": "10/22/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1472,7 +1564,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/25/man-shot-saturday-denver-identified/"
 },
 {
-    "index": 93,
+    "button": "",
+"index": 93,
     "homicideDate": "10/23/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1488,7 +1581,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/24/green-valley-ranch-denver-shooting-arrest/"
 },
 {
-    "index": 94,
+    "button": "",
+"index": 94,
     "homicideDate": "10/29/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1504,7 +1598,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/31/two-men-fatally-shot-in-denver-are-idd/"
 },
 {
-    "index": 95,
+    "button": "",
+"index": 95,
     "homicideDate": "10/29/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1520,7 +1615,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/31/two-men-fatally-shot-in-denver-are-idd/"
 },
 {
-    "index": 96,
+    "button": "",
+"index": 96,
     "homicideDate": "10/29/2016",
     "homicideMonth": "Oct",
     "homicideYear": 2016,
@@ -1536,7 +1632,8 @@
     "articleLink": "http://www.denverpost.com/2016/10/31/woman-strangled-northeast-denver-identified/"
 },
 {
-    "index": 97,
+    "button": "",
+"index": 97,
     "homicideDate": "11/5/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1552,7 +1649,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/09/man-slain-south-platte-river/"
 },
 {
-    "index": 98,
+    "button": "",
+"index": 98,
     "homicideDate": "11/8/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1568,7 +1666,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/09/denver-coroner-identifies-man-slain-in-elyria-swansea-double-shooting/"
 },
 {
-    "index": 99,
+    "button": "",
+"index": 99,
     "homicideDate": "11/9/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1584,7 +1683,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/10/one-man-arrested-in-fatal-shooting-near-denvers-16th-street-mall/"
 },
 {
-    "index": 100,
+    "button": "",
+"index": 100,
     "homicideDate": "11/17/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1600,7 +1700,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/21/denver-police-suspect-drug-dealing-sunnyside-fatal-shooting/"
 },
 {
-    "index": 101,
+    "button": "",
+"index": 101,
     "homicideDate": "11/22/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1616,7 +1717,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/22/person-injured-suspicious-incident-denver/"
 },
 {
-    "index": 102,
+    "button": "",
+"index": 102,
     "homicideDate": "11/24/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1632,7 +1734,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/28/aurora-man-fatally-shot-thanksgiving-denver-identified/"
 },
 {
-    "index": 103,
+    "button": "",
+"index": 103,
     "homicideDate": "11/26/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1648,7 +1751,8 @@
     "articleLink": "https://www.denverpost.com/2016/11/28/road-rage-cited-in-fatal-southwest-denver-shooting-suspect-arrested/"
 },
 {
-    "index": 104,
+    "button": "",
+"index": 104,
     "homicideDate": "11/27/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1664,7 +1768,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/28/denver-sunday-morning-shootings-unrelated/"
 },
 {
-    "index": 105,
+    "button": "",
+"index": 105,
     "homicideDate": "11/27/2016",
     "homicideMonth": "Nov",
     "homicideYear": 2016,
@@ -1680,7 +1785,8 @@
     "articleLink": "http://www.denverpost.com/2016/11/28/denver-sunday-morning-shootings-unrelated/"
 },
 {
-    "index": 106,
+    "button": "",
+"index": 106,
     "homicideDate": "12/25/2016",
     "homicideMonth": "Dec",
     "homicideYear": 2016,
@@ -1696,7 +1802,8 @@
     "articleLink": "http://www.denverpost.com/2016/12/27/kayla-burke-fatal-denver-christmas-stabbing/"
 },
 {
-    "index": 107,
+    "button": "",
+"index": 107,
     "homicideDate": "1/1/2017",
     "homicideMonth": "Jan",
     "homicideYear": 2017,
@@ -1712,7 +1819,8 @@
     "articleLink": "http://www.denverpost.com/2017/01/03/man-shot-southeast-denver-holiday-identified/"
 },
 {
-    "index": 108,
+    "button": "",
+"index": 108,
     "homicideDate": "1/11/2017",
     "homicideMonth": "Jan",
     "homicideYear": 2017,
@@ -1728,7 +1836,8 @@
     "articleLink": "http://www.denverpost.com/2017/01/13/montbello-shooting-death-victim-identified/"
 },
 {
-    "index": 109,
+    "button": "",
+"index": 109,
     "homicideDate": "1/23/2017",
     "homicideMonth": "Jan",
     "homicideYear": 2017,
@@ -1744,7 +1853,8 @@
     "articleLink": "http://kdvr.com/2017/01/26/2-gunshot-homicide-victims-in-southwest-denver-identified/"
 },
 {
-    "index": 110,
+    "button": "",
+"index": 110,
     "homicideDate": "1/25/2017",
     "homicideMonth": "Jan",
     "homicideYear": 2017,
@@ -1760,7 +1870,8 @@
     "articleLink": "http://www.denverpost.com/2017/01/27/murder-suspect-arrested-denver-shooting-death/"
 },
 {
-    "index": 111,
+    "button": "",
+"index": 111,
     "homicideDate": "1/31/2017",
     "homicideMonth": "Jan",
     "homicideYear": 2017,
@@ -1776,7 +1887,8 @@
     "articleLink": "http://www.denverpost.com/2017/02/01/rtd-guard-scott-von-lanken-gospel/"
 },
 {
-    "index": 112,
+    "button": "",
+"index": 112,
     "homicideDate": "2/7/2017",
     "homicideMonth": "Feb",
     "homicideYear": 2017,
@@ -1792,7 +1904,8 @@
     "articleLink": "http://www.denverpost.com/2017/02/08/tim-cruz-killed-in-rtd-robbery/"
 },
 {
-    "index": 113,
+    "button": "",
+"index": 113,
     "homicideDate": "2/14/2017",
     "homicideMonth": "Feb",
     "homicideYear": 2017,
@@ -1808,7 +1921,8 @@
     "articleLink": "http://www.denverpost.com/2017/02/16/richard-hammond-transportation-director-school-district-homicide/"
 },
 {
-    "index": 114,
+    "button": "",
+"index": 114,
     "homicideDate": "2/25/2017",
     "homicideMonth": "Feb",
     "homicideYear": 2017,
@@ -1824,7 +1938,8 @@
     "articleLink": "http://www.denverpost.com/2017/02/28/clarence-thomas-lodo-shooting-victim/"
 },
 {
-    "index": 115,
+    "button": "",
+"index": 115,
     "homicideDate": "3/17/2017",
     "homicideMonth": "Mar",
     "homicideYear": 2017,
@@ -1840,7 +1955,8 @@
     "articleLink": "https://www.denverpost.com/2017/03/29/denver-murder-charges-man-covered-blood/"
 },
 {
-    "index": 116,
+    "button": "",
+"index": 116,
     "homicideDate": "3/18/2017",
     "homicideMonth": "Mar",
     "homicideYear": 2017,
@@ -1856,7 +1972,8 @@
     "articleLink": ""
 },
 {
-    "index": 117,
+    "button": "",
+"index": 117,
     "homicideDate": "3/18/2017",
     "homicideMonth": "Mar",
     "homicideYear": 2017,
@@ -1872,7 +1989,8 @@
     "articleLink": "http://www.denverpost.com/2017/03/21/17-year-old-murder-charge-northeast-denver-stabbing/"
 },
 {
-    "index": 118,
+    "button": "",
+"index": 118,
     "homicideDate": "4/1/2017",
     "homicideMonth": "Apr",
     "homicideYear": 2017,
@@ -1888,7 +2006,8 @@
     "articleLink": "http://www.denverpost.com/2017/04/03/denver-coroner-identifies-man-fatally-shot/"
 },
 {
-    "index": 119,
+    "button": "",
+"index": 119,
     "homicideDate": "4/1/2017",
     "homicideMonth": "Apr",
     "homicideYear": 2017,
@@ -1904,7 +2023,8 @@
     "articleLink": "http://www.denverpost.com/2017/04/04/woman-fatally-stabbing-man/"
 },
 {
-    "index": 120,
+    "button": "",
+"index": 120,
     "homicideDate": "4/3/2017",
     "homicideMonth": "Apr",
     "homicideYear": 2017,
@@ -1920,7 +2040,8 @@
     "articleLink": "http://www.denverpost.com/2017/04/05/curtis-park-shooting-victim-jamarcust-mister/"
 },
 {
-    "index": 121,
+    "button": "",
+"index": 121,
     "homicideDate": "4/14/2017",
     "homicideMonth": "Apr",
     "homicideYear": 2017,
@@ -1936,7 +2057,8 @@
     "articleLink": "http://www.denverpost.com/2017/04/17/denver-man-suspected-death-father/"
 },
 {
-    "index": 122,
+    "button": "",
+"index": 122,
     "homicideDate": "4/21/2017",
     "homicideMonth": "Apr",
     "homicideYear": 2017,
@@ -1952,7 +2074,8 @@
     "articleLink": "http://www.denverpost.com/2017/04/24/shawntez-kinney-southwest-denver-shooting-victim/"
 },
 {
-    "index": 123,
+    "button": "",
+"index": 123,
     "homicideDate": "4/27/2017",
     "homicideMonth": "Apr",
     "homicideYear": 2017,
@@ -1968,7 +2091,8 @@
     "articleLink": "http://www.denverpost.com/2017/04/28/northeast-denver-shots-fired-homicide/"
 },
 {
-    "index": 124,
+    "button": "",
+"index": 124,
     "homicideDate": "5/3/2017",
     "homicideMonth": "May",
     "homicideYear": 2017,
@@ -1984,7 +2108,8 @@
     "articleLink": "http://www.denverpost.com/2017/05/04/denver-westwood-shooting-victim/"
 },
 {
-    "index": 125,
+    "button": "",
+"index": 125,
     "homicideDate": "5/10/2017",
     "homicideMonth": "May",
     "homicideYear": 2017,
@@ -2000,7 +2125,8 @@
     "articleLink": "http://www.denverpost.com/2017/05/11/denver-east-evans-avenue-shooting-victim/"
 },
 {
-    "index": 126,
+    "button": "",
+"index": 126,
     "homicideDate": "5/11/2017",
     "homicideMonth": "May",
     "homicideYear": 2017,
@@ -2016,7 +2142,8 @@
     "articleLink": "http://www.denverpost.com/2017/05/16/denver-homeless-shelter-stabbing/"
 },
 {
-    "index": 127,
+    "button": "",
+"index": 127,
     "homicideDate": "5/15/2017",
     "homicideMonth": "May",
     "homicideYear": 2017,
@@ -2032,7 +2159,8 @@
     "articleLink": "http://www.denverpost.com/2017/05/17/denver-coroner-identifies-southmoor-murder-victim/"
 },
 {
-    "index": 128,
+    "button": "",
+"index": 128,
     "homicideDate": "5/23/2017",
     "homicideMonth": "May",
     "homicideYear": 2017,
@@ -2048,7 +2176,8 @@
     "articleLink": "http://www.denverpost.com/2017/05/24/chris-gulzow-accused-homicide-torchys-tacos/"
 },
 {
-    "index": 129,
+    "button": "",
+"index": 129,
     "homicideDate": "6/5/2017",
     "homicideMonth": "Jun",
     "homicideYear": 2017,
@@ -2064,7 +2193,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/08/denver-daycare-worker-charged-infant-girl-death/"
 },
 {
-    "index": 130,
+    "button": "",
+"index": 130,
     "homicideDate": "6/16/2017",
     "homicideMonth": "Jun",
     "homicideYear": 2017,
@@ -2080,7 +2210,8 @@
     "articleLink": "http://www.denverpost.com/2017/06/20/man-beaten-to-death-identified-denver/"
 },
 {
-    "index": 131,
+    "button": "",
+"index": 131,
     "homicideDate": "6/23/2017",
     "homicideMonth": "Jun",
     "homicideYear": 2017,
@@ -2096,7 +2227,8 @@
     "articleLink": "http://www.denverpost.com/2017/06/26/medical-examiner-identifies-man-shot-killed-friday-denver-apartment/"
 },
 {
-    "index": 132,
+    "button": "",
+"index": 132,
     "homicideDate": "6/28/2017",
     "homicideMonth": "Jun",
     "homicideYear": 2017,
@@ -2112,7 +2244,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/03/denver-coroner-identifies-victims-in-separate-deadly-shootings/"
 },
 {
-    "index": 133,
+    "button": "",
+"index": 133,
     "homicideDate": "6/30/2017",
     "homicideMonth": "Jun",
     "homicideYear": 2017,
@@ -2128,7 +2261,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/03/denver-coroner-identifies-victims-in-separate-deadly-shootings/"
 },
 {
-    "index": 134,
+    "button": "",
+"index": 134,
     "homicideDate": "6/30/2017",
     "homicideMonth": "Jun",
     "homicideYear": 2017,
@@ -2144,7 +2278,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/17/troy-funchess-dies-skyland-shooting/"
 },
 {
-    "index": 135,
+    "button": "",
+"index": 135,
     "homicideDate": "7/9/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2160,7 +2295,8 @@
     "articleLink": "https://www.denverpost.com/2017/07/11/east-colfax-7-eleven-robbery-murder-stolen-wallet/"
 },
 {
-    "index": 136,
+    "button": "",
+"index": 136,
     "homicideDate": "7/10/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2176,7 +2312,8 @@
     "articleLink": "https://www.denverpost.com/2017/07/11/inmate-killed-in-denvers-downtown-jail-identified/"
 },
 {
-    "index": 137,
+    "button": "",
+"index": 137,
     "homicideDate": "7/11/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2192,7 +2329,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/20/elizario-herrera-murder-charge-michael-lanford/"
 },
 {
-    "index": 138,
+    "button": "",
+"index": 138,
     "homicideDate": "7/11/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2208,7 +2346,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/17/man-fatally-shot-northeast-denver-identified/"
 },
 {
-    "index": 139,
+    "button": "",
+"index": 139,
     "homicideDate": "7/16/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2224,7 +2363,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/17/woman-fatally-shot-southwest-denver-athmar-park-identified/"
 },
 {
-    "index": 140,
+    "button": "",
+"index": 140,
     "homicideDate": "7/19/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2240,7 +2380,8 @@
     "articleLink": "http://www.denverpost.com/2017/07/19/denver-homicide-35th-downing/"
 },
 {
-    "index": 141,
+    "button": "",
+"index": 141,
     "homicideDate": "7/29/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2256,7 +2397,8 @@
     "articleLink": "http://www.denverpost.com/2017/08/04/sheridan-murder-charge-confession/"
 },
 {
-    "index": 142,
+    "button": "",
+"index": 142,
     "homicideDate": "7/29/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2272,7 +2414,8 @@
     "articleLink": "https://www.thedenverchannel.com/news/local-news/denver-police-seek-publics-help-to-solve-park-hill-homicide"
 },
 {
-    "index": 143,
+    "button": "",
+"index": 143,
     "homicideDate": "7/31/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2288,7 +2431,8 @@
     "articleLink": "http://www.denverpost.com/2017/08/03/denver-da-charges-homeless-man-murder-lodo-chef/"
 },
 {
-    "index": 144,
+    "button": "",
+"index": 144,
     "homicideDate": "7/31/2017",
     "homicideMonth": "Jul",
     "homicideYear": 2017,
@@ -2304,7 +2448,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/10/homeless-man-stabbing-death-five-points-apartment/"
 },
 {
-    "index": 145,
+    "button": "",
+"index": 145,
     "homicideDate": "8/8/2017",
     "homicideMonth": "Aug",
     "homicideYear": 2017,
@@ -2320,7 +2465,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/09/driver-steals-truck-kills-pedestrian-denver-commerce-city/"
 },
 {
-    "index": 146,
+    "button": "",
+"index": 146,
     "homicideDate": "8/16/2017",
     "homicideMonth": "Aug",
     "homicideYear": 2017,
@@ -2336,7 +2482,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/18/orasio-flores-identified-homicide-victim/"
 },
 {
-    "index": 147,
+    "button": "",
+"index": 147,
     "homicideDate": "8/18/2017",
     "homicideMonth": "Aug",
     "homicideYear": 2017,
@@ -2352,7 +2499,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/21/man-fatally-shot-northeast-denver-friday-identified/"
 },
 {
-    "index": 148,
+    "button": "",
+"index": 148,
     "homicideDate": "8/20/2017",
     "homicideMonth": "Aug",
     "homicideYear": 2017,
@@ -2368,7 +2516,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/21/man-shot-titan-court-denver-dies/"
 },
 {
-    "index": 149,
+    "button": "",
+"index": 149,
     "homicideDate": "8/21/2017",
     "homicideMonth": "Aug",
     "homicideYear": 2017,
@@ -2384,7 +2533,8 @@
     "articleLink": "https://www.denverpost.com/2017/09/12/card-game-stabbing-murder-charge/"
 },
 {
-    "index": 150,
+    "button": "",
+"index": 150,
     "homicideDate": "8/23/2017",
     "homicideMonth": "Aug",
     "homicideYear": 2017,
@@ -2400,7 +2550,8 @@
     "articleLink": "https://www.denverpost.com/2017/08/25/rtd-light-rail-shooting-suicide-by-cop/"
 },
 {
-    "index": 151,
+    "button": "",
+"index": 151,
     "homicideDate": "9/8/2017",
     "homicideMonth": "Sep",
     "homicideYear": 2017,
@@ -2416,7 +2567,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/08/denver-newborn-girl-suffocated-on-day-of-birth-coroner-said/"
 },
 {
-    "index": 152,
+    "button": "",
+"index": 152,
     "homicideDate": "9/25/2017",
     "homicideMonth": "Sep",
     "homicideYear": 2017,
@@ -2432,7 +2584,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/07/denver-september-shooting-death-in-denver-seven-accused/"
 },
 {
-    "index": 153,
+    "button": "",
+"index": 153,
     "homicideDate": "10/1/2017",
     "homicideMonth": "Oct",
     "homicideYear": 2017,
@@ -2448,7 +2601,8 @@
     "articleLink": "https://www.denverpost.com/2017/10/04/cherry-creek-man-dead/"
 },
 {
-    "index": 154,
+    "button": "",
+"index": 154,
     "homicideDate": "10/1/2017",
     "homicideMonth": "Oct",
     "homicideYear": 2017,
@@ -2464,7 +2618,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/27/fatal-shooting-victim-whose-body-was-found-in-denver-alleyway-identified/"
 },
 {
-    "index": 155,
+    "button": "",
+"index": 155,
     "homicideDate": "10/11/2017",
     "homicideMonth": "Oct",
     "homicideYear": 2017,
@@ -2480,7 +2635,8 @@
     "articleLink": ""
 },
 {
-    "index": 156,
+    "button": "",
+"index": 156,
     "homicideDate": "10/23/2017",
     "homicideMonth": "Oct",
     "homicideYear": 2017,
@@ -2496,7 +2652,8 @@
     "articleLink": "https://www.thedenverchannel.com/news/local-news/family-of-denver-man-killed-are-still-seeking-answers"
 },
 {
-    "index": 157,
+    "button": "",
+"index": 157,
     "homicideDate": "11/6/2017",
     "homicideMonth": "Nov",
     "homicideYear": 2017,
@@ -2512,7 +2669,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/16/denver-man-murder-charge-alleged-shooting/"
 },
 {
-    "index": 158,
+    "button": "",
+"index": 158,
     "homicideDate": "11/16/2017",
     "homicideMonth": "Nov",
     "homicideYear": 2017,
@@ -2528,7 +2686,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/17/ivah-hamilton-17-fatally-shot-in-denver/"
 },
 {
-    "index": 159,
+    "button": "",
+"index": 159,
     "homicideDate": "11/23/2017",
     "homicideMonth": "Nov",
     "homicideYear": 2017,
@@ -2544,7 +2703,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/24/denver-homicide-thanksgiving-night-death/"
 },
 {
-    "index": 160,
+    "button": "",
+"index": 160,
     "homicideDate": "11/24/2017",
     "homicideMonth": "Nov",
     "homicideYear": 2017,
@@ -2560,7 +2720,8 @@
     "articleLink": "https://www.denverpost.com/2017/11/30/mcdonalds-parking-lot-shooting-death/"
 },
 {
-    "index": 161,
+    "button": "",
+"index": 161,
     "homicideDate": "12/21/2017",
     "homicideMonth": "Dec",
     "homicideYear": 2017,
@@ -2576,7 +2737,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/03/shamil-jefferson-first-degree-murder-charges/"
 },
 {
-    "index": 162,
+    "button": "",
+"index": 162,
     "homicideDate": "12/31/2017",
     "homicideMonth": "Dec",
     "homicideYear": 2017,
@@ -2592,7 +2754,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/09/man-charged-shooting-death-outside-denver-strip-club/"
 },
 {
-    "index": 163,
+    "button": "",
+"index": 163,
     "homicideDate": "1/4/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2608,7 +2771,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/05/denver-police-investigate-homicide-4/"
 },
 {
-    "index": 164,
+    "button": "",
+"index": 164,
     "homicideDate": "1/5/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2624,7 +2788,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/06/denver-rino-double-homicide-reward/"
 },
 {
-    "index": 165,
+    "button": "",
+"index": 165,
     "homicideDate": "1/5/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2640,7 +2805,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/06/denver-rino-double-homicide-reward/"
 },
 {
-    "index": 166,
+    "button": "",
+"index": 166,
     "homicideDate": "1/14/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2656,7 +2822,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/26/jeramy-montano-murder-suspects-denver-shooting/"
 },
 {
-    "index": 167,
+    "button": "",
+"index": 167,
     "homicideDate": "1/21/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2672,7 +2839,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/29/denver-man-who-said-wife-shot-herself-charged-killing-her/"
 },
 {
-    "index": 168,
+    "button": "",
+"index": 168,
     "homicideDate": "1/26/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2688,7 +2856,8 @@
     "articleLink": "http://www.9news.com/article/news/crime/police-release-suspect-description-in-fatal-shooting-on-federal-blvd/73-512863266"
 },
 {
-    "index": 169,
+    "button": "",
+"index": 169,
     "homicideDate": "1/28/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2704,7 +2873,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/28/man-fatally-shot-east-denver-overnight-investigation-ongoing/"
 },
 {
-    "index": 170,
+    "button": "",
+"index": 170,
     "homicideDate": "1/28/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2720,7 +2890,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/28/man-fatally-shot-east-denver-overnight-investigation-ongoing/"
 },
 {
-    "index": 171,
+    "button": "",
+"index": 171,
     "homicideDate": "1/30/2018",
     "homicideMonth": "Jan",
     "homicideYear": 2018,
@@ -2736,7 +2907,8 @@
     "articleLink": "https://www.denverpost.com/2018/01/31/denver-homicide-near-coors-field/"
 },
 {
-    "index": 172,
+    "button": "",
+"index": 172,
     "homicideDate": "2/3/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2752,7 +2924,8 @@
     "articleLink": "https://www.denverpost.com/2018/02/05/montbello-saturday-shooting-victims-identified/"
 },
 {
-    "index": 173,
+    "button": "",
+"index": 173,
     "homicideDate": "2/3/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2768,7 +2941,8 @@
     "articleLink": "https://www.denverpost.com/2018/02/05/montbello-saturday-shooting-victims-identified/"
 },
 {
-    "index": 174,
+    "button": "",
+"index": 174,
     "homicideDate": "2/6/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2784,7 +2958,8 @@
     "articleLink": "https://www.denverpost.com/2018/02/07/east-colfax-shooting-man-identified/"
 },
 {
-    "index": 175,
+    "button": "",
+"index": 175,
     "homicideDate": "2/10/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2800,7 +2975,8 @@
     "articleLink": "https://patch.com/colorado/denver/man-beat-kicked-mothers-fiance-death-denver-prosecutors"
 },
 {
-    "index": 176,
+    "button": "",
+"index": 176,
     "homicideDate": "2/14/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2816,7 +2992,8 @@
     "articleLink": "https://www.denverpost.com/2018/02/15/father-son-denver-shooting-identified/"
 },
 {
-    "index": 177,
+    "button": "",
+"index": 177,
     "homicideDate": "2/14/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2832,7 +3009,8 @@
     "articleLink": "https://www.denverpost.com/2018/02/23/charges-stabbing-mother-downtown-loft/"
 },
 {
-    "index": 178,
+    "button": "",
+"index": 178,
     "homicideDate": "2/17/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2848,7 +3026,8 @@
     "articleLink": "https://www.denverpost.com/2018/04/25/denver-elderly-woman-homicide-neglect/"
 },
 {
-    "index": 179,
+    "button": "",
+"index": 179,
     "homicideDate": "2/27/2018",
     "homicideMonth": "Feb",
     "homicideYear": 2018,
@@ -2864,7 +3043,8 @@
     "articleLink": "https://www.denverpost.com/2018/03/01/denver-murder-suicide-identification/"
 },
 {
-    "index": 180,
+    "button": "",
+"index": 180,
     "homicideDate": "3/12/2018",
     "homicideMonth": "Mar",
     "homicideYear": 2018,
@@ -2880,7 +3060,8 @@
     "articleLink": "https://www.denverpost.com/2018/03/12/denver-police-yale-avenue-body-found/"
 },
 {
-    "index": 181,
+    "button": "",
+"index": 181,
     "homicideDate": "3/16/2018",
     "homicideMonth": "Mar",
     "homicideYear": 2018,
@@ -2896,7 +3077,8 @@
     "articleLink": "https://www.denverpost.com/2018/03/16/denver-police-investigate-persons-death-friday/"
 },
 {
-    "index": 182,
+    "button": "",
+"index": 182,
     "homicideDate": "3/17/2018",
     "homicideMonth": "Mar",
     "homicideYear": 2018,
@@ -2912,7 +3094,8 @@
     "articleLink": "https://www.denverpost.com/2018/03/20/west-colfax-lowell-shooting-victim/"
 },
 {
-    "index": 183,
+    "button": "",
+"index": 183,
     "homicideDate": "3/18/2018",
     "homicideMonth": "Mar",
     "homicideYear": 2018,
@@ -2928,7 +3111,8 @@
     "articleLink": "https://patch.com/colorado/denver/4-shootings-over-st-patricks-weekend-denver-2-fatal"
 },
 {
-    "index": 184,
+    "button": "",
+"index": 184,
     "homicideDate": "3/19/2018",
     "homicideMonth": "Mar",
     "homicideYear": 2018,
@@ -2944,7 +3128,8 @@
     "articleLink": "https://www.denverpost.com/2018/03/22/man-fatally-shot-in-denver-on-sunday-is-identified-police-ask-for-publics-help-in-case/"
 },
 {
-    "index": 185,
+    "button": "",
+"index": 185,
     "homicideDate": "3/21/2018",
     "homicideMonth": "Mar",
     "homicideYear": 2018,
@@ -2960,7 +3145,8 @@
     "articleLink": "https://www.denverpost.com/2018/03/22/lincoln-park-shooting-victim/"
 },
 {
-    "index": 186,
+    "button": "",
+"index": 186,
     "homicideDate": "4/5/2018",
     "homicideMonth": "Apr",
     "homicideYear": 2018,
@@ -2976,7 +3162,8 @@
     "articleLink": "https://www.denverpost.com/2018/04/06/denver-stabbing-killer-at-large/"
 },
 {
-    "index": 187,
+    "button": "",
+"index": 187,
     "homicideDate": "4/19/2018",
     "homicideMonth": "Apr",
     "homicideYear": 2018,
@@ -2992,7 +3179,8 @@
     "articleLink": "http://kdvr.com/2018/04/30/police-searching-for-2-suspects-with-possible-connections-to-denver-homicide/"
 },
 {
-    "index": 188,
+    "button": "",
+"index": 188,
     "homicideDate": "4/30/2018",
     "homicideMonth": "Apr",
     "homicideYear": 2018,
@@ -3008,7 +3196,8 @@
     "articleLink": "https://www.denverpost.com/2018/05/03/justin-mckinney-denver-murder/"
 },
 {
-    "index": 189,
+    "button": "",
+"index": 189,
     "homicideDate": "4/30/2018",
     "homicideMonth": "Apr",
     "homicideYear": 2018,
@@ -3024,7 +3213,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/01/homicide-denver-police-shooting/"
 },
 {
-    "index": 190,
+    "button": "",
+"index": 190,
     "homicideDate": "5/24/2018",
     "homicideMonth": "May",
     "homicideYear": 2018,
@@ -3040,7 +3230,8 @@
     "articleLink": "https://www.denverpost.com/2019/01/07/caden-mcwilliams-body-encased-concrete/"
 },
 {
-    "index": 191,
+    "button": "",
+"index": 191,
     "homicideDate": "5/25/2018",
     "homicideMonth": "May",
     "homicideYear": 2018,
@@ -3056,7 +3247,8 @@
     "articleLink": "https://www.denverpost.com/2018/05/31/man-charged-murder-denver-security-guard-fatal-stabbing/"
 },
 {
-    "index": 192,
+    "button": "",
+"index": 192,
     "homicideDate": "5/26/2018",
     "homicideMonth": "May",
     "homicideYear": 2018,
@@ -3072,7 +3264,8 @@
     "articleLink": "https://www.denverpost.com/2018/06/06/denver-man-murder-charge/"
 },
 {
-    "index": 193,
+    "button": "",
+"index": 193,
     "homicideDate": "5/30/2018",
     "homicideMonth": "May",
     "homicideYear": 2018,
@@ -3088,7 +3281,8 @@
     "articleLink": "https://www.denverpost.com/2018/06/06/villa-park-shooting-murder-charges/"
 },
 {
-    "index": 194,
+    "button": "",
+"index": 194,
     "homicideDate": "5/30/2018",
     "homicideMonth": "May",
     "homicideYear": 2018,
@@ -3104,7 +3298,8 @@
     "articleLink": "https://www.denverpost.com/2018/06/06/villa-park-shooting-murder-charges/"
 },
 {
-    "index": 195,
+    "button": "",
+"index": 195,
     "homicideDate": "6/1/2018",
     "homicideMonth": "Jun",
     "homicideYear": 2018,
@@ -3120,7 +3315,8 @@
     "articleLink": "https://www.denverpost.com/2018/06/07/uber-driver-charged-murder/"
 },
 {
-    "index": 196,
+    "button": "",
+"index": 196,
     "homicideDate": "6/7/2018",
     "homicideMonth": "Jun",
     "homicideYear": 2018,
@@ -3136,7 +3332,8 @@
     "articleLink": "https://www.denverpost.com/2018/06/08/denver-murder-montbello-neighborhood/"
 },
 {
-    "index": 197,
+    "button": "",
+"index": 197,
     "homicideDate": "6/18/2018",
     "homicideMonth": "Jun",
     "homicideYear": 2018,
@@ -3152,7 +3349,8 @@
     "articleLink": ""
 },
 {
-    "index": 198,
+    "button": "",
+"index": 198,
     "homicideDate": "7/1/2018",
     "homicideMonth": "Jul",
     "homicideYear": 2018,
@@ -3168,7 +3366,8 @@
     "articleLink": "https://www.denverpost.com/2018/07/01/one-dead-two-injured-denver-shooting/"
 },
 {
-    "index": 199,
+    "button": "",
+"index": 199,
     "homicideDate": "7/2/2018",
     "homicideMonth": "Jul",
     "homicideYear": 2018,
@@ -3184,7 +3383,8 @@
     "articleLink": "https://www.denverpost.com/2018/07/03/teen-high-school-student-jumped-fatally-stabbed-on-east-colfax-avenue-in-denver/"
 },
 {
-    "index": 200,
+    "button": "",
+"index": 200,
     "homicideDate": "7/23/2018",
     "homicideMonth": "Jul",
     "homicideYear": 2018,
@@ -3200,7 +3400,8 @@
     "articleLink": "https://www.denverpost.com/2018/07/27/denver-doughnut-shop-murder-changed/"
 },
 {
-    "index": 201,
+    "button": "",
+"index": 201,
     "homicideDate": "7/23/2018",
     "homicideMonth": "Jul",
     "homicideYear": 2018,
@@ -3216,7 +3417,8 @@
     "articleLink": "https://www.denverpost.com/2018/07/24/denver-35th-kameria-shooting/"
 },
 {
-    "index": 202,
+    "button": "",
+"index": 202,
     "homicideDate": "7/28/2018",
     "homicideMonth": "Jul",
     "homicideYear": 2018,
@@ -3232,7 +3434,8 @@
     "articleLink": "https://www.denverpost.com/2018/07/29/denver-police-id-man-shot-dead/"
 },
 {
-    "index": 203,
+    "button": "",
+"index": 203,
     "homicideDate": "7/29/2018",
     "homicideMonth": "Jul",
     "homicideYear": 2018,
@@ -3248,7 +3451,8 @@
     "articleLink": "https://www.denverpost.com/2018/07/30/denver-stabbing-homicide/"
 },
 {
-    "index": 204,
+    "button": "",
+"index": 204,
     "homicideDate": "8/7/2018",
     "homicideMonth": "Aug",
     "homicideYear": 2018,
@@ -3264,7 +3468,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/25/jordan-vong-death-investigation-autopsy/"
 },
 {
-    "index": 205,
+    "button": "",
+"index": 205,
     "homicideDate": "8/9/2018",
     "homicideMonth": "Aug",
     "homicideYear": 2018,
@@ -3280,7 +3485,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/06/denver-triple-homicide-investigation/"
 },
 {
-    "index": 206,
+    "button": "",
+"index": 206,
     "homicideDate": "8/9/2018",
     "homicideMonth": "Aug",
     "homicideYear": 2018,
@@ -3296,7 +3502,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/06/denver-triple-homicide-investigation/"
 },
 {
-    "index": 207,
+    "button": "",
+"index": 207,
     "homicideDate": "8/9/2018",
     "homicideMonth": "Aug",
     "homicideYear": 2018,
@@ -3312,7 +3519,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/06/denver-triple-homicide-investigation/"
 },
 {
-    "index": 208,
+    "button": "",
+"index": 208,
     "homicideDate": "8/22/2018",
     "homicideMonth": "Aug",
     "homicideYear": 2018,
@@ -3328,7 +3536,8 @@
     "articleLink": "https://www.denverpost.com/2018/08/27/denver-arson-murder-arrest/"
 },
 {
-    "index": 209,
+    "button": "",
+"index": 209,
     "homicideDate": "9/7/2018",
     "homicideMonth": "Sep",
     "homicideYear": 2018,
@@ -3344,7 +3553,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/10/denver-park-hill-homicide-victim/"
 },
 {
-    "index": 210,
+    "button": "",
+"index": 210,
     "homicideDate": "9/7/2018",
     "homicideMonth": "Sep",
     "homicideYear": 2018,
@@ -3360,7 +3570,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/26/teen-arrested-in-fatal-shooting-of-denver-woman/"
 },
 {
-    "index": 211,
+    "button": "",
+"index": 211,
     "homicideDate": "9/12/2018",
     "homicideMonth": "Sep",
     "homicideYear": 2018,
@@ -3376,7 +3587,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/10/elderly-womans-death-a-homicide/"
 },
 {
-    "index": 212,
+    "button": "",
+"index": 212,
     "homicideDate": "9/26/2018",
     "homicideMonth": "Sep",
     "homicideYear": 2018,
@@ -3392,7 +3604,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/26/person-shot-in-denver-east-colfax-neighborhood/"
 },
 {
-    "index": 213,
+    "button": "",
+"index": 213,
     "homicideDate": "9/26/2018",
     "homicideMonth": "Sep",
     "homicideYear": 2018,
@@ -3408,7 +3621,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/04/john-affourtit-murder-charge-infant-death/"
 },
 {
-    "index": 214,
+    "button": "",
+"index": 214,
     "homicideDate": "9/28/2018",
     "homicideMonth": "Sep",
     "homicideYear": 2018,
@@ -3424,7 +3638,8 @@
     "articleLink": "https://www.denverpost.com/2018/09/28/man-fatally-shot-in-lodo-identified/"
 },
 {
-    "index": 215,
+    "button": "",
+"index": 215,
     "homicideDate": "10/3/2018",
     "homicideMonth": "Oct",
     "homicideYear": 2018,
@@ -3440,7 +3655,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/03/denver-barnum-west-fatal-shooting/"
 },
 {
-    "index": 216,
+    "button": "",
+"index": 216,
     "homicideDate": "10/5/2018",
     "homicideMonth": "Oct",
     "homicideYear": 2018,
@@ -3456,7 +3672,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/08/denver-lincoln-park-homicide/"
 },
 {
-    "index": 217,
+    "button": "",
+"index": 217,
     "homicideDate": "10/20/2018",
     "homicideMonth": "Oct",
     "homicideYear": 2018,
@@ -3472,7 +3689,8 @@
     "articleLink": "https://www.denverpost.com/2018/11/14/baker-shooting-arrests/"
 },
 {
-    "index": 218,
+    "button": "",
+"index": 218,
     "homicideDate": "10/22/2018",
     "homicideMonth": "Oct",
     "homicideYear": 2018,
@@ -3488,7 +3706,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/24/denves-five-points-shooting-victim-identified/"
 },
 {
-    "index": 219,
+    "button": "",
+"index": 219,
     "homicideDate": "10/22/2018",
     "homicideMonth": "Oct",
     "homicideYear": 2018,
@@ -3504,7 +3723,8 @@
     "articleLink": "https://www.denverpost.com/2018/10/22/homicide-investigation-denver-clayton/"
 },
 {
-    "index": 220,
+    "button": "",
+"index": 220,
     "homicideDate": "10/26/2018",
     "homicideMonth": "Oct",
     "homicideYear": 2018,
@@ -3520,7 +3740,8 @@
     "articleLink": "https://www.denverpost.com/2018/11/07/murder-charge-denver-police-rage/"
 },
 {
-    "index": 221,
+    "button": "",
+"index": 221,
     "homicideDate": "11/3/2018",
     "homicideMonth": "Nov",
     "homicideYear": 2018,
@@ -3536,7 +3757,8 @@
     "articleLink": "https://www.denverpost.com/2018/11/05/cap-hill-shooting-victim-identity/"
 },
 {
-    "index": 222,
+    "button": "",
+"index": 222,
     "homicideDate": "11/18/2018",
     "homicideMonth": "Nov",
     "homicideYear": 2018,
@@ -3552,7 +3774,8 @@
     "articleLink": "https://www.denverpost.com/2019/01/11/coroner-homicide-homeless/"
 },
 {
-    "index": 223,
+    "button": "",
+"index": 223,
     "homicideDate": "11/20/2018",
     "homicideMonth": "Nov",
     "homicideYear": 2018,
@@ -3568,7 +3791,8 @@
     "articleLink": "https://www.denverpost.com/2018/11/26/gang-shooting-victim-denver/"
 },
 {
-    "index": 224,
+    "button": "",
+"index": 224,
     "homicideDate": "12/1/2018",
     "homicideMonth": "Dec",
     "homicideYear": 2018,
@@ -3584,7 +3808,8 @@
     "articleLink": "https://www.denverpost.com/2018/12/02/park-hill-shooting-homicide/"
 },
 {
-    "index": 225,
+    "button": "",
+"index": 225,
     "homicideDate": "12/15/2018",
     "homicideMonth": "Dec",
     "homicideYear": 2018,
@@ -3600,7 +3825,8 @@
     "articleLink": "https://www.denverpost.com/2018/12/17/montbello-shooting-death-suspect-identified/"
 },
 {
-    "index": 226,
+    "button": "",
+"index": 226,
     "homicideDate": "12/22/2018",
     "homicideMonth": "Dec",
     "homicideYear": 2018,
@@ -3616,7 +3842,8 @@
     "articleLink": "https://www.denverpost.com/2018/12/27/fatal-denver-shooting-ridge-lowry-apartment/"
 },
 {
-    "index": 227,
+    "button": "",
+"index": 227,
     "homicideDate": "12/22/2018",
     "homicideMonth": "Dec",
     "homicideYear": 2018,
@@ -3632,7 +3859,8 @@
     "articleLink": "https://www.denverpost.com/2018/12/27/fatal-denver-shooting-ridge-lowry-apartment/"
 },
 {
-    "index": 228,
+    "button": "",
+"index": 228,
     "homicideDate": "12/23/2018",
     "homicideMonth": "Dec",
     "homicideYear": 2018,
@@ -3648,7 +3876,8 @@
     "articleLink": "https://www.denverpost.com/2018/12/23/man-dead-following-shooting-in-denvers-montbello-neighborhood-saturday/"
 },
 {
-    "index": 229,
+    "button": "",
+"index": 229,
     "homicideDate": "12/23/2018",
     "homicideMonth": "Dec",
     "homicideYear": 2018,
@@ -3664,7 +3893,8 @@
     "articleLink": "https://www.denverpost.com/2018/12/28/denver-homicide-suspect-arrested-new-mexico/"
 },
 {
-    "index": 230,
+    "button": "",
+"index": 230,
     "homicideDate": "1/21/2019",
     "homicideMonth": "Jan",
     "homicideYear": 2019,
@@ -3680,7 +3910,8 @@
     "articleLink": "https://www.denverpost.com/2019/01/21/denver-five-points-fatal-shooting/"
 },
 {
-    "index": 231,
+    "button": "",
+"index": 231,
     "homicideDate": "1/31/2019",
     "homicideMonth": "Jan",
     "homicideYear": 2019,
@@ -3696,7 +3927,8 @@
     "articleLink": "https://www.denverpost.com/2019/02/04/denver-fatal-stabbing-west-colfax/"
 },
 {
-    "index": 232,
+    "button": "",
+"index": 232,
     "homicideDate": "2/20/2019",
     "homicideMonth": "Feb",
     "homicideYear": 2019,
@@ -3712,7 +3944,8 @@
     "articleLink": "https://www.denverpost.com/2019/02/22/denver-police-homicide-assault/"
 },
 {
-    "index": 233,
+    "button": "",
+"index": 233,
     "homicideDate": "2/20/2019",
     "homicideMonth": "Feb",
     "homicideYear": 2019,
@@ -3728,7 +3961,8 @@
     "articleLink": "https://www.denverpost.com/2019/02/21/denver-east-evans-shooting-death/"
 },
 {
-    "index": 234,
+    "button": "",
+"index": 234,
     "homicideDate": "2/22/2019",
     "homicideMonth": "Feb",
     "homicideYear": 2019,
@@ -3744,7 +3978,8 @@
     "articleLink": "https://www.denverpost.com/2019/02/22/denver-police-investigate-homicide-5/"
 },
 {
-    "index": 235,
+    "button": "",
+"index": 235,
     "homicideDate": "3/4/2019",
     "homicideMonth": "Mar",
     "homicideYear": 2019,
@@ -3760,7 +3995,8 @@
     "articleLink": "https://www.denverpost.com/2019/03/08/denver-homicide-shooting-arrested/"
 },
 {
-    "index": 236,
+    "button": "",
+"index": 236,
     "homicideDate": "3/10/2019",
     "homicideMonth": "Mar",
     "homicideYear": 2019,
@@ -3776,7 +4012,8 @@
     "articleLink": "https://www.denverpost.com/2019/03/12/denver-market-street-shooting-name-released/"
 },
 {
-    "index": 237,
+    "button": "",
+"index": 237,
     "homicideDate": "3/22/2019",
     "homicideMonth": "Mar",
     "homicideYear": 2019,
@@ -3792,7 +4029,8 @@
     "articleLink": "https://www.denverpost.com/2019/03/26/jamaica-mcclain-denver-homicide-police/"
 },
 {
-    "index": 238,
+    "button": "",
+"index": 238,
     "homicideDate": "4/2/2019",
     "homicideMonth": "Apr",
     "homicideYear": 2019,
@@ -3808,7 +4046,8 @@
     "articleLink": "https://www.denverpost.com/2019/04/05/denver-east-colfax-shooting-victim-identified/"
 },
 {
-    "index": 239,
+    "button": "",
+"index": 239,
     "homicideDate": "4/11/2019",
     "homicideMonth": "Apr",
     "homicideYear": 2019,
@@ -3824,7 +4063,8 @@
     "articleLink": "https://www.denverpost.com/2019/04/16/denver-teen-killed-shooting-unsolved-homicide/"
 },
 {
-    "index": 240,
+    "button": "",
+"index": 240,
     "homicideDate": "4/19/2019",
     "homicideMonth": "Apr",
     "homicideYear": 2019,
@@ -3840,7 +4080,8 @@
     "articleLink": "https://www.denverpost.com/2019/04/22/aurora-body-found-identified/"
 },
 {
-    "index": 241,
+    "button": "",
+"index": 241,
     "homicideDate": "4/25/2019",
     "homicideMonth": "Apr",
     "homicideYear": 2019,
@@ -3856,7 +4097,8 @@
     "articleLink": "https://www.denverpost.com/2019/04/30/911-denver-police-arrest-homicide/"
 },
 {
-    "index": 242,
+    "button": "",
+"index": 242,
     "homicideDate": "4/28/2019",
     "homicideMonth": "Apr",
     "homicideYear": 2019,
@@ -3872,7 +4114,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/08/denver-man-bludgeoned-death-coroner/"
 },
 {
-    "index": 243,
+    "button": "",
+"index": 243,
     "homicideDate": "5/10/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3888,7 +4131,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/15/denver-homicide-shooting-hospital-autopsy/"
 },
 {
-    "index": 244,
+    "button": "",
+"index": 244,
     "homicideDate": "5/15/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3904,7 +4148,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/20/denver-shooting-death-adams-street/"
 },
 {
-    "index": 245,
+    "button": "",
+"index": 245,
     "homicideDate": "5/19/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3920,7 +4165,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/24/man-strangled-park-hill-identified/"
 },
 {
-    "index": 246,
+    "button": "",
+"index": 246,
     "homicideDate": "5/21/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3936,7 +4182,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/24/denver-infant-death-identified/"
 },
 {
-    "index": 247,
+    "button": "",
+"index": 247,
     "homicideDate": "5/23/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3952,7 +4199,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/28/southwest-denver-triple-homicide-victims-identified/"
 },
 {
-    "index": 248,
+    "button": "",
+"index": 248,
     "homicideDate": "5/23/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3968,7 +4216,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/28/southwest-denver-triple-homicide-victims-identified/"
 },
 {
-    "index": 249,
+    "button": "",
+"index": 249,
     "homicideDate": "5/23/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -3984,7 +4233,8 @@
     "articleLink": "https://www.denverpost.com/2019/05/28/southwest-denver-triple-homicide-victims-identified/"
 },
 {
-    "index": 250,
+    "button": "",
+"index": 250,
     "homicideDate": "5/31/2019",
     "homicideMonth": "May",
     "homicideYear": 2019,
@@ -4000,7 +4250,8 @@
     "articleLink": "https://www.denverpost.com/2019/06/04/denver-woman-strangled-identified/"
 },
 {
-    "index": 251,
+    "button": "",
+"index": 251,
     "homicideDate": "6/2/2019",
     "homicideMonth": "Jun",
     "homicideYear": 2019,
@@ -4016,7 +4267,8 @@
     "articleLink": "https://www.denverpost.com/2019/06/04/southwest-denver-fatal-shooting-victim/"
 },
 {
-    "index": 252,
+    "button": "",
+"index": 252,
     "homicideDate": "6/3/2019",
     "homicideMonth": "Jun",
     "homicideYear": 2019,
@@ -4032,7 +4284,8 @@
     "articleLink": "https://www.denverpost.com/2019/06/10/marcus-nash-denver-fatal-shooting/"
 },
 {
-    "index": 253,
+    "button": "",
+"index": 253,
     "homicideDate": "6/6/2019",
     "homicideMonth": "Jun",
     "homicideYear": 2019,
@@ -4048,7 +4301,8 @@
     "articleLink": "https://www.denverpost.com/2019/06/10/george-spencer-denver-shooting-death/"
 },
 {
-    "index": 254,
+    "button": "",
+"index": 254,
     "homicideDate": "6/15/2019",
     "homicideMonth": "Jun",
     "homicideYear": 2019,
@@ -4064,7 +4318,8 @@
     "articleLink": "https://www.denverpost.com/2019/06/19/green-valley-ranch-car-body-identified/"
 },
 {
-    "index": 255,
+    "button": "",
+"index": 255,
     "homicideDate": "6/20/2019",
     "homicideMonth": "Jun",
     "homicideYear": 2019,
@@ -4080,7 +4335,8 @@
     "articleLink": "https://www.denverpost.com/2019/06/21/denver-homicide-murder-arrest-crime/"
 },
 {
-    "index": 256,
+    "button": "",
+"index": 256,
     "homicideDate": "7/2/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
@@ -4096,7 +4352,8 @@
     "articleLink": "https://www.denverpost.com/2019/07/03/denver-clayton-fatal-shooting-id/"
 },
 {
-    "index": 257,
+    "button": "",
+"index": 257,
     "homicideDate": "7/2/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
@@ -4112,7 +4369,8 @@
     "articleLink": "https://www.denverpost.com/2019/07/05/east-colfax-shooting-omar-king/"
 },
 {
-    "index": 258,
+    "button": "",
+"index": 258,
     "homicideDate": "7/3/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
@@ -4128,7 +4386,8 @@
     "articleLink": "https://www.denverpost.com/2019/07/03/globeville-homicide-investigation/"
 },
 {
-    "index": 259,
+    "button": "",
+"index": 259,
     "homicideDate": "7/5/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
@@ -4144,7 +4403,8 @@
     "articleLink": "https://www.denverpost.com/2019/07/05/denver-shooting-homicide/"
 },
 {
-    "index": 260,
+    "button": "",
+"index": 260,
     "homicideDate": "7/19/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
@@ -4160,11 +4420,12 @@
     "articleLink": "https://www.denverpost.com/2019/07/23/denver-woman-killed-suspect-arrested/"
 },
 {
-    "index": 261,
+    "button": "",
+"index": 261,
     "homicideDate": "7/23/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
-    "victimName": "Ray Uriona",
+    "victimName": "Damian Uriona",
     "victimAge": 17,
     "victimGender": "Male",
     "victimRace": "",
@@ -4176,7 +4437,8 @@
     "articleLink": "https://www.9news.com/article/news/crime/he-deserves-justice-teen-shot-to-death-in-denver-home/73-834208cf-4799-4a74-80a6-51e1ac105cd5"
 },
 {
-    "index": 262,
+    "button": "",
+"index": 262,
     "homicideDate": "7/26/2019",
     "homicideMonth": "Jul",
     "homicideYear": 2019,
@@ -4192,7 +4454,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/05/bear-valley-apparent-murder-suicide-victims-identified/"
 },
 {
-    "index": 263,
+    "button": "",
+"index": 263,
     "homicideDate": "8/3/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4208,7 +4471,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/05/fatal-shooting-west-38th-avenue-ruled-homicide/"
 },
 {
-    "index": 264,
+    "button": "",
+"index": 264,
     "homicideDate": "8/8/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4224,7 +4488,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/13/darrell-mitchell-teen-shot-dead-denver/"
 },
 {
-    "index": 265,
+    "button": "",
+"index": 265,
     "homicideDate": "8/9/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4240,7 +4505,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/14/aurora-boy-killed-vigil-teen-violence/"
 },
 {
-    "index": 266,
+    "button": "",
+"index": 266,
     "homicideDate": "8/9/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4256,7 +4522,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/13/denver-homicide-arrests/"
 },
 {
-    "index": 267,
+    "button": "",
+"index": 267,
     "homicideDate": "8/11/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4272,7 +4539,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/13/cameron-miller-death-denver/"
 },
 {
-    "index": 268,
+    "button": "",
+"index": 268,
     "homicideDate": "8/13/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4288,7 +4556,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/12/denver-montclair-neighborhood-homicide-investigation/"
 },
 {
-    "index": 269,
+    "button": "",
+"index": 269,
     "homicideDate": "8/26/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4304,7 +4573,8 @@
     "articleLink": "https://www.denverpost.com/2019/08/28/mark-duckworth-killed-whittier/"
 },
 {
-    "index": 270,
+    "button": "",
+"index": 270,
     "homicideDate": "8/29/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4320,7 +4590,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/11/man-arrested-texas-denver-homicide/"
 },
 {
-    "index": 271,
+    "button": "",
+"index": 271,
     "homicideDate": "8/31/2019",
     "homicideMonth": "Aug",
     "homicideYear": 2019,
@@ -4336,7 +4607,8 @@
     "articleLink": ""
 },
 {
-    "index": 272,
+    "button": "",
+"index": 272,
     "homicideDate": "9/4/19",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4352,7 +4624,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/05/double-shooting-federal-boulevard-denver/"
 },
 {
-    "index": 273,
+    "button": "",
+"index": 273,
     "homicideDate": "9/6/19",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4368,7 +4641,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/09/denver-police-man-dead-vehicle-homicide/"
 },
 {
-    "index": 274,
+    "button": "",
+"index": 274,
     "homicideDate": "9/9/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4384,7 +4658,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/11/denver-police-barricade-homicide/"
 },
 {
-    "index": 275,
+    "button": "",
+"index": 275,
     "homicideDate": "9/12/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4400,7 +4675,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/12/denver-death-madison-street-police/"
 },
 {
-    "index": 276,
+    "button": "",
+"index": 276,
     "homicideDate": "9/13/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4416,7 +4692,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/13/denver-homicide-city-park-shooting/"
 },
 {
-    "index": 277,
+    "button": "",
+"index": 277,
     "homicideDate": "9/15/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4432,7 +4709,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/16/east-colfax-verbena-street-shooting-death-denver/"
 },
 {
-    "index": 278,
+    "button": "",
+"index": 278,
     "homicideDate": "9/17/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4448,7 +4726,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/17/montbello-shooting-lackland-place-death/"
 },
 {
-    "index": 279,
+    "button": "",
+"index": 279,
     "homicideDate": "9/18/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4464,7 +4743,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/18/man-shot-cook-park-denver/"
 },
 {
-    "index": 280,
+    "button": "",
+"index": 280,
     "homicideDate": "9/21/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4480,7 +4760,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/24/denver-green-valley-ranch-victim/"
 },
 {
-    "index": 281,
+    "button": "",
+"index": 281,
     "homicideDate": "9/27/2019",
     "homicideMonth": "Sep",
     "homicideYear": 2019,
@@ -4496,7 +4777,8 @@
     "articleLink": "https://www.denverpost.com/2019/09/27/denver-homicide-investigation-2/"
 },
 {
-    "index": 282,
+    "button": "",
+"index": 282,
     "homicideDate": "10/3/2019",
     "homicideMonth": "Oct",
     "homicideYear": 2019,
@@ -4512,7 +4794,8 @@
     "articleLink": "https://www.denverpost.com/2019/10/06/denver-andres-panuco-herrera-death/"
 },
 {
-    "index": 283,
+    "button": "",
+"index": 283,
     "homicideDate": "10/13/2019",
     "homicideMonth": "Oct",
     "homicideYear": 2019,
@@ -4528,7 +4811,8 @@
     "articleLink": "https://www.denverpost.com/2019/10/14/denver-shooting-suspect-identified/"
 },
 {
-    "index": 284,
+    "button": "",
+"index": 284,
     "homicideDate": "10/18/2019",
     "homicideMonth": "Oct",
     "homicideYear": 2019,
@@ -4544,7 +4828,8 @@
     "articleLink": "https://www.denverpost.com/2019/10/24/denver-homicide-suspect-arrested-florida/"
 },
 {
-    "index": 285,
+    "button": "",
+"index": 285,
     "homicideDate": "10/19/2019",
     "homicideMonth": "Oct",
     "homicideYear": 2019,
@@ -4560,7 +4845,8 @@
     "articleLink": "https://www.denverpost.com/2019/10/22/denver-montclair-homicide-dajanae-brice/"
 },
 {
-    "index": 286,
+    "button": "",
+"index": 286,
     "homicideDate": "11/2/2019",
     "homicideMonth": "Nov",
     "homicideYear": 2019,
@@ -4576,7 +4862,8 @@
     "articleLink": "https://www.denverpost.com/2019/11/02/denver-homicide-lincoln-park-alley/"
 },
 {
-    "index": 287,
+    "button": "",
+"index": 287,
     "homicideDate": "11/24/2019",
     "homicideMonth": "Nov",
     "homicideYear": 2019,
@@ -4592,7 +4879,8 @@
     "articleLink": "https://www.denverpost.com/2019/12/04/denver-man-found-dead-in-vehicle/"
 },
 {
-    "index": 288,
+    "button": "",
+"index": 288,
     "homicideDate": "11/24/2019",
     "homicideMonth": "Nov",
     "homicideYear": 2019,
@@ -4608,7 +4896,8 @@
     "articleLink": ""
 },
 {
-    "index": 289,
+    "button": "",
+"index": 289,
     "homicideDate": "11/27/2019",
     "homicideMonth": "Nov",
     "homicideYear": 2019,
@@ -4624,7 +4913,8 @@
     "articleLink": "https://www.denverpost.com/2019/12/04/denver-7-eleven-stabbing-death-tamerat-abebe/"
 },
 {
-    "index": 290,
+    "button": "",
+"index": 290,
     "homicideDate": "12/8/2019",
     "homicideMonth": "Dec",
     "homicideYear": 2019,
@@ -4640,7 +4930,8 @@
     "articleLink": "https://www.denverpost.com/2019/12/13/lydia-tesfuoo-stabbing-death-denver-colorado/"
 },
 {
-    "index": 291,
+    "button": "",
+"index": 291,
     "homicideDate": "12/11/2019",
     "homicideMonth": "Dec",
     "homicideYear": 2019,
@@ -4656,7 +4947,8 @@
     "articleLink": "https://www.denverpost.com/2019/12/13/jessika-martinez-death-denver-capitol-hill-neighborhood/"
 },
 {
-    "index": 292,
+    "button": "",
+"index": 292,
     "homicideDate": "12/15/2019",
     "homicideMonth": "Dec",
     "homicideYear": 2019,
@@ -4672,7 +4964,8 @@
     "articleLink": "https://www.denverpost.com/2019/12/17/washington-street-shooting-victim-identified/"
 },
 {
-    "index": 293,
+    "button": "",
+"index": 293,
     "homicideDate": "1/1/2020",
     "homicideMonth": "Jan",
     "homicideYear": 2020,
@@ -4688,7 +4981,8 @@
     "articleLink": "https://www.denverpost.com/2020/01/03/teen-killed-denver-new-years-day/"
 },
 {
-    "index": 294,
+    "button": "",
+"index": 294,
     "homicideDate": "1/9/2020",
     "homicideMonth": "Jan",
     "homicideYear": 2020,
@@ -4704,7 +4998,8 @@
     "articleLink": "https://www.denverpost.com/2020/01/10/denver-homicide-investigation-jewel-cherry/"
 },
 {
-    "index": 295,
+    "button": "",
+"index": 295,
     "homicideDate": "1/18/2020",
     "homicideMonth": "Jan",
     "homicideYear": 2020,
@@ -4720,7 +5015,8 @@
     "articleLink": "https://www.denverpost.com/2020/01/22/denver-east-colfax-shooting-brad-edmonds/"
 },
 {
-    "index": 296,
+    "button": "",
+"index": 296,
     "homicideDate": "1/22/2020",
     "homicideMonth": "Jan",
     "homicideYear": 2020,
@@ -4736,7 +5032,8 @@
     "articleLink": "https://www.denverpost.com/2020/01/22/juvenile-male-dies-urgent-care/"
 },
 {
-    "index": 297,
+    "button": "",
+"index": 297,
     "homicideDate": "1/23/2020",
     "homicideMonth": "Jan",
     "homicideYear": 2020,
@@ -4752,7 +5049,8 @@
     "articleLink": "https://www.denverpost.com/2020/01/23/denver-montbello-teenage-homicide/"
 },
 {
-    "index": 298,
+    "button": "",
+"index": 298,
     "homicideDate": "1/24/2020",
     "homicideMonth": "Jan",
     "homicideYear": 2020,

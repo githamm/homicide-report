@@ -758,7 +758,7 @@
                 "homicideDate": "7/23/2019",
                 "homicideMonth": "Jul",
                 "homicideYear": "2019",
-                "victimName": "Ray Uriona",
+                "victimName": "Damian Uriona",
                 "victimAge": "17",
                 "victimGender": "Male",
                 "victimRace": "",
