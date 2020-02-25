@@ -135,6 +135,81 @@
     "neighborhood":"University Park",
     "articleLink":"https://www.denverpost.com/2020/01/24/murder-domestic-violence-woman-arrest/"
     }
-  }
+  },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.020207,
+          39.785778
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "299",
+        "homicideDate": "2/9/2020",
+        "homicideMonth": "Feb",
+        "homicideYear": "2020",
+        "victimName": "Terance Longo",
+        "victimAge": "67",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "4900 block of North Clay Street",
+        "neighborhood": "Chaffee Park",
+        "articleLink": "https://www.denverpost.com/2020/02/11/denver-clay-street-shooting-terance-longo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.900937,
+          39.631327
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "300",
+        "homicideDate": "2/19/2020",
+        "homicideMonth": "Feb",
+        "homicideYear": "2020",
+        "victimName": "Marquis Johnson",
+        "victimAge": "26",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "7500 block of East Technology Way",
+        "neighborhood": "Hampden South",
+        "articleLink": "https://www.denverpost.com/2020/02/19/triple-shooting-denver-tech-center/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.050016,
+          39.679148
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "301",
+        "homicideDate": "2/22/2020",
+        "homicideMonth": "Feb",
+        "homicideYear": "2020",
+        "victimName": "Nathan Valdez",
+        "victimAge": "34",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "2100 block of South Xavier Street",
+        "neighborhood": "Harvey Park",
+        "articleLink": "https://www.denverpost.com/2020/02/23/denver-stabbing-death-xavier-street/"
+      }
+    }
   ]
 }

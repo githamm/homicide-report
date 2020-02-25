@@ -2071,7 +2071,7 @@
                         [-104.902053, 39.62443]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 33, "nbhd_id": 33, "notes": null, "typology": null, "nbhd_name": "Hampden South", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 33, "nbhd_id": 33, "notes": null, "typology": null, "nbhd_name": "Hampden South", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.910237, 39.711202],
@@ -2520,7 +2520,7 @@
                         [-105.025108, 39.667716]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 40, "nbhd_id": 34, "notes": null, "typology": null, "nbhd_name": "Harvey Park", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.884657, 39.747455],
@@ -9062,7 +9062,7 @@
                         [-104.998122, 39.791022]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 1, "nbhd_id": 11, "notes": null, "typology": null, "nbhd_name": "Chaffee Park", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 1, "nbhd_id": 11, "notes": null, "typology": null, "nbhd_name": "Chaffee Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940664, 39.740129],
