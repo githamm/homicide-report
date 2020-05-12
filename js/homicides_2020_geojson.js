@@ -210,6 +210,306 @@
         "neighborhood": "Harvey Park",
         "articleLink": "https://www.denverpost.com/2020/02/23/denver-stabbing-death-xavier-street/"
       }
+    },
+     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.025064,
+          39.687698
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "302",
+        "homicideDate": "2/28/2020",
+        "homicideMonth": "Feb",
+        "homicideYear": "2020",
+        "victimName": "Joshua Evans",
+        "victimAge": "35",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "1600 block of South Federal Boulevard",
+        "neighborhood": "Mar Lee",
+        "articleLink": "https://www.denverpost.com/2020/03/02/denver-stabbing-death-federal-boulevard/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0529,
+          39.733374
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "303",
+        "homicideDate": "3/9/2020",
+        "homicideMonth": "Mar",
+        "homicideYear": "2020",
+        "victimName": "Jayden Calloway",
+        "victimAge": "20",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1000 block of Sheridan Boulevard",
+        "neighborhood": "Villa Park",
+        "articleLink": "https://www.denverpost.com/2020/03/12/denver-shooting-death-jayden-calloway/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.806696,
+          39.790177
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "304",
+        "homicideDate": "3/21/2020",
+        "homicideMonth": "Mar",
+        "homicideYear": "2020",
+        "victimName": "Abenezer Zenebe",
+        "victimAge": "19",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "15500 block of East 53rd Avenue",
+        "neighborhood": "Gateway-Green Valley Ranch",
+        "articleLink": "https://www.denverpost.com/2020/03/26/denver-shooting-death-abenezer-zenebe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.944955,
+          39.75674
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "305",
+        "homicideDate": "4/9/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Joryn Dean",
+        "victimAge": "21",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2800 block of North Monroe Street",
+        "neighborhood": "Skyland",
+        "articleLink": "https://www.denverpost.com/2020/04/13/denver-monroe-street-shooting-joryn-dean/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.043973,
+          39.68807
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "306",
+        "homicideDate": "4/11/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Fabian Medina",
+        "victimAge": "15",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1600 block of South Tennyson Street",
+        "neighborhood": "Mar Lee",
+        "articleLink": "https://www.denverpost.com/2020/04/14/denver-mar-lee-triple-shooting-victims/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.043973,
+          39.68807
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "307",
+        "homicideDate": "4/11/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Fabian Medina, 15, and Jose Contreras",
+        "victimAge": "36",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1600 block of South Tennyson Street",
+        "neighborhood": "Mar Lee",
+        "articleLink": "https://www.denverpost.com/2020/04/14/denver-mar-lee-triple-shooting-victims/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8174,
+          39.78809
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "308",
+        "homicideDate": "4/23/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Alexis Mendez Perez",
+        "victimAge": "16",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "14500 block of East 51st Place",
+        "neighborhood": "Montbello",
+        "articleLink": "https://www.denverpost.com/2020/04/23/denver-homicide-shooting-east-51st-place/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.80928,
+          39.784485
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "309",
+        "homicideDate": "4/24/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Arthur Robinson",
+        "victimAge": "36",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "4800 block of North Chambers Road",
+        "neighborhood": "Gateway-Green Valley Ranch",
+        "articleLink": "https://www.denverpost.com/2020/04/27/denver-homicide-chambers-road-samuel-robinson/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.940208,
+          39.780062
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "310",
+        "homicideDate": "4/25/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Kim Phok",
+        "victimAge": "60",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "I-70 and Colorado Boulevard",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2020/04/28/denver-homicide-kim-phok-shooting/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.774427,
+          39.794763
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "311",
+        "homicideDate": "4/25/2020",
+        "homicideMonth": "Apr",
+        "homicideYear": "2020",
+        "victimName": "Jamal Thompson",
+        "victimAge": "26",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "54th Avenue and North Yampa Street",
+        "neighborhood": "Gateway-Green Valley Ranch",
+        "articleLink": "https://www.denverpost.com/2020/04/27/man-shot-dead-denver-saturday-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.983595,
+          39.740046
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "312",
+        "homicideDate": "5/2/2020",
+        "homicideMonth": "May",
+        "homicideYear": "2020",
+        "victimName": "George Black",
+        "victimAge": "80",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Pending",
+        "blockAddress": "East Colfax Avenue and Grant Street",
+        "neighborhood": "Capitol Hill",
+        "articleLink": "https://www.denverpost.com/2020/05/06/denver-homicide-beating-death-george-black/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.020364,
+          39.740069
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "313",
+        "homicideDate": "5/3/2020",
+        "homicideMonth": "May",
+        "homicideYear": "2020",
+        "victimName": "Billy Williams",
+        "victimAge": "41",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "900 block of North Clay Street",
+        "neighborhood": "Sun Valley",
+        "articleLink": "https://www.denverpost.com/2020/05/07/fatal-shooting-denver-clay-street-arrest/"
+      }
     }
   ]
 }

@@ -1230,7 +1230,7 @@
                         [-105.037499, 39.734123]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 61, "nbhd_id": 68, "notes": null, "typology": null, "nbhd_name": "Villa Park", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 61, "nbhd_id": 68, "notes": null, "typology": null, "nbhd_name": "Villa Park", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973431, 39.678513],
@@ -3370,7 +3370,7 @@
                         [-104.973412, 39.74003]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 70, "nbhd_id": 9, "notes": null, "typology": null, "nbhd_name": "Capitol Hill", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 70, "nbhd_id": 9, "notes": null, "typology": null, "nbhd_name": "Capitol Hill", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940578, 39.761958],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 21 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 22 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -5524,7 +5524,7 @@
                         [-105.016261, 39.74339]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 6, "nbhd_id": 61, "notes": null, "typology": null, "nbhd_name": "Sun Valley", "homicides": 0 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 6, "nbhd_id": 61, "notes": null, "typology": null, "nbhd_name": "Sun Valley", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940621, 39.751037],
@@ -5606,7 +5606,7 @@
                         [-104.940621, 39.751037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 55, "nbhd_id": 55, "notes": null, "typology": null, "nbhd_name": "Skyland", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 55, "nbhd_id": 55, "notes": null, "typology": null, "nbhd_name": "Skyland", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.866035, 39.798411],
@@ -6334,7 +6334,7 @@
                         [-105.025059, 39.696747]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 41, "nbhd_id": 43, "notes": null, "typology": null, "nbhd_name": "Mar Lee", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 41, "nbhd_id": 43, "notes": null, "typology": null, "nbhd_name": "Mar Lee", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.903511, 39.783823],
@@ -6455,7 +6455,7 @@
                         [-104.903511, 39.783823]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 17 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 10, "nbhd_id": 49, "notes": null, "typology": null, "nbhd_name": "Northeast Park Hill", "homicides": 18 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.987431, 39.696634],
@@ -6750,7 +6750,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 37, "nbhd_id": 28, "notes": null, "typology": null, "nbhd_name": "Gateway-Green Valley Ranch", "homicides": 8 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 37, "nbhd_id": 28, "notes": null, "typology": null, "nbhd_name": "Gateway-Green Valley Ranch", "homicides": 11 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.009489, 39.753927],
