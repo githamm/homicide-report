@@ -249,9 +249,9 @@ d3.json(dataFile, function(data) {
     var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
     //var cole = neighborhoodCount.Cole.length;
     //var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
-    var westwood = neighborhoodCount.Westwood.length;
+    //var westwood = neighborhoodCount.Westwood.length;
     var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
-    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + westwood);
+    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + gatewayGreenValleyRanch);
 
     var neighborhoodChart = c3.generate({
         bindto: '#homicide-neighborhoods',
@@ -264,7 +264,7 @@ d3.json(dataFile, function(data) {
                 ['Montbello', montbello],
                 ['Northeast Park Hill', northeastParkHill],
                 ['East Colfax', eastColfax],
-                ['Westwood', westwood],
+                // ['Westwood', westwood],
                 // ['Cole', cole],
                 // ['Elyria Swansea', elyriaSwansea],
                 ['Gateway-Green Valley Ranch', gatewayGreenValleyRanch],

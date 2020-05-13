@@ -510,6 +510,81 @@
         "neighborhood": "Sun Valley",
         "articleLink": "https://www.denverpost.com/2020/05/07/fatal-shooting-denver-clay-street-arrest/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.890287,
+          39.73888
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "314",
+        "homicideDate": "5/9/2020",
+        "homicideMonth": "May",
+        "homicideYear": "2020",
+        "victimName": "Heather Perry",
+        "victimAge": "21",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1400 block of North Verbena Street",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2020/05/09/denver-homicide-east-verbena-valentia/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024556,
+          39.69983
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "315",
+        "homicideDate": "5/9/2020",
+        "homicideMonth": "May",
+        "homicideYear": "2020",
+        "victimName": "Ramon Perez",
+        "victimAge": "55",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Stabbing",
+        "blockAddress": "900 block of South Federal Boulevard",
+        "neighborhood": "Athmar Park",
+        "articleLink": "https://www.denverpost.com/2020/05/10/denver-athmar-park-stabbing-death/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.738135,
+          39.794646
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "316",
+        "homicideDate": "5/10/2020",
+        "homicideMonth": "May",
+        "homicideYear": "2020",
+        "victimName": "Dennis Lozoya",
+        "victimAge": "38",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "5400 block of North Odessa Street",
+        "neighborhood": "Gateway-Green Valley Ranch",
+        "articleLink": "https://www.denverpost.com/2020/05/11/denver-police-fatal-shooting-odessa-street/"
+      }
     }
   ]
 }
