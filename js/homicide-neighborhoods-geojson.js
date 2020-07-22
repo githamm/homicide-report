@@ -1299,7 +1299,7 @@
                         [-104.902671, 39.685712]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 34, "nbhd_id": 38, "notes": null, "typology": null, "nbhd_name": "Indian Creek", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 34, "nbhd_id": 38, "notes": null, "typology": null, "nbhd_name": "Indian Creek", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.93398, 39.678449],
@@ -1657,7 +1657,7 @@
                         [-104.973424, 39.689824]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 22, "nbhd_id": 51, "notes": null, "typology": null, "nbhd_name": "Platt Park", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 22, "nbhd_id": 51, "notes": null, "typology": null, "nbhd_name": "Platt Park", "homicides": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959767, 39.750718],
@@ -1827,7 +1827,7 @@
                         [-105.039698, 39.711251]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 11 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 42, "nbhd_id": 76, "notes": null, "typology": null, "nbhd_name": "Westwood", "homicides": 12 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.025239, 39.769289],
@@ -2579,7 +2579,7 @@
                         [-104.884657, 39.747455]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 19 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 43, "nbhd_id": 24, "notes": null, "typology": null, "nbhd_name": "East Colfax", "homicides": 21 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940697, 39.695405],
@@ -3305,7 +3305,7 @@
                         [-104.903428, 39.751017]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 20, "nbhd_id": 57, "notes": null, "typology": null, "nbhd_name": "South Park Hill", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 20, "nbhd_id": 57, "notes": null, "typology": null, "nbhd_name": "South Park Hill", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.973412, 39.74003],
@@ -3677,7 +3677,7 @@
                         [-104.809898, 39.772832]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 22 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 77, "nbhd_id": 45, "notes": null, "typology": null, "nbhd_name": "Montbello", "homicides": 26 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940687, 39.682962],
@@ -4183,7 +4183,7 @@
                         [-104.929311, 39.702037]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 58, "nbhd_id": 72, "notes": null, "typology": null, "nbhd_name": "Washington Virginia Vale", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959309, 39.715657],
@@ -5524,7 +5524,7 @@
                         [-105.016261, 39.74339]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 6, "nbhd_id": 61, "notes": null, "typology": null, "nbhd_name": "Sun Valley", "homicides": 1 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 6, "nbhd_id": 61, "notes": null, "typology": null, "nbhd_name": "Sun Valley", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940621, 39.751037],
@@ -5859,7 +5859,7 @@
                         [-104.903425, 39.752213]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 19, "nbhd_id": 48, "notes": null, "typology": null, "nbhd_name": "North Park Hill", "homicides": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 19, "nbhd_id": 48, "notes": null, "typology": null, "nbhd_name": "North Park Hill", "homicides": 4 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.029959, 39.792032],
@@ -7642,7 +7642,7 @@
                         [-104.968754, 39.79104]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 5 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 4, "nbhd_id": 29, "notes": null, "typology": null, "nbhd_name": "Globeville", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.959782, 39.739989],
@@ -7963,7 +7963,7 @@
                         [-104.971916, 39.770301]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 20 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 75, "nbhd_id": 26, "notes": null, "typology": null, "nbhd_name": "Five Points", "homicides": 23 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.940088, 39.790975],
@@ -8144,7 +8144,7 @@
                         [-104.940088, 39.790975]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 11, "nbhd_id": 25, "notes": null, "typology": null, "nbhd_name": "Elyria Swansea", "homicides": 9 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 11, "nbhd_id": 25, "notes": null, "typology": null, "nbhd_name": "Elyria Swansea", "homicides": 10 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-105.001395, 39.682168],
@@ -8710,7 +8710,7 @@
                         [-104.992384, 39.696661]
                     ]
                 ]
-            ] }, "properties": { "cartodb_id": 8, "nbhd_id": 1, "notes": null, "typology": null, "nbhd_name": "Athmar Park", "homicides": 6 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
+            ] }, "properties": { "cartodb_id": 8, "nbhd_id": 1, "notes": null, "typology": null, "nbhd_name": "Athmar Park", "homicides": 7 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [
                 [
                     [
                         [-104.9874, 39.747358],

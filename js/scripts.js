@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides_051220.json";
+var dataFile = "js/homicides_072220.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
@@ -98,8 +98,8 @@ d3.json(dataFile, function(data) {
     var mar2020 = feb2020 + monthCount.Mar2020.length;
     var apr2020 = mar2020 + monthCount.Apr2020.length;
     var may2020 = apr2020 + monthCount.May2020.length;
-    // var jun2020 = may2020 + monthCount.Jun2020.length;
-    // var jul2020 = jun2020 + monthCount.Jul2020.length;
+    var jun2020 = may2020 + monthCount.Jun2020.length;
+    var jul2020 = jun2020 + monthCount.Jul2020.length;
     // var aug2020 = jul2020 + monthCount.Aug2020.length;
     // var sep2020 = aug2020 + monthCount.Sep2020.length;
     // var oct2020 = sep2020 + monthCount.Oct2020.length;
@@ -132,7 +132,7 @@ d3.json(dataFile, function(data) {
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
                 ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
                 ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019],
-                ['2020', jan2020, feb2020, mar2020, apr2020, may2020/*, jun2020, jul2020, aug2020, sep2020, oct2020, nov2020, dec2020*/]
+                ['2020', jan2020, feb2020, mar2020, apr2020, may2020, jun2020, jul2020/*, aug2020, sep2020, oct2020, nov2020, dec2020*/]
             ],
             colors: {
                 '2010': '#bbb',
@@ -249,7 +249,7 @@ d3.json(dataFile, function(data) {
     var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
     //var cole = neighborhoodCount.Cole.length;
     //var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
-    //var westwood = neighborhoodCount.Westwood.length;
+    var westwood = neighborhoodCount.Westwood.length;
     var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
     var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + gatewayGreenValleyRanch);
 
@@ -260,11 +260,11 @@ d3.json(dataFile, function(data) {
         },
         data: {
             columns: [
-                ['Five Points', fivePoints],
                 ['Montbello', montbello],
-                ['Northeast Park Hill', northeastParkHill],
+                ['Five Points', fivePoints],
                 ['East Colfax', eastColfax],
-                // ['Westwood', westwood],
+                ['Northeast Park Hill', northeastParkHill],
+                ['Westwood', westwood],
                 // ['Cole', cole],
                 // ['Elyria Swansea', elyriaSwansea],
                 ['Gateway-Green Valley Ranch', gatewayGreenValleyRanch],
@@ -420,7 +420,7 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
             if (density >= 16) fillColor = "#08306b";
             else if (density >= 12) fillColor = "#08519c";
             else if (density >= 8) fillColor = "#2171b5";
-            else if (density >= 3) fillColor = "#4292c6";
+            else if (density >= 4) fillColor = "#4292c6";
             else if (density > 0) fillColor = "#6baed6";
             else fillColor = "rgba(255,255,0,.3)"; // no data
             return {
