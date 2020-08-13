@@ -893,7 +893,7 @@
       "properties": {
         "homicide_date": "9/8/2017",
         "victim_name": "Amekah Dotson",
-        "victim_age": "0",
+        "victim_age": "1",
         "victim_gender": "Female",
         "manner_of_death": "Suffocation",
         "block_address": "5800 block of Biscay Street",

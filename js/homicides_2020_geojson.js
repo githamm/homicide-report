@@ -1123,7 +1123,7 @@
         "mannerOfDeath": "Gunshot",
         "blockAddress": "8200 block of East Colfax Avenue",
         "neighborhood": "East Colfax",
-        "articleLink": ""
+        "articleLink": "https://www.denverpost.com/2020/07/23/denver-east-colfax-shooting-murder-charge/"
       }
     },
     {
@@ -1149,6 +1149,206 @@
         "blockAddress": "4500 block of North Atchison Way",
         "neighborhood": "Montbello",
         "articleLink": "https://www.denverpost.com/2020/07/14/denver-youth-violence-killing-teen-calls-change/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.987234,
+          39.691041
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "339",
+        "homicideDate": "7/23/2020",
+        "homicideMonth": "Jul",
+        "homicideYear": "2020",
+        "victimName": "Tonio Stallworth",
+        "victimAge": "37",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1400 block of Broadway",
+        "neighborhood": "Capitol Hill",
+        "articleLink": "https://www.denverpost.com/2020/07/28/man-shot-denver-triple-shooting-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.924035,
+          39.762014
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "340",
+        "homicideDate": "7/25/2020",
+        "homicideMonth": "Jul",
+        "homicideYear": "2020",
+        "victimName": "Leland Hines",
+        "victimAge": "42",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3200 block of North Hudson Street",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2020/07/28/denver-fatal-shooting-victims-park-hill/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.924035,
+          39.762014
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "341",
+        "homicideDate": "7/25/2020",
+        "homicideMonth": "Jul",
+        "homicideYear": "2020",
+        "victimName": "Leland Hines, 42, and Dowan Alexander",
+        "victimAge": "39",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3200 block of North Hudson Street",
+        "neighborhood": "Northeast Park Hill",
+        "articleLink": "https://www.denverpost.com/2020/07/28/denver-fatal-shooting-victims-park-hill/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.970843,
+          39.740192
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "342",
+        "homicideDate": "7/27/2020",
+        "homicideMonth": "Jul",
+        "homicideYear": "2020",
+        "victimName": "Bryan Benedetti",
+        "victimAge": "28",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Sharp force",
+        "blockAddress": "1500 block of North Lafayette Street",
+        "neighborhood": "City Park West",
+        "articleLink": "https://www.denverpost.com/2020/07/29/man-fatally-stabbed-in-denvers-city-park-west-neighborhood-is-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.029814,
+          39.707698
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "343",
+        "homicideDate": "8/1/2020",
+        "homicideMonth": "Aug",
+        "homicideYear": "2020",
+        "victimName": "Diego Gonzales-Vigil",
+        "victimAge": "16",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "3300 block of West Virginia Avenue",
+        "neighborhood": "Westwood",
+        "articleLink": "https://www.denverpost.com/2020/08/03/denver-westwood-shooting-diego-gonzales/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.891363,
+          39.740822
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "344",
+        "homicideDate": "8/4/2020",
+        "homicideMonth": "Aug",
+        "homicideYear": "2020",
+        "victimName": "Khari Johnson",
+        "victimAge": "23",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "1500 block of North Valentia Street",
+        "neighborhood": "East Colfax",
+        "articleLink": "https://www.denverpost.com/2020/08/04/man-shot-dead-east-colfax-neighborhood-identified/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "345",
+        "homicideDate": "8/4/2020",
+        "homicideMonth": "Aug",
+        "homicideYear": "2020",
+        "victimName": "Gianna Rosales",
+        "victimAge": "1",
+        "victimGender": "Female",
+        "victimRace": "",
+        "mannerOfDeath": "Pending",
+        "blockAddress": "TBD",
+        "neighborhood": "TBD",
+        "articleLink": "https://www.denverpost.com/2020/08/07/infant-died-monday-denver-identified-homicide/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97336,
+          39.751999
+        ]
+      },
+      "properties": {
+        "button": "",
+        "index": "346",
+        "homicideDate": "8/8/2020",
+        "homicideMonth": "Aug",
+        "homicideYear": "2020",
+        "victimName": "Willie Baker",
+        "victimAge": "28",
+        "victimGender": "Male",
+        "victimRace": "",
+        "mannerOfDeath": "Gunshot",
+        "blockAddress": "2400 block of Downing Street",
+        "neighborhood": "Whittier",
+        "articleLink": "https://www.denverpost.com/2020/08/09/denver-shooting-death-downing-street/"
       }
     }
   ]
