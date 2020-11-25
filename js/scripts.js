@@ -1,6 +1,6 @@
 /* ///// CHARTS ///// */
 
-var dataFile = "js/homicides_092320.json";
+var dataFile = "js/homicides_111920.json";
 
 /* ----- HOMICIDES BY MONTH CHART ----- */
 
@@ -102,8 +102,8 @@ d3.json(dataFile, function(data) {
     var jul2020 = jun2020 + monthCount.Jul2020.length;
     var aug2020 = jul2020 + monthCount.Aug2020.length;
     var sep2020 = aug2020 + monthCount.Sep2020.length;
-    // var oct2020 = sep2020 + monthCount.Oct2020.length;
-    // var nov2020 = oct2020 + monthCount.Nov2020.length;
+    var oct2020 = sep2020 + monthCount.Oct2020.length;
+    var nov2020 = oct2020 + monthCount.Nov2020.length;
     // var dec2020 = nov2020 + monthCount.Dec2020.length;
 
     /* -- For count displayed on index.html NOT BEING USED -- */
@@ -132,7 +132,7 @@ d3.json(dataFile, function(data) {
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
                 ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
                 ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019],
-                ['2020', jan2020, feb2020, mar2020, apr2020, may2020, jun2020, jul2020, aug2020, sep2020/*, oct2020, nov2020, dec2020*/]
+                ['2020', jan2020, feb2020, mar2020, apr2020, may2020, jun2020, jul2020, aug2020, sep2020, oct2020, nov2020 /*, dec2020*/ ]
             ],
             colors: {
                 '2010': '#bbb',
@@ -189,8 +189,8 @@ var homicideRateChart = c3.generate({
         x: 'x',
         columns: [
             ['x', "1985-01-01", "1986-01-01", "1987-01-01", "1988-01-01", "1989-01-01", "1990-01-01", "1991-01-01", "1992-01-01", "1993-01-01", "1994-01-01", "1995-01-01", "1996-01-01", "1997-01-01", "1998-01-01", "1999-01-01", "2000-01-01", "2001-01-01", "2002-01-01", "2003-01-01", "2004-01-01", "2005-01-01", "2006-01-01", "2007-01-01", "2008-01-01", "2009-01-01", "2010-01-01", "2011-01-01", "2012-01-01", "2013-01-01", "2014-01-01", "2015-01-01", "2016-01-01", "2017-01-01", "2018-01-01", "2019-01-01"],
-            ['Homicide count',72,91,79,69,55,67,89,93,73,85,82,69,72,55,65,33,47,51,65,91,61,55,50,49,38,37,44,39,42,31,50,56,56,67,63],
-            ['Homicide rate',14.5,18.3,16.1,14.4,11.6,14.3,18.7,19.0,14.6,16.9,16.2,13.3,13.7,10.3,11.9,5.9,8.3,9.1,11.6,16.2,10.9,9.8,8.8,8.4,6.4,6.1,7.1,6.1,6.5,4.7,7.3,8.0,7.9,9.3,8.6]
+            ['Homicide count', 72, 91, 79, 69, 55, 67, 89, 93, 73, 85, 82, 69, 72, 55, 65, 33, 47, 51, 65, 91, 61, 55, 50, 49, 38, 37, 44, 39, 42, 31, 50, 56, 56, 67, 63],
+            ['Homicide rate', 14.5, 18.3, 16.1, 14.4, 11.6, 14.3, 18.7, 19.0, 14.6, 16.9, 16.2, 13.3, 13.7, 10.3, 11.9, 5.9, 8.3, 9.1, 11.6, 16.2, 10.9, 9.8, 8.8, 8.4, 6.4, 6.1, 7.1, 6.1, 6.5, 4.7, 7.3, 8.0, 7.9, 9.3, 8.6]
         ],
         types: {
             'Homicide count': 'line',
@@ -228,54 +228,52 @@ d3.json(dataFile, function(data) {
     var causeCount = [];
     var categoryTotal = 0;
 
-    /* ----- HOMICIDES BY NEIGHBORHOOD CHART ----- */
+    let ageBucket1 = [];
+    let ageBucket2 = [];
+    let ageBucket3 = [];
+    let ageBucket4 = [];
+    let ageBucket5 = [];
+    let ageBucket6 = [];
+    let ageBucket7 = [];
+    let ageBucket8 = [];
+    let ageBucket9 = [];
 
-    var neighborhoodCount = [];
-    var categoryTotal = 0;
-
-    for (var i = 0; i < data.length; i++) {
-        var item = data[i];
-        if (!neighborhoodCount[item.neighborhood]) {
-            neighborhoodCount[item.neighborhood] = [];
-        }
-        neighborhoodCount[item.neighborhood].push({ Neighborhood: item.neighborhood });
-        if (categoryTotal < item.neighborhood) {
-            categoryTotal = item.neighborhood;
-        }
+    for (let i = 0; i < data.length; i++) {
+        let item = data[i];
+        if (item.victimAge <= 9) {
+            ageBucket1.push(1)
+        } else if (item.victimAge <= 19) {
+            ageBucket2.push(1)
+        } else if (item.victimAge <= 29) {
+            ageBucket3.push(1)
+        } else if (item.victimAge <= 39) {
+            ageBucket4.push(1)
+        } else if (item.victimAge <= 49) {
+            ageBucket5.push(1)
+        } else if (item.victimAge <= 59) {
+            ageBucket6.push(1)
+        } else if (item.victimAge <= 69) {
+            ageBucket7.push(1)
+        } else if (item.victimAge <= 79) {
+            ageBucket8.push(1)
+        } else ageBucket9.push(1)
     }
-    var fivePoints = neighborhoodCount['Five Points'].length;
-    var montbello = neighborhoodCount.Montbello.length;
-    var eastColfax = neighborhoodCount['East Colfax'].length;
-    var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
-    // var cole = neighborhoodCount.Cole.length;
-    // var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
-    var westwood = neighborhoodCount.Westwood.length;
-    // var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
-    var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + westwood);
 
     var neighborhoodChart = c3.generate({
-        bindto: '#homicide-neighborhoods',
+        bindto: '#homicide-age',
         size: {
-            height: 325
+            height: 275
         },
         data: {
+            x: 'x',
             columns: [
-                ['Montbello', montbello],
-                ['Five Points', fivePoints],
-                ['East Colfax', eastColfax],
-                ['Northeast Park Hill', northeastParkHill],
-                ['Westwood', westwood],
-                // ['Cole', cole],
-                // ['Elyria Swansea', elyriaSwansea],
-                // ['Gateway-Green Valley Ranch', gatewayGreenValleyRanch],
-                ['Others', others]
+                ['x', '0-9', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', '80+'],
+                ['Homicides', ageBucket1.length, ageBucket2.length, ageBucket3.length, ageBucket4.length, ageBucket5.length, ageBucket6.length, ageBucket7.length, ageBucket8.length, ageBucket9.length]
 
             ],
-            type: 'donut',
-        },
-        donut: {
-            label: {
-                format: function(value) { return value; }
+            type: 'bar',
+            colors: {
+                'Homicides': '#08306b'
             }
         },
         axis: {
@@ -283,10 +281,72 @@ d3.json(dataFile, function(data) {
                 type: 'category'
             }
         },
-        color: {
-            pattern: ['#08306b', '#08519c', '#2171b5', '#4292c6', '#6baed6', '#9ecae1', '#c6dbef', /*'#deebf7',*/ '#ccc']
+        grid: {
+            y: {
+                show: true
+            }
         }
     });
+
+    /* ----- HOMICIDES BY NEIGHBORHOOD CHART ----- */
+
+    // var neighborhoodCount = [];
+    // var categoryTotal = 0;
+
+    // for (var i = 0; i < data.length; i++) {
+    //     var item = data[i];
+    //     if (!neighborhoodCount[item.neighborhood]) {
+    //         neighborhoodCount[item.neighborhood] = [];
+    //     }
+    //     neighborhoodCount[item.neighborhood].push({ Neighborhood: item.neighborhood });
+    //     if (categoryTotal < item.neighborhood) {
+    //         categoryTotal = item.neighborhood;
+    //     }
+    // }
+    // var fivePoints = neighborhoodCount['Five Points'].length;
+    // var montbello = neighborhoodCount.Montbello.length;
+    // var eastColfax = neighborhoodCount['East Colfax'].length;
+    // var northeastParkHill = neighborhoodCount['Northeast Park Hill'].length;
+    // // var cole = neighborhoodCount.Cole.length;
+    // // var elyriaSwansea = neighborhoodCount['Elyria Swansea'].length;
+    // var westwood = neighborhoodCount.Westwood.length;
+    // // var gatewayGreenValleyRanch = neighborhoodCount['Gateway-Green Valley Ranch'].length;
+    // var others = data.length - (fivePoints + montbello + eastColfax + northeastParkHill + westwood);
+
+    // var neighborhoodChart = c3.generate({
+    //     bindto: '#homicide-neighborhoods',
+    //     size: {
+    //         height: 325
+    //     },
+    //     data: {
+    //         columns: [
+    //             ['Montbello', montbello],
+    //             ['Five Points', fivePoints],
+    //             ['East Colfax', eastColfax],
+    //             ['Northeast Park Hill', northeastParkHill],
+    //             ['Westwood', westwood],
+    //             // ['Cole', cole],
+    //             // ['Elyria Swansea', elyriaSwansea],
+    //             // ['Gateway-Green Valley Ranch', gatewayGreenValleyRanch],
+    //             ['Others', others]
+
+    //         ],
+    //         type: 'donut',
+    //     },
+    //     donut: {
+    //         label: {
+    //             format: function(value) { return value; }
+    //         }
+    //     },
+    //     axis: {
+    //         x: {
+    //             type: 'category'
+    //         }
+    //     },
+    //     color: {
+    //         pattern: ['#08306b', '#08519c', '#2171b5', '#4292c6', '#6baed6', '#9ecae1', '#c6dbef', /*'#deebf7',*/ '#ccc']
+    //     }
+    // });
 
     /* ----- HOMICIDES BY SEX CHART----- */
 
@@ -415,24 +475,25 @@ var map = L.map('map', {
 $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
     L.geoJson(data, {
         style: function(feature) {
-            var fillColor,
-                density = feature.properties.homicides;
-            if (density >= 16) fillColor = "#08306b";
-            else if (density >= 12) fillColor = "#08519c";
-            else if (density >= 8) fillColor = "#2171b5";
-            else if (density >= 4) fillColor = "#4292c6";
-            else if (density > 0) fillColor = "#6baed6";
-            else fillColor = "rgba(255,255,0,.3)"; // no data
+            // var fillColor,
+            //     density = feature.properties.homicides;
+            // if (density >= 16) fillColor = "#08306b";
+            // else if (density >= 12) fillColor = "#08519c";
+            // else if (density >= 8) fillColor = "#2171b5";
+            // else if (density >= 4) fillColor = "#4292c6";
+            // else if (density > 0) fillColor = "#6baed6";
+            // else fillColor = "rgba(255,255,0,.3)"; // no data
             return {
-                color: "#000",
-                weight: 3,
-                fillColor: fillColor,
-                fillOpacity: .6
+                color: "#0000ff",
+                weight: 5,
+                fillColor: '#000',
+                fillOpacity: .1
             };
         },
         onEachFeature: function(feature, layer) {
             layer.bindPopup(
-                '<h4 class="neighborhood-header">' + feature.properties.nbhd_name + '</h4><hr class="popup">' + '<span class="neighborhood-total">' + feature.properties.homicides + '</span> homicide(s) since 2015'
+                '<h4 class="neighborhood-header">' + feature.properties.nbhd_name + '</h4>'
+                //'<h4 class="neighborhood-header">' + feature.properties.nbhd_name + '</h4><hr class="popup">' + '<span class="neighborhood-total">' + feature.properties.homicides + '</span> homicide(s) since 2015'
             )
         }
     }).addTo(neighborhoods);
@@ -481,7 +542,8 @@ $.getJSON("js/homicides_2020_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+                // '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2020);
@@ -503,7 +565,7 @@ $.getJSON("js/homicides_2019_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2019);
@@ -525,7 +587,7 @@ $.getJSON("js/homicides_2018_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicideDate + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.blockAddress + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.mannerOfDeath + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2018);
@@ -547,7 +609,7 @@ $.getJSON("js/homicides_2017_geojson.js", function(data) {
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.manner_of_death + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2017);
@@ -568,7 +630,7 @@ $.getJSON("js/homicides_2016_geojson.js", function(data) {
                 icon: mapIcon
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.manner_of_death + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2016);
@@ -589,7 +651,7 @@ $.getJSON("js/homicides_2015_geojson.js", function(data) {
                 icon: mapIcon
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + '<span class="highstreetMap">' + feature.properties.homicide_date + '</span>' + ' near the ' + '<span class="highstreetMap">' + feature.properties.block_address + '</span>' + ' in the ' + '<span class="highstreetMap">' + feature.properties.neighborhood + '</span>' + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + '<span class="highstreetMap">' + feature.properties.manner_of_death + '</span>' + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.manner_of_death + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2015);
@@ -646,7 +708,7 @@ $(document).ready(function() {
                 orderable: false,
                 data: 'blockAddress'
             },
-            { data: 'neighborhood' },
+            //{ data: 'neighborhood' },
             { data: 'latitude' },
             { data: 'longitude' },
             {

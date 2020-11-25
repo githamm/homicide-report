@@ -23,7 +23,7 @@
         <div class="row">
             <div class="large-12 columns">
                 <h1 class="page-title">Denver Homicide Report</h1>
-                <p class="update">Updated Sept. 23, 2020</p>
+                <p class="update">Updated Nov. 19, 2020</p>
                 <p class="intro">The charts, map and table track homicides in the City and County of Denver. Information is collected from news reports, the coroner at Denver’s Office of the Medical Examiner and the Denver Police Department. Initial information may be incomplete and will be updated as it becomes available.</p>
                 <hr style="border-width: 2px;">
             </div>
@@ -49,10 +49,10 @@
         <div class="row">
             <div class="large-6 medium-6 columns">
                 <!-- <hr> -->
-                <h3 class="chart-title">Homicides by neighborhood</h3>
+                <h3 class="chart-title">Homicides by age group</h3>
                 <p class="chart-chatter-year">2015-2020</p>
-                <div id="homicide-neighborhoods"></div>
-                <p class="chart-chatter">The neighborhoods with the five highest homicide totals are broken out</p>
+                <div id="homicide-age"></div><!-- 
+                <p class="chart-chatter">The neighborhoods with the five highest homicide totals are broken out</p> -->
             </div>
             <div class="large-6 medium-6 columns">
                 <h3 class="chart-title">Homicides by sex</h3>
@@ -72,7 +72,7 @@
             <div class="row">
                 <div class="large-12 columns">
                     <p class="graphic-divider"><span class="graphic-divider">MAP</span></p>
-                    <p class="intro">The map shows the approximate location of all homicides in Denver from 2015 to the present. Darkly shaded neighborhoods inidicate a higher number of homicides. Click a map marker or neighborhood for details. Click the red square in the top right corner of the map to filter markers by year. Some map markers overlap.</p>
+                    <p class="intro">The map shows the approximate location of all homicides in Denver from 2015 to the present. Click a map marker or neighborhood for details. Click the red square in the top right corner of the map to filter markers by year. Some map markers overlap.</p>
                 </div>
             </div>
             <div class="row" id="legend-container">
@@ -81,9 +81,10 @@
                         <p class="legend-title">HOMICIDES</p>
                         <div id="icon-current-year-legend"></div><span class="legend-text">Current year</span>
                         <div id="icon-previous-year-legend"></div><span class="legend-text">Previous years</span>
+                        <div><span id="icon-neighborhood-boundary"></span><span class="legend-text">Neighborhood boundary</span></div>
                     </div>
                 </div>
-                <div class="large-7 medium-7 columns legend-spacing">
+                <!-- <div class="large-7 medium-7 columns legend-spacing">
                     <div id="facilities-number">
                         <p class="legend-title">HOMICIDES BY NEIGHBORHOOD 2015-2020</p>
                         <ul class="legend">
@@ -95,7 +96,7 @@
                             <li><span class="step-5"></span></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="large-12 columns">
@@ -108,11 +109,10 @@
         <div class="row">
             <div class="large-12 columns">
                 <p class="graphic-divider"><span class="graphic-divider">LIST</span></p>
-                <p class="intro">The table shows details for all homicides from 2015 to the present. Use the dropdown filters to isolate homicides by neighborhood and/or year. Use the search box for keyword searches.</p>
+                <p class="intro">The table shows details for all homicides from 2015 to the present. Use the dropdown filter to isolate homicides by year. Use the search box for keyword searches.</p>
             </div>
-            <div class="large-6 medium-6 small-6 columns">
+            <!-- <div class="large-6 medium-6 small-6 columns">
                 <label><strong>Neighborhood</strong></label>
-                <!-- <input type='text' value='' class='filter' data-column-index='1'> -->
                 <select id="neighborhood-filter" class="filter" data-column-index='11'>
                     <option value=" ">All</option>
                     <option value="Athmar Park">Athmar Park</option>
@@ -195,8 +195,8 @@
                     <option value="Whittier">Whittier</option>
                     <option value="Windsor">Windsor</option>
                 </select>
-            </div>
-            <div class="large-6 medium-6 small-6 columns">
+            </div> -->
+            <div class="large-3 medium-3 small-12 columns left">
                 <label><strong>Year</strong></label>
                 <select id="year-filter" class="filter" data-column-index='4'>
                     <option value=" ">All</option>
@@ -231,7 +231,7 @@
                             <th class="never">Race</th>
                             <th data-priority="6">Cause</th>
                             <th data-priority="7">Address</th>
-                            <th data-priority="4">Neighborhood</th>
+                            <!-- <th data-priority="4">Neighborhood</th> -->
                             <th class="never">Latitude</th>
                             <th class="never">Longitude</th>
                             <th data-priority="8">Link</th>

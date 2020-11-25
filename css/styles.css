@@ -77,6 +77,7 @@
         line-height: 19px;
         margin-bottom: 3px !important;
     }
+
     /* ----- CHART STYLES ----- */
 
     .chart-title {
@@ -104,6 +105,7 @@
             height: 500px;
         }
     }
+
     /* ----- DATATABLES STYLES ----- */
 
     .column-filter-widget {
@@ -138,6 +140,7 @@
     div.dataTables_wrapper div.dataTables_filter input {
         margin-bottom: 15px;
     }
+
     /* ----- MAP STYLES ----- */
 
     #container {
@@ -226,7 +229,7 @@
     }
 
     h4.neighborhood-header {
-        margin-bottom: -9px;
+        /*margin-bottom: -9px;*/
     }
 
     .neighborhood-total {
@@ -318,6 +321,15 @@
         display: inline-block;
         margin-right: 2px;
         margin-left: 4px;
+    }
+
+    #icon-neighborhood-boundary {
+        height: 5px;
+        width: 20px;
+        background: #0000ff;
+        vertical-align: middle;
+        margin-right: 3px;
+        display: inline-block;
     }
 
     .leaflet-popup-content {
