@@ -462,6 +462,15 @@ var groupedOverlays = {
     }
 };
 
+var currentYearMarker = L.divIcon({
+    className: 'icon-current-year',
+    iconSize: [10, 10]
+});
+var previousYearMarker = L.divIcon({
+    className: 'icon-previous-year',
+    iconSize: [8, 8]
+});
+
 // map from http://bl.ocks.org/awoodruff/3ce5d735126a56dfff94
 // initialize the map
 var map = L.map('map', {
@@ -530,42 +539,62 @@ $.getJSON("js/homicide-neighborhoods-geojson.js", function(data) {
 // });
 
 
-$.getJSON("js/homicides_2020_geojson.js", function(data) {
-    var mapIcon = L.divIcon({
-        //iconUrl: 'images/circle-red.png',
-        className: 'icon-current-year',
-        iconSize: [10, 10]
-        //iconAnchor: [6, 3],
-        //popupAnchor: [-1, -5]
-        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
-    });
-    L.geoJson(data, {
+$.getJSON(dataFile, function(data) {
+    var output = data.feed.entry;
+    var homicideCoordinates = {
+        'type': 'FeatureCollection',
+        'features': []
+    };
+
+    for (i = 0; i < output.length; i++) {
+        var longitude = (output[i].gsx$longitude.$t);
+        var latitude = (output[i].gsx$latitude.$t);
+        var coordinates = JSON.parse('[' + longitude + ', ' + latitude + ']');
+
+        homicideCoordinates.features.push({
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': coordinates
+            },
+            'properties': {
+                'homicideDate': output[i].gsx$homicidedate.$t,
+                'homicideYear': output[i].gsx$homicideyear.$t,
+                'victimName': output[i].gsx$victimname.$t,
+                'victimAge': output[i].gsx$victimage.$t,
+                'blockAddress': output[i].gsx$blockaddress.$t,
+                'mannerOfDeath': output[i].gsx$mannerofdeath.$t,
+                'articleLink': output[i].gsx$articlelink.$t
+            }
+        });
+    }
+
+    L.geoJson(homicideCoordinates, {
+        filter: function(feature, latlng) {
+            if (feature.properties.homicideYear == '2020') {
+                return true
+            }
+        },
         pointToLayer: function(feature, latlng) {
             var marker = L.marker(latlng, {
-                icon: mapIcon
+                icon: currentYearMarker
             });
 
             marker.bindPopup(
                 '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
-                // '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + ' in the ' + feature.properties.neighborhood + ' neighborhood.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2020);
-});
 
-$.getJSON("js/homicides_2019_geojson.js", function(data) {
-    var mapIcon = L.divIcon({
-        //iconUrl: 'images/circle-red.png',
-        className: 'icon-previous-year',
-        iconSize: [8, 8]
-        //iconAnchor: [6, 3],
-        //popupAnchor: [-1, -5]
-        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
-    });
-    L.geoJson(data, {
+    L.geoJson(homicideCoordinates, {
+        filter: function(feature, latlng) {
+            if (feature.properties.homicideYear == '2019') {
+                return true
+            }
+        },
         pointToLayer: function(feature, latlng) {
             var marker = L.marker(latlng, {
-                icon: mapIcon
+                icon: previousYearMarker
             });
 
             marker.bindPopup(
@@ -573,21 +602,16 @@ $.getJSON("js/homicides_2019_geojson.js", function(data) {
             return marker;
         }
     }).addTo(homicides2019);
-});
 
-$.getJSON("js/homicides_2018_geojson.js", function(data) {
-    var mapIcon = L.divIcon({
-        //iconUrl: 'images/circle-red.png',
-        className: 'icon-previous-year',
-        iconSize: [8, 8]
-        //iconAnchor: [6, 3],
-        //popupAnchor: [-1, -5]
-        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
-    });
-    L.geoJson(data, {
+    L.geoJson(homicideCoordinates, {
+        filter: function(feature, latlng) {
+            if (feature.properties.homicideYear == '2018') {
+                return true
+            }
+        },
         pointToLayer: function(feature, latlng) {
             var marker = L.marker(latlng, {
-                icon: mapIcon
+                icon: previousYearMarker
             });
 
             marker.bindPopup(
@@ -595,67 +619,52 @@ $.getJSON("js/homicides_2018_geojson.js", function(data) {
             return marker;
         }
     }).addTo(homicides2018);
-});
 
-$.getJSON("js/homicides_2017_geojson.js", function(data) {
-    var mapIcon = L.divIcon({
-        //iconUrl: 'images/circle-red.png',
-        className: 'icon-previous-year',
-        iconSize: [8, 8]
-        //iconAnchor: [6, 3],
-        //popupAnchor: [-1, -5]
-        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
-    });
-    L.geoJson(data, {
+    L.geoJson(homicideCoordinates, {
+        filter: function(feature, latlng) {
+            if (feature.properties.homicideYear == '2017') {
+                return true
+            }
+        },
         pointToLayer: function(feature, latlng) {
             var marker = L.marker(latlng, {
-                icon: mapIcon
+                icon: previousYearMarker
             });
 
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.manner_of_death + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2017);
-});
 
-$.getJSON("js/homicides_2016_geojson.js", function(data) {
-    var mapIcon = L.divIcon({
-        //iconUrl: 'images/circle-red.png',
-        className: 'icon-previous-year',
-        iconSize: [8, 8]
-        //iconAnchor: [6, 3],
-        //popupAnchor: [-1, -5]
-        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
-    });
-    L.geoJson(data, {
+    L.geoJson(homicideCoordinates, {
+        filter: function(feature, latlng) {
+            if (feature.properties.homicideYear == '2016') {
+                return true
+            }
+        },
         pointToLayer: function(feature, latlng) {
             var marker = L.marker(latlng, {
-                icon: mapIcon
+                icon: previousYearMarker
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.manner_of_death + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2016);
-});
 
-$.getJSON("js/homicides_2015_geojson.js", function(data) {
-    var mapIcon = L.divIcon({
-        //iconUrl: 'images/circle-red.png',
-        className: 'icon-previous-year',
-        iconSize: [8, 8]
-        //iconAnchor: [6, 3],
-        //popupAnchor: [-1, -5]
-        // icons from https://www.iconfinder.com/icons/73019/ball_base_chartreuse_map_marker_right_tv_icon#size=32
-    });
-    L.geoJson(data, {
+    L.geoJson(homicideCoordinates, {
+        filter: function(feature, latlng) {
+            if (feature.properties.homicideYear == '2015') {
+                return true
+            }
+        },
         pointToLayer: function(feature, latlng) {
             var marker = L.marker(latlng, {
-                icon: mapIcon
+                icon: previousYearMarker
             });
             marker.bindPopup(
-                '<h4 class="name-header">' + feature.properties.victim_name + ', ' + feature.properties.victim_age + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicide_date + ' near the ' + feature.properties.block_address + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.manner_of_death + '</div><p class="article-link"><a href="' + feature.properties.article_link + '" target="blank">Read the story</a></p>');
+                '<h4 class="name-header">' + feature.properties.victimName + ', ' + feature.properties.victimAge + '</h4><br>' + '<hr class="popup">' + 'Killed on ' + feature.properties.homicideDate + ' near the ' + feature.properties.blockAddress + '.<br>' + '<div class="spacer">Cause of death: ' + feature.properties.mannerOfDeath + '</div><p class="article-link"><a href="' + feature.properties.articleLink + '" target="blank">Read the story</a></p>');
             return marker;
         }
     }).addTo(homicides2015);
