@@ -106,7 +106,7 @@ d3.json(dataFile, function(data) {
     var sep2020 = aug2020 + monthCount.Sep2020.length;
     var oct2020 = sep2020 + monthCount.Oct2020.length;
     var nov2020 = oct2020 + monthCount.Nov2020.length;
-    // var dec2020 = nov2020 + monthCount.Dec2020.length;
+    var dec2020 = nov2020 + monthCount.Dec2020.length;
 
     /* -- For count displayed on index.html NOT BEING USED -- */
     // var homePageTotal = yearCount[2018].length;
@@ -134,7 +134,7 @@ d3.json(dataFile, function(data) {
                 ['2017', jan2017, feb2017, mar2017, apr2017, may2017, jun2017, jul2017, aug2017, sep2017, oct2017, nov2017, dec2017],
                 ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
                 ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019],
-                ['2020', jan2020, feb2020, mar2020, apr2020, may2020, jun2020, jul2020, aug2020, sep2020, oct2020, nov2020 /*, dec2020*/ ]
+                ['2020', jan2020, feb2020, mar2020, apr2020, may2020, jun2020, jul2020, aug2020, sep2020, oct2020, nov2020, dec2020]
             ],
             colors: {
                 '2010': '#bbb',
@@ -674,89 +674,89 @@ L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 
 /* ///// TABLE ///// */
 
-$(document).ready(function() {
-    var homicideTable = $('#homicide-table').DataTable({
-        ajax: {
-            'url': dataFile,
-            'dataSrc': ''
-        },
-        //pageLength: 15,
-        scrollY: "500px",
-        scrollCollapse: true,
-        paging: false,
-        //scrollX: true,
-        fixedHeader: true,
-        responsive: {
-            details: {
-                type: 'column'
-            }
-        },
-        dom: '<if<t>lp>',
-        columnDefs: [{
-            className: 'control',
-            orderable: false,
-            targets: 0
-        }],
-        order: [
-            [1, 'desc']
-        ],
-        columns: [
-            { data: 'button' },
-            { data: 'index' },
-            {
-                orderable: false,
-                data: 'homicideDate'
-            },
-            { data: 'homicideMonth' },
-            { data: 'homicideYear' },
-            {
-                orderable: false,
-                data: 'victimName'
-            },
-            { data: 'victimAge' },
-            { data: 'gsx$victimgender.$t' },
-            { data: 'victimRace' },
-            { data: 'mannerOfDeath' },
-            {
-                orderable: false,
-                data: 'blockAddress'
-            },
-            //{ data: 'neighborhood' },
-            { data: 'latitude' },
-            { data: 'longitude' },
-            {
-                orderable: false,
-                data: 'articleLink',
-                render: function(data, type, row) {
-                    return '<a href="' + data + '" target="_blank">Read story</a>';
-                }
-            }
-        ]
-    });
+$.getJSON(dataFile, function(data) {
+    var output = data.feed.entry;
 
-    $('.filter-button').on('click', function(e) {
-        e.preventDefault();
-        //clear global search values
-        homicideTable.search('');
-        $('.filter').each(function() {
-            if (this.value.length) {
-                homicideTable.column($(this).data('columnIndex')).search(this.value);
-            }
+    $(document).ready(function() {
+        var homicideTable = $('#homicide-table').DataTable({
+            data: output,
+            //pageLength: 15,
+            scrollY: "500px",
+            scrollCollapse: true,
+            paging: false,
+            //scrollX: true,
+            fixedHeader: true,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            // columnDefs: [{
+            //     className: 'control',
+            //     //orderable: false,
+            //     targets: 0
+            // }],
+            order: [
+                [0, 'desc']
+            ],
+            columns: [
+                //index   homicideDate    homicideMonth   homicideYear    victimName  victimAge   victimGender    victimRace  mannerOfDeath   blockAddress    neighborhood    latitude    longitude   articleLink
+                {
+                    data: 'gsx$homicidedate.$t',
+                    type: 'date'
+                },
+                { data: 'gsx$homicidemonth.$t' },
+                { data: 'gsx$homicideyear.$t' },
+                {
+                    orderable: false,
+                    data: 'gsx$victimname.$t'
+                },
+                { data: 'gsx$victimage.$t' },
+                { data: 'gsx$victimgender.$t' },
+                { data: 'gsx$victimrace.$t' },
+                { data: 'gsx$mannerofdeath.$t' },
+                {
+                    orderable: false,
+                    data: 'gsx$blockaddress.$t'
+                },
+                { data: 'gsx$neighborhood.$t' },
+                { data: 'gsx$latitude.$t' },
+                { data: 'gsx$longitude.$t' },
+                {
+                    orderable: false,
+                    data: 'gsx$articlelink.$t',
+                    render: function(data, type, row) {
+                        return '<a href="' + data + '" target="_blank">Read story</a>';
+                    }
+                }
+            ]
+        });
+
+        $('.filter-button').on('click', function(e) {
+            e.preventDefault();
+            //clear global search values
+            homicideTable.search('');
+            $('.filter').each(function() {
+                if (this.value.length) {
+                    homicideTable.column($(this).data('columnIndex')).search(this.value);
+                }
+            });
+            homicideTable.draw();
+        });
+
+        $(".dataTables_filter input").on('keyup change', function() {
+            //clear column search values
+            homicideTable.columns().search('');
+            //clear input values
+            $('.filter').val('');
         });
         homicideTable.draw();
-    });
 
-    $(".dataTables_filter input").on('keyup change', function() {
-        //clear column search values
-        homicideTable.columns().search('');
-        //clear input values
-        $('.filter').val('');
-    });
-    homicideTable.draw();
+        // This would be a single dynamic filter
+        // $('#neighborhood-filter').on('change', function(){
+        //     homicideTable.search(this.value).draw();
+        // });
 
-    // This would be a single dynamic filter
-    // $('#neighborhood-filter').on('change', function(){
-    //     homicideTable.search(this.value).draw();
-    // });
-
+    })
 });
