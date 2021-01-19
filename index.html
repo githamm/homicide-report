@@ -31,30 +31,30 @@
         <div class="row">
             <div class="large-6 medium-6 columns">
                 <h3 class="chart-title">Homicides by month</h3>
-                <p class="chart-chatter-year">2010-2020</p>
+                <p class="chart-chatter-year">2010-2021</p>
                 <p class="chart-chatter" style="text-align: center;">Hover over chart to see totals;
                     <br>hover over year at bottom to highlight</p>
                 <div id="homicide-chart"></div>
             </div>
             <div class="large-6 medium-6 columns">
                 <h3 class="chart-title">Homicides by year</h3>
-                <p class="chart-chatter-year">1985-2019</p>
+                <p class="chart-chatter-year">1985-2020</p>
                 <p class="chart-chatter" style="text-align: center;">Rate per 100,000 people
                     <br>
                     <div id="homicide-rate-chart"></div>
-                    <p class="chart-chatter">Population figures from <a href="https://gis.dola.colorado.gov/apps/demographic_dashboard/" target="_blank">Colorado State Demography Office</a></p>
+                    <p class="chart-chatter">Population figures from <a href="https://demography.dola.colorado.gov/population/" target="_blank">Colorado State Demography Office</a></p>
             </div>
             <hr>
         </div>
         <div class="row">
             <div class="large-6 medium-6 columns">
                 <h3 class="chart-title">Homicides by age group</h3>
-                <p class="chart-chatter-year">2015-2020</p>
+                <p class="chart-chatter-year">2015-2021</p>
                 <div id="homicide-age"></div>
             </div>
             <div class="large-6 medium-6 columns">
                 <h3 class="chart-title">Homicides by sex</h3>
-                <p class="chart-chatter-year">2015-2020</p>
+                <p class="chart-chatter-year">2015-2021</p>
                 <div id="homicide-sex"></div>
             </div>
         </div>
@@ -99,6 +99,7 @@
                 <label><strong>Year</strong></label>
                 <select id="year-filter" class="filter" data-column-index='2'>
                     <option value=" ">All</option>
+                    <option value="2021">2021</option>
                     <option value="2020">2020</option>
                     <option value="2019">2019</option>
                     <option value="2018">2018</option>
