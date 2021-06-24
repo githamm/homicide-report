@@ -112,7 +112,7 @@ d3.json(dataFile, function(data) {
     var mar2021 = feb2021 + monthCount.Mar2021.length;
     var apr2021 = mar2021 + monthCount.Apr2021.length;
     var may2021 = apr2021 + monthCount.May2021.length;
-    // var jun2021 = may2021 + monthCount.Jun2021.length;
+    var jun2021 = may2021 + monthCount.Jun2021.length;
     // var jul2021 = jun2021 + monthCount.Jul2021.length;
     // var aug2021 = jul2021 + monthCount.Aug2021.length;
     // var sep2021 = aug2021 + monthCount.Sep2021.length;
@@ -147,7 +147,7 @@ d3.json(dataFile, function(data) {
                 ['2018', jan2018, feb2018, mar2018, apr2018, may2018, jun2018, jul2018, aug2018, sep2018, oct2018, nov2018, dec2018],
                 ['2019', jan2019, feb2019, mar2019, apr2019, may2019, jun2019, jul2019, aug2019, sep2019, oct2019, nov2019, dec2019],
                 ['2020', jan2020, feb2020, mar2020, apr2020, may2020, jun2020, jul2020, aug2020, sep2020, oct2020, nov2020, dec2020],
-                ['2021', jan2021, feb2021, mar2021, apr2021, may2021/*, jun2021, jul2021, aug2021, sep2021, oct2021, nov2021, dec2021*/ ]
+                ['2021', jan2021, feb2021, mar2021, apr2021, may2021, jun2021/*, jul2021, aug2021, sep2021, oct2021, nov2021, dec2021*/ ]
             ],
             colors: {
                 '2010': '#bbb',
