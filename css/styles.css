@@ -95,6 +95,10 @@
         margin-bottom: 7px;
     }
 
+    .c3-bars path {
+        shape-rendering: auto !important;
+    }
+
     @media (max-width: 500px) {
         #homicide-chart {
             height: 500px;
